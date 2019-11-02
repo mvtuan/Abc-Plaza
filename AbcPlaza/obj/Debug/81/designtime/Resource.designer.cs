@@ -2276,10 +2276,13 @@ namespace AbcPlaza
 			public const int ic_notifications_black_24dp = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int ic_service_black_24dp = 2130771977;
+			public const int ic_property_black_18dp = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int ic_support_black_24dp = 2130771984;
+			public const int ic_service_black_24dp = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int ic_support_black_24dp = 2130771985;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
