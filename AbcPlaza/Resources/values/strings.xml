@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AbcPlaza</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Thông báo</string>
+  <string name="title_services">Dịch vụ</string>
+  <string name="title_bills">Hóa đơn</string>
+  <string name="title_accounts">Tài khoản</string>
+  <string name="title_apartment">Căn hộ</string>
+</resources>
