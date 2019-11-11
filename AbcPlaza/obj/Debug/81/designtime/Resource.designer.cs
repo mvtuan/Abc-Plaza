@@ -2342,8 +2342,8 @@ namespace AbcPlaza
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020006
-			public const int a = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int a = 2130837511;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2422,6 +2422,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
+			
+			// aapt resource value: 0x7F020006
+			public const int btn_demo = 2130837510;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2561,23 +2564,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020005
 			public const int navigation = 2130837509;
 			
-			// aapt resource value: 0x7F020011
-			public const int navigation_account = 2130837521;
-			
-			// aapt resource value: 0x7F020008
-			public const int navigation_apartment = 2130837512;
+			// aapt resource value: 0x7F020012
+			public const int navigation_account = 2130837522;
 			
 			// aapt resource value: 0x7F020009
-			public const int navigation_bills = 2130837513;
+			public const int navigation_apartment = 2130837513;
+			
+			// aapt resource value: 0x7F020010
+			public const int navigation_bills = 2130837520;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020010
-			public const int navigation_notifications = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int navigation_notifications = 2130837521;
 			
-			// aapt resource value: 0x7F020007
-			public const int navigation_service = 2130837511;
+			// aapt resource value: 0x7F020008
+			public const int navigation_service = 2130837512;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2935,6 +2938,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F030002
 			public const int activity_main = 2130903042;
 			
+			// aapt resource value: 0x7F030003
+			public const int demo = 2130903043;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -2977,23 +2983,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030003
-			public const int fragment_account = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int fragment_apartment = 2130903044;
+			public const int fragment_account = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int fragment_bills = 2130903045;
+			public const int fragment_apartment = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int fragment_notifications = 2130903046;
+			public const int fragment_bills = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int fragment_resident = 2130903047;
+			public const int fragment_notifications = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int fragment_services = 2130903048;
+			public const int fragment_resident = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int fragment_services = 2130903049;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
