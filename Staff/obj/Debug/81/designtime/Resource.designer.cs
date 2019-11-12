@@ -2420,6 +2420,9 @@ namespace Staff
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
+			// aapt resource value: 0x7F020008
+			public const int button_id = 2130837512;
+			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
 			
@@ -2555,20 +2558,20 @@ namespace Staff
 			// aapt resource value: 0x7F020005
 			public const int navigation = 2130837509;
 			
-			// aapt resource value: 0x7F020008
-			public const int navigation_apartments = 2130837512;
+			// aapt resource value: 0x7F020010
+			public const int navigation_apartments = 2130837520;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020010
-			public const int navigation_notifications = 2130837520;
+			// aapt resource value: 0x7F020012
+			public const int navigation_notifications = 2130837522;
+			
+			// aapt resource value: 0x7F020011
+			public const int navigation_parking = 2130837521;
 			
 			// aapt resource value: 0x7F020009
-			public const int navigation_parking = 2130837513;
-			
-			// aapt resource value: 0x7F020007
-			public const int navigation_residents = 2130837511;
+			public const int navigation_residents = 2130837513;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2593,6 +2596,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
+			
+			// aapt resource value: 0x7F020007
+			public const int phone = 2130837511;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;

@@ -602,34 +602,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tuan\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\C#\\PTUDHTTTHD\\AbcPlaza\\Staff\\Staff.csproj",
+      "projectUniqueName": "D:\\Document\\PTUDHTTTHD\\DA GK\\Abc-Plaza\\Staff\\Staff.csproj",
       "projectName": "Staff",
-      "projectPath": "E:\\Source\\C#\\PTUDHTTTHD\\AbcPlaza\\Staff\\Staff.csproj",
-      "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\C#\\PTUDHTTTHD\\AbcPlaza\\Staff\\obj\\",
+      "projectPath": "D:\\Document\\PTUDHTTTHD\\DA GK\\Abc-Plaza\\Staff\\Staff.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Document\\PTUDHTTTHD\\DA GK\\Abc-Plaza\\Staff\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
