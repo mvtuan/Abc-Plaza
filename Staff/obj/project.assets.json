@@ -216,6 +216,21 @@
           "build/monoandroid81/Xamarin.Android.Support.v7.AppCompat.targets": {}
         }
       },
+      "Xamarin.Android.Support.v7.CardView/28.0.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Annotations": "[28.0.0.3]"
+        },
+        "compile": {
+          "lib/monoandroid81/Xamarin.Android.Support.v7.CardView.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Xamarin.Android.Support.v7.CardView.dll": {}
+        },
+        "build": {
+          "build/monoandroid81/Xamarin.Android.Support.v7.CardView.targets": {}
+        }
+      },
       "Xamarin.Android.Support.v7.RecyclerView/28.0.0.3": {
         "type": "package",
         "dependencies": {
@@ -541,6 +556,27 @@
         "xamarin.android.support.v7.appcompat.nuspec"
       ]
     },
+    "Xamarin.Android.Support.v7.CardView/28.0.0.3": {
+      "sha512": "/0/uyf3Yv0P+QVQ0obCrax8wlh9yUofDZ7tLFgu/yBKiF7X9VxDfgzqQKpGe/A3WiVBSY23SaYhLa1t+3gNovA==",
+      "type": "package",
+      "path": "xamarin.android.support.v7.cardview/28.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid71/Xamarin.Android.Support.v7.CardView.targets",
+        "build/monoandroid80/Xamarin.Android.Support.v7.CardView.targets",
+        "build/monoandroid81/Xamarin.Android.Support.v7.CardView.targets",
+        "build/monoandroid90/Xamarin.Android.Support.v7.CardView.targets",
+        "lib/monoandroid60/Xamarin.Android.Support.v7.CardView.dll",
+        "lib/monoandroid70/Xamarin.Android.Support.v7.CardView.dll",
+        "lib/monoandroid71/Xamarin.Android.Support.v7.CardView.dll",
+        "lib/monoandroid80/Xamarin.Android.Support.v7.CardView.dll",
+        "lib/monoandroid81/Xamarin.Android.Support.v7.CardView.dll",
+        "lib/monoandroid90/Xamarin.Android.Support.v7.CardView.dll",
+        "xamarin.android.support.v7.cardview.28.0.0.3.nupkg.sha512",
+        "xamarin.android.support.v7.cardview.nuspec"
+      ]
+    },
     "Xamarin.Android.Support.v7.RecyclerView/28.0.0.3": {
       "sha512": "FL79rgMeI8UCkgRQ8LqlSCKKHEoFbJaCKz91XZNfXwK6kIkXgZCpsJnncub8LHgqwmcL898G3uCQ4Y5eTqMaMg==",
       "type": "package",
@@ -598,7 +634,8 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
-      "Xamarin.Android.Support.Design >= 28.0.0.3"
+      "Xamarin.Android.Support.Design >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.CardView >= 28.0.0.3"
     ]
   },
   "packageFolders": {
@@ -641,6 +678,10 @@
       "monoandroid81": {
         "dependencies": {
           "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
             "version": "[28.0.0.3, )"
           }

@@ -18,6 +18,7 @@ E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Andro
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\System.Net.Http.dll

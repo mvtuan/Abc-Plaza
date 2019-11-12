@@ -58,6 +58,9 @@ E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_resident
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_apartment.xml
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_parking.xml
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_notification.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\item_apartment.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\drawable\sala.jpg
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\drawable\sun_avenue.jpg
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\linksrc\Staff.pdb
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\linksrc\Mono.Android.pdb
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\linksrc\mscorlib.pdb
@@ -78,3 +81,8 @@ E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\System.pdb
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
 E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\android\assets\System.Xml.pdb
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\menu\top_navigation.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\activity_apartment_detail.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_infrastructure.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\layout\fragment_property.xml
+E:\Source\C#\PTUDHTTTHD\AbcPlaza\Staff\obj\Debug\81\res\drawable\ic_property_18dp.xml

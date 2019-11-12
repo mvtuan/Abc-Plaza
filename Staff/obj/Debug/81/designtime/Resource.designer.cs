@@ -333,6 +333,24 @@ namespace Staff
 			// aapt resource value: 0x7F04004B
 			public const int buttonTintMode = 2130968651;
 			
+			// aapt resource value: 0x7F040001
+			public const int cardBackgroundColor = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int cardCornerRadius = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int cardElevation = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int cardMaxElevation = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int cardPreventCornerOverlap = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int cardUseCompatPadding = 2130968582;
+			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
 			
@@ -413,6 +431,21 @@ namespace Staff
 			
 			// aapt resource value: 0x7F040066
 			public const int contentInsetStartWithNavigation = 2130968678;
+			
+			// aapt resource value: 0x7F040007
+			public const int contentPadding = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int contentPaddingBottom = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int contentPaddingLeft = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int contentPaddingRight = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int contentPaddingTop = 2130968587;
 			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
@@ -1301,6 +1334,18 @@ namespace Staff
 			// aapt resource value: 0x7F060026
 			public const int button_material_light = 2131099686;
 			
+			// aapt resource value: 0x7F060001
+			public const int cardview_dark_background = 2131099649;
+			
+			// aapt resource value: 0x7F060002
+			public const int cardview_light_background = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int cardview_shadow_end_color = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int cardview_shadow_start_color = 2131099652;
+			
 			// aapt resource value: 0x7F060004
 			public const int colorAccent = 2131099652;
 			
@@ -1726,6 +1771,15 @@ namespace Staff
 			public const int activity_vertical_margin = 2131165187;
 			
 			// aapt resource value: 0x7F080001
+			public const int cardview_compat_inset_shadow = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int cardview_default_elevation = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int cardview_default_radius = 2131230723;
+			
+			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
 			
 			// aapt resource value: 0x7F080002
@@ -1859,6 +1913,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F080077
 			public const int disabled_alpha_material_light = 2131230839;
+			
+			// aapt resource value: 0x7F070004
+			public const int fab_margin = 2131165188;
 			
 			// aapt resource value: 0x7F080078
 			public const int fastscroll_default_thickness = 2131230840;
@@ -2255,28 +2312,37 @@ namespace Staff
 			public const int design_snackbar_background = 2131296347;
 			
 			// aapt resource value: 0x7F010002
-			public const int ic_apartment_black_18dp = 2130771970;
+			public const int ic_add_18dp = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ic_dashboard_black_24dp = 2130771971;
+			public const int ic_apartment_black_18dp = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ic_home_black_24dp = 2130771972;
+			public const int ic_camera_18dp = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int ic_infrastructure_18dp = 2130771973;
+			public const int ic_dashboard_black_24dp = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int ic_launcher_background = 2130771974;
+			public const int ic_home_black_24dp = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int ic_notifications_black_18dp = 2130771975;
+			public const int ic_infrastructure_18dp = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int ic_parking_black_18dp = 2130771976;
+			public const int ic_launcher_background = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int ic_resident_black_18dp = 2130771977;
+			public const int ic_notifications_black_18dp = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int ic_parking_black_18dp = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int ic_property_18dp = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ic_resident_black_18dp = 2130771986;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2317,6 +2383,12 @@ namespace Staff
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010013
+			public const int sala = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int sun_avenue = 2130771988;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -2336,8 +2408,8 @@ namespace Staff
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020006
-			public const int a = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int a = 2130837511;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2420,6 +2492,12 @@ namespace Staff
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
+			// aapt resource value: 0x7F020014
+			public const int button_add = 2130837524;
+			
+			// aapt resource value: 0x7F020013
+			public const int button_camera = 2130837523;
+			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
 			
@@ -2432,14 +2510,14 @@ namespace Staff
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020002
-			public const int container = 2130837506;
+			// aapt resource value: 0x7F020003
+			public const int container = 2130837507;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
-			// aapt resource value: 0x7F020003
-			public const int content_frame = 2130837507;
+			// aapt resource value: 0x7F020004
+			public const int content_frame = 2130837508;
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
@@ -2510,6 +2588,9 @@ namespace Staff
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
+			// aapt resource value: 0x7F020011
+			public const int image_apartment = 2130837521;
+			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
 			
@@ -2543,8 +2624,8 @@ namespace Staff
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020004
-			public const int message = 2130837508;
+			// aapt resource value: 0x7F020005
+			public const int message = 2130837509;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -2552,23 +2633,23 @@ namespace Staff
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020005
-			public const int navigation = 2130837509;
+			// aapt resource value: 0x7F020006
+			public const int navigation = 2130837510;
 			
-			// aapt resource value: 0x7F020008
-			public const int navigation_apartments = 2130837512;
+			// aapt resource value: 0x7F020016
+			public const int navigation_apartments = 2130837526;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020010
-			public const int navigation_notifications = 2130837520;
+			// aapt resource value: 0x7F020018
+			public const int navigation_notifications = 2130837528;
 			
-			// aapt resource value: 0x7F020009
-			public const int navigation_parking = 2130837513;
+			// aapt resource value: 0x7F020017
+			public const int navigation_parking = 2130837527;
 			
-			// aapt resource value: 0x7F020007
-			public const int navigation_residents = 2130837511;
+			// aapt resource value: 0x7F020015
+			public const int navigation_residents = 2130837525;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2605,6 +2686,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
+			
+			// aapt resource value: 0x7F020008
+			public const int recyclerView = 2130837512;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2657,11 +2741,17 @@ namespace Staff
 			// aapt resource value: 0x7F0C0064
 			public const int search_go_btn = 2131492964;
 			
+			// aapt resource value: 0x7F020009
+			public const int search_infrastructure = 2130837513;
+			
 			// aapt resource value: 0x7F0C0065
 			public const int search_mag_icon = 2131492965;
 			
 			// aapt resource value: 0x7F0C0066
 			public const int search_plate = 2131492966;
+			
+			// aapt resource value: 0x7F020010
+			public const int search_property = 2130837520;
 			
 			// aapt resource value: 0x7F0C0067
 			public const int search_src_text = 2131492967;
@@ -2738,6 +2828,9 @@ namespace Staff
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
+			// aapt resource value: 0x7F020012
+			public const int text_name = 2130837522;
+			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
 			
@@ -2755,6 +2848,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F0C0085
 			public const int topPanel = 2131492997;
+			
+			// aapt resource value: 0x7F020002
+			public const int top_navigation = 2130837506;
 			
 			// aapt resource value: 0x7F0C0086
 			public const int touch_outside = 2131492998;
@@ -2924,7 +3020,10 @@ namespace Staff
 			public const int abc_select_dialog_material = 2131689498;
 			
 			// aapt resource value: 0x7F030002
-			public const int activity_main = 2130903042;
+			public const int activity_apartment_detail = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int activity_main = 2130903043;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -2968,17 +3067,29 @@ namespace Staff
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030003
-			public const int fragment_apartment = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int fragment_notification = 2130903044;
+			public const int fragment_apartment = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int fragment_parking = 2130903045;
+			public const int fragment_infrastructure = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int fragment_resident = 2130903046;
+			public const int fragment_notification = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int fragment_parking = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int fragment_property = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int fragment_resident = 2130903049;
+			
+			// aapt resource value: 0x7F030010
+			public const int item_apartment = 2130903056;
+			
+			// aapt resource value: 0x7F030011
+			public const int layout_add_infrastructure = 2130903057;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3055,6 +3166,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F040002
 			public const int navigation = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int top_navigation = 2130968579;
 			
 			static Menu()
 			{
@@ -3226,11 +3340,17 @@ namespace Staff
 			// aapt resource value: 0x7F080003
 			public const int title_home = 2131230723;
 			
+			// aapt resource value: 0x7F080009
+			public const int title_infrastructure = 2131230729;
+			
 			// aapt resource value: 0x7F080005
 			public const int title_notifications = 2131230725;
 			
 			// aapt resource value: 0x7F080008
 			public const int title_parking = 2131230728;
+			
+			// aapt resource value: 0x7F080010
+			public const int title_property = 2131230736;
 			
 			// aapt resource value: 0x7F080007
 			public const int title_residents = 2131230727;
@@ -3283,6 +3403,9 @@ namespace Staff
 			
 			// aapt resource value: 0x7F16000B
 			public const int Base_Animation_AppCompat_Tooltip = 2132148235;
+			
+			// aapt resource value: 0x7F160001
+			public const int Base_CardView = 2132148225;
 			
 			// aapt resource value: 0x7F16000C
 			public const int Base_DialogWindowTitleBackground_AppCompat = 2132148236;
@@ -3757,6 +3880,15 @@ namespace Staff
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F160002
+			public const int CardView = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int CardView_Dark = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int CardView_Light = 2132148228;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -5273,6 +5405,60 @@ namespace Staff
 			
 			// aapt resource value: 0x7F100238
 			public const int ButtonBarLayout_allowStacking = 2131755576;
+			
+			public static int[] CardView = new int[] {
+					16843072,
+					16843071,
+					2130968577,
+					2130968578,
+					2130968579,
+					2130968580,
+					2130968581,
+					2130968582,
+					2130968583,
+					2130968584,
+					2130968585,
+					2130968586,
+					2130968587};
+			
+			// aapt resource value: 0x7F100541
+			public const int CardView_android_minHeight = 2131756353;
+			
+			// aapt resource value: 0x1
+			public const int CardView_android_minWidth = 1;
+			
+			// aapt resource value: 0x2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 0x3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 0x4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 0x5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 0x6
+			public const int CardView_cardPreventCornerOverlap = 6;
+			
+			// aapt resource value: 0x7
+			public const int CardView_cardUseCompatPadding = 7;
+			
+			// aapt resource value: 0x8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 0x9
+			public const int CardView_contentPaddingBottom = 9;
+			
+			// aapt resource value: 0x10
+			public const int CardView_contentPaddingLeft = 16;
+			
+			// aapt resource value: 0x11
+			public const int CardView_contentPaddingRight = 17;
+			
+			// aapt resource value: 0x12
+			public const int CardView_contentPaddingTop = 18;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
