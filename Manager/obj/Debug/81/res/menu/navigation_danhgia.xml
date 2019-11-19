@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/navigation_DG" android:title="Đánh giá" /><item android:id="@+id/navigation_MHC" android:title="Màn hình chính" /></menu>
