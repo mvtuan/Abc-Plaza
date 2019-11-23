@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<TextView
+			android:text="TẠO CHỦ HỘ MỚI"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="50px"
+			android:minHeight="50px"
+			android:textSize = "35px"
+			android:gravity="center"
+			android:id="@+id/textView1" />
+
+		<GridLayout xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_owner_infor"
+			android:layout_width="500px"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true"
+			android:layout_marginTop="0px"
+			android:layout_marginLeft = "80px">
+			<ImageView
+			android:src="@drawable/ic_owner"
+			android:layout_marginTop="30px"
+			android:layout_width="33px"
+			android:layout_height="33px"
+			android:id="@+id/image_owner_infor" />
+			<TextView
+			android:text="Thông tin chủ hộ"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="50px"
+			android:minHeight="50px"
+			android:textSize = "25px"
+			android:textColor = "#003366"
+			android:layout_marginTop="30px"
+			android:layout_marginLeft="20px"
+			android:id="@+id/txt_owner_infor" />
+		</GridLayout>
+
+		<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true">
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til2"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintHoVaTen"/>
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til3"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintCMND"/>
+			</android.support.design.widget.TextInputLayout>
+		</GridLayout>
+		<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true">
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til4"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintNgaySinh"/>
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til5"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintSoDienThoai"/>
+			</android.support.design.widget.TextInputLayout>
+		</GridLayout>
+		<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true">
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til6"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintDiaChi"/>
+			</android.support.design.widget.TextInputLayout>
+		</GridLayout>
+		
+		<GridLayout xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_property_infor"
+			android:layout_width="500px"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true"
+			android:layout_marginTop="0px"
+			android:layout_marginLeft = "80px">
+			<ImageView
+			android:src="@drawable/ic_property"
+			android:layout_marginTop="15px"
+			android:layout_width="33px"
+			android:layout_height="33px"
+			android:id="@+id/image_property_infor" />
+			<TextView
+			android:text="Thông tin căn hộ"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="50px"
+			android:minHeight="50px"
+			android:textSize = "25px"
+			android:textColor = "#003366"
+			android:layout_marginTop="15px"
+			android:layout_marginLeft="20px"
+			android:id="@+id/txt_property_infor" />
+		</GridLayout>
+
+		<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true">
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til8"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintToa"/>
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til9"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintDay"/>
+			</android.support.design.widget.TextInputLayout>
+		</GridLayout>
+		<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true">
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til10"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintTang"/>
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/til11"
+				android:layout_marginLeft = "60px"
+				android:layout_marginTop="0dp">
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/edtSurname"
+					android:ems="17"
+					android:textSize ="25px"
+					android:hint="@string/hintPhong"/>
+			</android.support.design.widget.TextInputLayout>
+		</GridLayout>
+		<GridLayout xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_document_infor"
+			android:layout_width="500px"
+			android:layout_height="wrap_content"
+			android:columnCount="2"
+			android:rowCount="2"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true"
+			android:layout_marginTop="0px"
+			android:layout_marginLeft = "80px">
+			<ImageView
+			android:src="@drawable/ic_edit"
+			android:layout_marginTop="15px"
+			android:layout_width="33px"
+			android:layout_height="33px"
+			android:id="@+id/image_document_infor" />
+			<TextView
+			android:text="Các loại giấy tờ cần thiết"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="50px"
+			android:minHeight="50px"
+			android:textSize = "25px"
+			android:textColor = "#003366"
+			android:layout_marginTop="15px"
+			android:layout_marginLeft="20px"
+			android:id="@+id/txt_document_infor" />
+			
+		</GridLayout>
+
+
+		<GridLayout xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_image"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="6"
+			android:rowCount="1"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:clipToPadding="true"
+			android:layout_marginTop="10px"
+			android:layout_marginLeft = "60px">
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_face"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_face" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="Khuôn mặt"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_face" />
+				</GridLayout>
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_cmnd_font"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_cmnd_font" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="CMND - Trước"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_cmnd_font" />
+				</GridLayout>
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_cmnd_back"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_cmnd_back" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="CMND - Sau"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_cmnd_back" />
+				</GridLayout>
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_cnkh"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_cnkh" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="Giấy kết hôn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_cnkh" />
+				</GridLayout>
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_cnkh"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_cnkh" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="Chứng nhận mua căn hộ"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_cnkh" />
+				</GridLayout>
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+				android:id="@+id/GridLayout_cnkh"
+				android:layout_width="150px"
+				android:layout_height="wrap_content"
+				android:columnCount="1"
+				android:rowCount="2"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:clipToPadding="true"
+				android:layout_marginRight="20px"
+				android:layout_marginTop="0px">
+
+					<ImageButton
+					android:src="@drawable/ic_image"
+					android:id="@+id/imageButton_cnkh" 
+					android:layout_width = "100px"
+					android:layout_height = "100px"
+					android:layout_marginRight= "30px"
+					/>
+
+					<TextView
+					android:text="Giấy tờ khác"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "20px"
+					android:layout_marginTop="10px"
+					android:id="@+id/txt_cnkh" />
+				</GridLayout>
+				
+				
+	
+		</GridLayout>
+
+		<Button
+			android:text="Tạo mới"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="30px"
+			android:background = "#336699"
+			android:layout_marginLeft = "60px"
+			android:layout_marginRight = "60px"
+			android:id="@+id/button4" />
+	
+		
+		
+
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
