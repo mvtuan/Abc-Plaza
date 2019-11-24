@@ -14,8 +14,6 @@
 			android:text="TẠO CHỦ HỘ MỚI"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:minWidth="50px"
-			android:minHeight="50px"
 			android:textSize = "35px"
 			android:gravity="center"
 			android:id="@+id/textView1" />
@@ -29,129 +27,247 @@
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
 			android:clipToPadding="true"
-			android:layout_marginTop="0px"
 			android:layout_marginLeft = "80px">
-			<ImageView
-			android:src="@drawable/ic_owner"
-			android:layout_marginTop="30px"
-			android:layout_width="33px"
-			android:layout_height="33px"
-			android:id="@+id/image_owner_infor" />
-			<TextView
-			android:text="Thông tin chủ hộ"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:minWidth="50px"
-			android:minHeight="50px"
-			android:textSize = "25px"
-			android:textColor = "#003366"
-			android:layout_marginTop="30px"
-			android:layout_marginLeft="20px"
-			android:id="@+id/txt_owner_infor" />
+				<ImageView
+					android:src="@drawable/ic_owner"
+					android:layout_marginTop="20px"
+					android:layout_width="35px"
+					android:layout_height="35px"
+					android:id="@+id/image_owner_infor" />
+				<TextView
+					android:text="Thông tin chủ hộ"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize = "25px"
+					android:textColor = "#003366"
+					android:layout_marginTop="20px"
+					android:layout_marginLeft="20px"
+					android:id="@+id/txt_owner_infor" />
 		</GridLayout>
 
 		<GridLayout
 			xmlns:tools="http://schemas.android.com/tools"
 			android:id="@+id/GridLayout1"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:columnCount="2"
 			android:rowCount="2"
+			android:layout_gravity = "center"
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
-			android:clipToPadding="true">
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til2"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+			android:clipToPadding="true">		
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_hoten"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintHoVaTen"/>
-			</android.support.design.widget.TextInputLayout>
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til3"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Họ tên:"
+							android:layout_width="140px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="20px"
+							android:id="@+id/lb_hoten" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_hoten">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_hoten"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
+				
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_cmnd"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintCMND"/>
-			</android.support.design.widget.TextInputLayout>
-		</GridLayout>
-		<GridLayout
-			xmlns:tools="http://schemas.android.com/tools"
-			android:id="@+id/GridLayout1"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:columnCount="2"
-			android:rowCount="2"
-			android:orientation="horizontal"
-			android:fitsSystemWindows="true"
-			android:clipToPadding="true">
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til4"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="CMND:"
+							android:layout_width="100px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="70px"
+							android:id="@+id/lb_cmnd" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_cmnd">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_cmnd"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
+				
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_ngaysinh"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintNgaySinh"/>
-			</android.support.design.widget.TextInputLayout>
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til5"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Ngày Sinh:"
+							android:layout_width="140px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="20px"
+							android:id="@+id/lb_ngaysinh" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/til4"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:inputType="date"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_ngaysinh"
+								android:ems="11"
+								android:textSize ="25px"/>
+						
+						</android.support.design.widget.TextInputLayout>
+				
+				</GridLayout>
+
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_diachi"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintSoDienThoai"/>
-			</android.support.design.widget.TextInputLayout>
-		</GridLayout>
-		<GridLayout
-			xmlns:tools="http://schemas.android.com/tools"
-			android:id="@+id/GridLayout1"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:columnCount="2"
-			android:rowCount="2"
-			android:orientation="horizontal"
-			android:fitsSystemWindows="true"
-			android:clipToPadding="true">
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til6"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Địa chỉ:"
+							android:layout_width="100px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="70px"
+							android:id="@+id/lb_diachi" />	
+				
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_diachi"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_diachi"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_dienthoai"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintDiaChi"/>
-			</android.support.design.widget.TextInputLayout>
+					android:columnCount="2"
+					android:rowCount="1"
+					android:layout_gravity = "center"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Điện thoại:"
+							android:layout_width="140px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="20px"
+							android:id="@+id/lb_sodienthoai" />	
+				
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_dienthoai"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_dienthoai"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+				
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_email"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:columnCount="2"
+					android:rowCount="1"
+					android:layout_gravity = "center"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Email:"
+							android:layout_width="100px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="70px"
+							android:id="@+id/lb_email" />	
+				
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_email"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_email"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
 		</GridLayout>
 		
 		<GridLayout xmlns:tools="http://schemas.android.com/tools"
@@ -159,109 +275,181 @@
 			android:layout_width="500px"
 			android:layout_height="wrap_content"
 			android:columnCount="2"
-			android:rowCount="2"
+			android:rowCount="1"
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
 			android:clipToPadding="true"
-			android:layout_marginTop="0px"
+			android:layout_marginTop="30px"
 			android:layout_marginLeft = "80px">
-			<ImageView
-			android:src="@drawable/ic_property"
-			android:layout_marginTop="15px"
-			android:layout_width="33px"
-			android:layout_height="33px"
-			android:id="@+id/image_property_infor" />
-			<TextView
-			android:text="Thông tin căn hộ"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:minWidth="50px"
-			android:minHeight="50px"
-			android:textSize = "25px"
-			android:textColor = "#003366"
-			android:layout_marginTop="15px"
-			android:layout_marginLeft="20px"
-			android:id="@+id/txt_property_infor" />
+				<ImageView
+					android:src="@drawable/ic_property"
+					android:layout_width="35px"
+					android:layout_height="35px"
+					android:id="@+id/image_property_infor" />
+				<TextView
+					android:text="Thông tin căn hộ"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize = "25px"
+					android:textColor = "#003366"	
+					android:layout_marginLeft="20px"
+					android:id="@+id/txt_property_infor" />
 		</GridLayout>
 
 		<GridLayout
 			xmlns:tools="http://schemas.android.com/tools"
 			android:id="@+id/GridLayout1"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:columnCount="2"
 			android:rowCount="2"
+			android:layout_gravity = "center"
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
-			android:clipToPadding="true">
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til8"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+			android:clipToPadding="true">		
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_toa"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintToa"/>
-			</android.support.design.widget.TextInputLayout>
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til9"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Tòa:"
+							android:layout_width="140px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="20px"
+							android:id="@+id/lb_toa" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_toa">
+			
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_toa"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
+				
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_day"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintDay"/>
-			</android.support.design.widget.TextInputLayout>
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Dãy:"
+							android:layout_width="100px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="70px"
+							android:id="@+id/lb_day" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_day">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_day"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>
+
+				
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_tang"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Tầng:"
+							android:layout_width="140px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="20px"
+							android:id="@+id/lb_tang" />	
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_tang"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:inputType="date"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_tang"
+								android:ems="11"
+								android:textSize ="25px"/>				
+						</android.support.design.widget.TextInputLayout>
+				
+				</GridLayout>
+
+
+				<GridLayout
+					xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_phong"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:columnCount="2"
+					android:rowCount="1"
+					android:orientation="horizontal"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true">	
+
+						<TextView
+							android:text="Phòng:"
+							android:layout_width="100px"
+							android:layout_height="wrap_content"
+							android:textSize = "25px"
+							android:layout_marginTop="30px"
+							android:layout_marginLeft="70px"
+							android:id="@+id/lb_phong" />	
+				
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/input_phong"
+							android:layout_marginTop="0dp">
+							<EditText
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/edt_phong"
+								android:ems="11"
+								android:textSize ="25px"/>
+						</android.support.design.widget.TextInputLayout>
+				</GridLayout>			
 		</GridLayout>
-		<GridLayout
-			xmlns:tools="http://schemas.android.com/tools"
-			android:id="@+id/GridLayout1"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:columnCount="2"
-			android:rowCount="2"
-			android:orientation="horizontal"
-			android:fitsSystemWindows="true"
-			android:clipToPadding="true">
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til10"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintTang"/>
-			</android.support.design.widget.TextInputLayout>
-			<android.support.design.widget.TextInputLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:id="@+id/til11"
-				android:layout_marginLeft = "60px"
-				android:layout_marginTop="0dp">
-				<EditText
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:id="@+id/edtSurname"
-					android:ems="17"
-					android:textSize ="25px"
-					android:hint="@string/hintPhong"/>
-			</android.support.design.widget.TextInputLayout>
-		</GridLayout>
+		
 		<GridLayout xmlns:tools="http://schemas.android.com/tools"
 			android:id="@+id/GridLayout_document_infor"
 			android:layout_width="500px"
@@ -271,240 +459,206 @@
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
 			android:clipToPadding="true"
-			android:layout_marginTop="0px"
+			android:layout_marginTop="30px"
 			android:layout_marginLeft = "80px">
-			<ImageView
-			android:src="@drawable/ic_edit"
-			android:layout_marginTop="15px"
-			android:layout_width="33px"
-			android:layout_height="33px"
-			android:id="@+id/image_document_infor" />
-			<TextView
-			android:text="Các loại giấy tờ cần thiết"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:minWidth="50px"
-			android:minHeight="50px"
-			android:textSize = "25px"
-			android:textColor = "#003366"
-			android:layout_marginTop="15px"
-			android:layout_marginLeft="20px"
-			android:id="@+id/txt_document_infor" />
-			
+				<ImageView
+					android:src="@drawable/ic_edit"
+					android:layout_width="35px"
+					android:layout_height="35px"
+					android:id="@+id/image_document_infor" />
+				<TextView
+					android:text="Các loại giấy tờ cần thiết"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="50px"
+					android:minHeight="50px"
+					android:textSize = "25px"
+					android:textColor = "#003366"
+					android:layout_marginLeft="20px"
+					android:id="@+id/txt_document_infor" />			
 		</GridLayout>
 
 
 		<GridLayout xmlns:tools="http://schemas.android.com/tools"
 			android:id="@+id/GridLayout_image"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:columnCount="6"
 			android:rowCount="1"
 			android:orientation="horizontal"
 			android:fitsSystemWindows="true"
 			android:clipToPadding="true"
-			android:layout_marginTop="10px"
-			android:layout_marginLeft = "60px">
+			android:layout_gravity = "center"
+			android:layout_marginTop="10px">
 
 				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_face"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_face" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="Khuôn mặt"
-					android:layout_width="match_parent"
+					android:id="@+id/GridLayout_face"
+					android:layout_width="170px"
 					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_face" />
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_face" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="Khuôn mặt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_face" />
 				</GridLayout>
 
 				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_cmnd_font"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_cmnd_font" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="CMND - Trước"
-					android:layout_width="match_parent"
+					android:id="@+id/GridLayout_cmnd"
+					android:layout_width="170px"
 					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_cmnd_font" />
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_cmnd" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="CMND-Trước"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_cmnd" />
 				</GridLayout>
 
 				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_cmnd_back"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_cmnd_back" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="CMND - Sau"
-					android:layout_width="match_parent"
+					android:id="@+id/GridLayout_cmnd_sau"
+					android:layout_width="170px"
 					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_cmnd_back" />
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_cmnd_sau" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="CMND-Sau"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_cmnd_sau" />
+				</GridLayout>
+
+
+				<GridLayout xmlns:tools="http://schemas.android.com/tools"
+					android:id="@+id/GridLayout_kethon"
+					android:layout_width="170px"
+					android:layout_height="wrap_content"
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_kethon" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="Giấy kết hôn"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_kethon" />
 				</GridLayout>
 
 				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_cnkh"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_cnkh" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="Giấy kết hôn"
-					android:layout_width="match_parent"
+					android:id="@+id/GridLayout_muacanho"
+					android:layout_width="170px"
 					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_cnkh" />
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_muacanho" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="Hợp đồng mua bán"
+							android:layout_width="120px"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_muacanho" />
 				</GridLayout>
 
 				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_cnkh"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_cnkh" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="Chứng nhận mua căn hộ"
-					android:layout_width="match_parent"
+					android:id="@+id/GridLayout_khac"
+					android:layout_width="170px"
 					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_cnkh" />
-				</GridLayout>
-
-				<GridLayout xmlns:tools="http://schemas.android.com/tools"
-				android:id="@+id/GridLayout_cnkh"
-				android:layout_width="150px"
-				android:layout_height="wrap_content"
-				android:columnCount="1"
-				android:rowCount="2"
-				android:orientation="vertical"
-				android:fitsSystemWindows="true"
-				android:clipToPadding="true"
-				android:layout_marginRight="20px"
-				android:layout_marginTop="0px">
-
-					<ImageButton
-					android:src="@drawable/ic_image"
-					android:id="@+id/imageButton_cnkh" 
-					android:layout_width = "100px"
-					android:layout_height = "100px"
-					android:layout_marginRight= "30px"
-					/>
-
-					<TextView
-					android:text="Giấy tờ khác"
-					android:layout_width="match_parent"
-					android:layout_height="wrap_content"
-					android:minWidth="50px"
-					android:minHeight="50px"
-					android:textSize = "20px"
-					android:layout_marginTop="10px"
-					android:id="@+id/txt_cnkh" />
-				</GridLayout>
-				
-				
-	
+					android:columnCount="1"
+					android:rowCount="2"
+					android:orientation="vertical"
+					android:fitsSystemWindows="true"
+					android:clipToPadding="true"
+					android:layout_marginTop="0px">
+						<ImageButton
+							android:src="@drawable/ic_image"
+							android:id="@+id/imageButton_khac" 
+							android:layout_width = "100px"
+							android:layout_height = "100px"
+							android:layout_gravity = "center"/>
+						<TextView
+							android:text="Giấy tờ khác"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_gravity = "center"
+							android:textSize = "25px"
+							android:layout_marginTop="10px"
+							android:id="@+id/txt_khac" />
+				</GridLayout>			
 		</GridLayout>
 
 		<Button
 			android:text="Tạo mới"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:minWidth="25px"
-			android:minHeight="30px"
 			android:background = "#336699"
-			android:layout_marginLeft = "60px"
-			android:layout_marginRight = "60px"
+			android:textColor = "#ffffff"
+			android:layout_marginLeft = "100px"
+			android:layout_marginRight = "100px"
+			android:layout_marginTop = "30px"
+			android:layout_marginBottom = "50px"
 			android:id="@+id/button4" />
 	
 		
