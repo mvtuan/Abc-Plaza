@@ -7,6 +7,7 @@ using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
 using Android.App;
+using AbcPlaza.Fragments;
 
 namespace AbcPlaza
 {
@@ -54,6 +55,7 @@ namespace AbcPlaza
                 case Resource.Id.navigation_account:
                     fragment = AccountFragment.NewInstance();
                     break;
+       
             }
             if (fragment == null)
                 return;

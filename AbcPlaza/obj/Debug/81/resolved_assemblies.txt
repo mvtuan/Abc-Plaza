@@ -3,6 +3,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Jav
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Mono.Android.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\mscorlib.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Refractored.Controls.CircleImageView.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Core.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Net.Http.dll
@@ -22,6 +23,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xam
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Runtime.Serialization.dll

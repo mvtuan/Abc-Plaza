@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "AbcPlaza.dll" comes first in this list. */
 		"AbcPlaza.dll",
 		"Newtonsoft.Json.dll",
+		"Refractored.Controls.CircleImageView.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
@@ -123,6 +124,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Media.Compat.dll",
 		"Xamarin.Android.Support.Transition.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 	};

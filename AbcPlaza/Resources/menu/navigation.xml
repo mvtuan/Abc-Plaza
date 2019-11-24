@@ -22,4 +22,8 @@
         android:id="@+id/navigation_account"
         android:icon="@drawable/ic_account_black_24dp"
         android:title="@string/title_accounts" />
+  <item
+       android:id="@+id/equipment_support"
+       android:icon="@drawable/ic_account_black_24dp"
+       android:title="@string/title_accounts" />
 </menu>

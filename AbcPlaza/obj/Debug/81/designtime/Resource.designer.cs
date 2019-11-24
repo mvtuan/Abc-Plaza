@@ -333,11 +333,41 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F04004B
 			public const int buttonTintMode = 2130968651;
 			
+			// aapt resource value: 0x7F040001
+			public const int cardBackgroundColor = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int cardCornerRadius = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int cardElevation = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int cardMaxElevation = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int cardPreventCornerOverlap = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int cardUseCompatPadding = 2130968582;
+			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
+			
+			// aapt resource value: 0x7F010001
+			public const int civ_border_color = 2130771969;
+			
+			// aapt resource value: 0x7F010002
+			public const int civ_border_overlay = 2130771970;
+			
+			// aapt resource value: 0x7F010000
+			public const int civ_border_width = 2130771968;
+			
+			// aapt resource value: 0x7F010003
+			public const int civ_fill_color = 2130771971;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -413,6 +443,21 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F040066
 			public const int contentInsetStartWithNavigation = 2130968678;
+			
+			// aapt resource value: 0x7F040007
+			public const int contentPadding = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int contentPaddingBottom = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int contentPaddingLeft = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int contentPaddingRight = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int contentPaddingTop = 2130968587;
 			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
@@ -1301,8 +1346,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F060026
 			public const int button_material_light = 2131099686;
 			
+			// aapt resource value: 0x7F060001
+			public const int cardview_dark_background = 2131099649;
+			
+			// aapt resource value: 0x7F060002
+			public const int cardview_light_background = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int cardview_shadow_end_color = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int cardview_shadow_start_color = 2131099652;
+			
 			// aapt resource value: 0x7F060004
 			public const int colorAccent = 2131099652;
+			
+			// aapt resource value: 0x7F060006
+			public const int colorBackground = 2131099654;
 			
 			// aapt resource value: 0x7F060002
 			public const int colorPrimary = 2131099650;
@@ -1370,8 +1430,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F060005
-			public const int ic_launcher_background = 2131099653;
+			// aapt resource value: 0x7F060007
+			public const int ic_launcher_background = 2131099655;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -1483,6 +1543,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F06005F
 			public const int tooltip_background_light = 2131099743;
+			
+			// aapt resource value: 0x7F060005
+			public const int white = 2131099653;
 			
 			static Color()
 			{
@@ -1726,6 +1789,15 @@ namespace AbcPlaza
 			public const int activity_vertical_margin = 2131165187;
 			
 			// aapt resource value: 0x7F080001
+			public const int cardview_compat_inset_shadow = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int cardview_default_elevation = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int cardview_default_radius = 2131230723;
+			
+			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
 			
 			// aapt resource value: 0x7F080002
@@ -1860,6 +1932,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080077
 			public const int disabled_alpha_material_light = 2131230839;
 			
+			// aapt resource value: 0x7F070006
+			public const int fab_margin = 2131165190;
+			
 			// aapt resource value: 0x7F080078
 			public const int fastscroll_default_thickness = 2131230840;
 			
@@ -1898,6 +1973,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F080084
 			public const int item_touch_helper_swipe_escape_velocity = 2131230852;
+			
+			// aapt resource value: 0x7F070005
+			public const int nav_header_height = 2131165189;
+			
+			// aapt resource value: 0x7F070004
+			public const int nav_header_vertical_spacing = 2131165188;
 			
 			// aapt resource value: 0x7F080006
 			public const int notification_action_icon_size = 2131230726;
@@ -2230,6 +2311,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
+			// aapt resource value: 0x7F010002
+			public const int android = 2130771970;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
@@ -2254,35 +2338,38 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010002
-			public const int ic_account_black_24dp = 2130771970;
-			
 			// aapt resource value: 0x7F010003
-			public const int ic_apartment_black_24dp = 2130771971;
+			public const int icon_add = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ic_bill_black_24dp = 2130771972;
+			public const int ic_account_black_24dp = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int ic_dashboard_black_24dp = 2130771973;
+			public const int ic_apartment_black_24dp = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int ic_home_black_24dp = 2130771974;
+			public const int ic_bill_black_24dp = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int ic_launcher_background = 2130771975;
+			public const int ic_dashboard_black_24dp = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int ic_notifications_black_24dp = 2130771976;
+			public const int ic_home_black_24dp = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int ic_property_black_18dp = 2130771977;
+			public const int ic_launcher_background = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int ic_service_black_24dp = 2130771984;
+			public const int ic_notifications_black_24dp = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int ic_support_black_24dp = 2130771985;
+			public const int ic_property_black_18dp = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ic_service_black_24dp = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int ic_support_black_24dp = 2130771987;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2323,6 +2410,12 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010014
+			public const int shape_button_positive = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int shape_edit_text = 2130771989;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -2342,8 +2435,8 @@ namespace AbcPlaza
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020007
-			public const int a = 2130837511;
+			// aapt resource value: 0x7F020022
+			public const int a = 2130837538;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2411,6 +2504,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
+			// aapt resource value: 0x7F020002
+			public const int appbar = 2130837506;
+			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
@@ -2423,8 +2519,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020006
-			public const int btn_demo = 2130837510;
+			// aapt resource value: 0x7F020009
+			public const int btn_add_agp_create = 2130837513;
+			
+			// aapt resource value: 0x7F020021
+			public const int btn_demo = 2130837537;
+			
+			// aapt resource value: 0x7F020005
+			public const int btn_update_agp_image = 2130837509;
+			
+			// aapt resource value: 0x7F020014
+			public const int btn_update_agp_update = 2130837524;
+			
+			// aapt resource value: 0x7F020028
+			public const int button = 2130837544;
+			
+			// aapt resource value: 0x7F020020
+			public const int buttonOptions = 2130837536;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2441,14 +2552,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020002
-			public const int container = 2130837506;
+			// aapt resource value: 0x7F020010
+			public const int container = 2130837520;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
-			// aapt resource value: 0x7F020003
-			public const int content_frame = 2130837507;
+			// aapt resource value: 0x7F020011
+			public const int content_frame = 2130837521;
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
@@ -2458,6 +2569,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
+			
+			// aapt resource value: 0x7F020015
+			public const int cv = 2130837525;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2480,8 +2594,20 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
+			// aapt resource value: 0x7F020027
+			public const int editText1 = 2130837543;
+			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
+			
+			// aapt resource value: 0x7F020008
+			public const int edt_add_abc = 2130837512;
+			
+			// aapt resource value: 0x7F020006
+			public const int edt_add_agp_name = 2130837510;
+			
+			// aapt resource value: 0x7F020007
+			public const int edt_add_equip_name = 2130837511;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
@@ -2489,11 +2615,17 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
 			
+			// aapt resource value: 0x7F020034
+			public const int equipment_support = 2130837556;
+			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
 			
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
+			
+			// aapt resource value: 0x7F020024
+			public const int fab_add_equipment = 2130837540;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2518,6 +2650,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
+			
+			// aapt resource value: 0x7F020016
+			public const int img = 2130837526;
+			
+			// aapt resource value: 0x7F020004
+			public const int img_update_agp_image = 2130837508;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2552,8 +2690,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020004
-			public const int message = 2130837508;
+			// aapt resource value: 0x7F020035
+			public const int menu_delete = 2130837557;
+			
+			// aapt resource value: 0x7F020012
+			public const int message = 2130837522;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -2561,26 +2702,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020005
-			public const int navigation = 2130837509;
+			// aapt resource value: 0x7F020013
+			public const int navigation = 2130837523;
 			
-			// aapt resource value: 0x7F020012
-			public const int navigation_account = 2130837522;
+			// aapt resource value: 0x7F020033
+			public const int navigation_account = 2130837555;
 			
-			// aapt resource value: 0x7F020009
-			public const int navigation_apartment = 2130837513;
+			// aapt resource value: 0x7F020030
+			public const int navigation_apartment = 2130837552;
 			
-			// aapt resource value: 0x7F020010
-			public const int navigation_bills = 2130837520;
+			// aapt resource value: 0x7F020031
+			public const int navigation_bills = 2130837553;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020011
-			public const int navigation_notifications = 2130837521;
+			// aapt resource value: 0x7F020032
+			public const int navigation_notifications = 2130837554;
 			
-			// aapt resource value: 0x7F020008
-			public const int navigation_service = 2130837512;
+			// aapt resource value: 0x7F020029
+			public const int navigation_service = 2130837545;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2617,6 +2758,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
+			
+			// aapt resource value: 0x7F020023
+			public const int recyclerView = 2130837539;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2699,6 +2843,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C006E
 			public const int spacer = 2131492974;
 			
+			// aapt resource value: 0x7F020026
+			public const int spinner = 2130837542;
+			
 			// aapt resource value: 0x7F0C006F
 			public const int split_action_bar = 2131492975;
 			
@@ -2729,6 +2876,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
+			// aapt resource value: 0x7F020019
+			public const int td = 2130837529;
+			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
 			
@@ -2747,6 +2897,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
+			// aapt resource value: 0x7F020025
+			public const int textView1 = 2130837541;
+			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
@@ -2761,6 +2914,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
+			
+			// aapt resource value: 0x7F020003
+			public const int toolbar = 2130837507;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2785,6 +2941,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
+			
+			// aapt resource value: 0x7F020017
+			public const int tv = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int tx = 2130837528;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2936,10 +3098,19 @@ namespace AbcPlaza
 			public const int abc_select_dialog_material = 2131689498;
 			
 			// aapt resource value: 0x7F030002
-			public const int activity_main = 2130903042;
+			public const int activity_add_equipment = 2130903042;
 			
 			// aapt resource value: 0x7F030003
-			public const int demo = 2130903043;
+			public const int activity_main = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int activity_update_equipment = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int adapter_equipment = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int demo = 2130903046;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -2983,23 +3154,32 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030004
-			public const int fragment_account = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int fragment_apartment = 2130903045;
-			
-			// aapt resource value: 0x7F030006
-			public const int fragment_bills = 2130903046;
-			
 			// aapt resource value: 0x7F030007
-			public const int fragment_notifications = 2130903047;
+			public const int fragment_account = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int fragment_resident = 2130903048;
+			public const int fragment_apartment = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int fragment_services = 2130903049;
+			public const int fragment_bills = 2130903049;
+			
+			// aapt resource value: 0x7F030010
+			public const int fragment_equipment = 2130903056;
+			
+			// aapt resource value: 0x7F030011
+			public const int fragment_equipment_support = 2130903057;
+			
+			// aapt resource value: 0x7F030012
+			public const int fragment_notifications = 2130903058;
+			
+			// aapt resource value: 0x7F030013
+			public const int fragment_resident = 2130903059;
+			
+			// aapt resource value: 0x7F030014
+			public const int fragment_services = 2130903060;
+			
+			// aapt resource value: 0x7F030015
+			public const int fragment_support = 2130903061;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3076,6 +3256,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F040002
 			public const int navigation = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int popup_menu = 2130968579;
 			
 			static Menu()
 			{
@@ -3214,6 +3397,15 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
+			// aapt resource value: 0x7F080010
+			public const int btn_agp_add = 2131230736;
+			
+			// aapt resource value: 0x7F080012
+			public const int btn_agp_update = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int btn_send = 2131230739;
+			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
@@ -3258,6 +3450,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F080006
 			public const int title_services = 2131230726;
+			
+			// aapt resource value: 0x7F080011
+			public const int txt_agp_add_detect_temperature = 2131230737;
 			
 			static String()
 			{
@@ -3307,6 +3502,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F16000B
 			public const int Base_Animation_AppCompat_Tooltip = 2132148235;
+			
+			// aapt resource value: 0x7F160001
+			public const int Base_CardView = 2132148225;
 			
 			// aapt resource value: 0x7F16000C
 			public const int Base_DialogWindowTitleBackground_AppCompat = 2132148236;
@@ -3781,6 +3979,15 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F160002
+			public const int CardView = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int CardView_Dark = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int CardView_Light = 2132148228;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -4474,11 +4681,11 @@ namespace AbcPlaza
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F100047
-			public const int ActionBarLayout_android_layout_gravity = 2131755079;
+			// aapt resource value: 0x7F100052
+			public const int ActionBarLayout_android_layout_gravity = 2131755090;
 			
-			// aapt resource value: 0x7F100017
-			public const int ActionBar_background = 2131755031;
+			// aapt resource value: 0x7F100022
+			public const int ActionBar_background = 2131755042;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -4567,8 +4774,8 @@ namespace AbcPlaza
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F100049
-			public const int ActionMenuItemView_android_minWidth = 2131755081;
+			// aapt resource value: 0x7F100054
+			public const int ActionMenuItemView_android_minWidth = 2131755092;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -4578,8 +4785,8 @@ namespace AbcPlaza
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F100051
-			public const int ActionMode_background = 2131755089;
+			// aapt resource value: 0x7F100056
+			public const int ActionMode_background = 2131755094;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -4600,8 +4807,8 @@ namespace AbcPlaza
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F100058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131755096;
+			// aapt resource value: 0x7F100063
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131755107;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -4615,8 +4822,8 @@ namespace AbcPlaza
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F100061
-			public const int AlertDialog_android_layout = 2131755105;
+			// aapt resource value: 0x7F100066
+			public const int AlertDialog_android_layout = 2131755110;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -4647,14 +4854,14 @@ namespace AbcPlaza
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F100075
-			public const int AppBarLayoutStates_state_collapsed = 2131755125;
+			// aapt resource value: 0x7F100080
+			public const int AppBarLayoutStates_state_collapsed = 2131755136;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F100069
-			public const int AppBarLayout_android_background = 2131755113;
+			// aapt resource value: 0x7F100074
+			public const int AppBarLayout_android_background = 2131755124;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -4672,8 +4879,8 @@ namespace AbcPlaza
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F100078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131755128;
+			// aapt resource value: 0x7F100083
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131755139;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -4684,8 +4891,8 @@ namespace AbcPlaza
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F100081
-			public const int AppCompatImageView_android_src = 2131755137;
+			// aapt resource value: 0x7F100086
+			public const int AppCompatImageView_android_src = 2131755142;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -4702,8 +4909,8 @@ namespace AbcPlaza
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F100086
-			public const int AppCompatSeekBar_android_thumb = 2131755142;
+			// aapt resource value: 0x7F100091
+			public const int AppCompatSeekBar_android_thumb = 2131755153;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -4723,8 +4930,8 @@ namespace AbcPlaza
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F100091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131755153;
+			// aapt resource value: 0x7F100096
+			public const int AppCompatTextHelper_android_drawableBottom = 2131755158;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -4754,8 +4961,8 @@ namespace AbcPlaza
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F100099
-			public const int AppCompatTextView_android_textAppearance = 2131755161;
+			// aapt resource value: 0x7F100104
+			public const int AppCompatTextView_android_textAppearance = 2131755268;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -4899,8 +5106,8 @@ namespace AbcPlaza
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F100108
-			public const int AppCompatTheme_actionBarDivider = 2131755272;
+			// aapt resource value: 0x7F100113
+			public const int AppCompatTheme_actionBarDivider = 2131755283;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -5263,8 +5470,8 @@ namespace AbcPlaza
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F100228
-			public const int BottomNavigationView_elevation = 2131755560;
+			// aapt resource value: 0x7F100233
+			public const int BottomNavigationView_elevation = 2131755571;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -5283,8 +5490,8 @@ namespace AbcPlaza
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F100234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131755572;
+			// aapt resource value: 0x7F100239
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131755577;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -5295,8 +5502,80 @@ namespace AbcPlaza
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F100238
-			public const int ButtonBarLayout_allowStacking = 2131755576;
+			// aapt resource value: 0x7F100243
+			public const int ButtonBarLayout_allowStacking = 2131755587;
+			
+			public static int[] CardView = new int[] {
+					16843072,
+					16843071,
+					2130968577,
+					2130968578,
+					2130968579,
+					2130968580,
+					2130968581,
+					2130968582,
+					2130968583,
+					2130968584,
+					2130968585,
+					2130968586,
+					2130968587};
+			
+			// aapt resource value: 0x7F100546
+			public const int CardView_android_minHeight = 2131756358;
+			
+			// aapt resource value: 0x1
+			public const int CardView_android_minWidth = 1;
+			
+			// aapt resource value: 0x2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 0x3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 0x4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 0x5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 0x6
+			public const int CardView_cardPreventCornerOverlap = 6;
+			
+			// aapt resource value: 0x7
+			public const int CardView_cardUseCompatPadding = 7;
+			
+			// aapt resource value: 0x8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 0x9
+			public const int CardView_contentPaddingBottom = 9;
+			
+			// aapt resource value: 0x10
+			public const int CardView_contentPaddingLeft = 16;
+			
+			// aapt resource value: 0x11
+			public const int CardView_contentPaddingRight = 17;
+			
+			// aapt resource value: 0x12
+			public const int CardView_contentPaddingTop = 18;
+			
+			public static int[] CircleImageView = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971};
+			
+			// aapt resource value: 0x1
+			public const int CircleImageView_civ_border_color = 1;
+			
+			// aapt resource value: 0x2
+			public const int CircleImageView_civ_border_overlay = 2;
+			
+			// aapt resource value: 0x7F100005
+			public const int CircleImageView_civ_border_width = 2131755013;
+			
+			// aapt resource value: 0x3
+			public const int CircleImageView_civ_fill_color = 3;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -5316,8 +5595,8 @@ namespace AbcPlaza
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F100240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131755584;
+			// aapt resource value: 0x7F100245
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131755589;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -5350,8 +5629,8 @@ namespace AbcPlaza
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F100257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131755607;
+			// aapt resource value: 0x7F100262
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131755618;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -5379,8 +5658,8 @@ namespace AbcPlaza
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F100260
-			public const int ColorStateListItem_alpha = 2131755616;
+			// aapt resource value: 0x7F100265
+			public const int ColorStateListItem_alpha = 2131755621;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -5393,8 +5672,8 @@ namespace AbcPlaza
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F100264
-			public const int CompoundButton_android_button = 2131755620;
+			// aapt resource value: 0x7F100269
+			public const int CompoundButton_android_button = 2131755625;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -5406,8 +5685,8 @@ namespace AbcPlaza
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F100268
-			public const int CoordinatorLayout_keylines = 2131755624;
+			// aapt resource value: 0x7F100273
+			public const int CoordinatorLayout_keylines = 2131755635;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -5418,8 +5697,8 @@ namespace AbcPlaza
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F100271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131755633;
+			// aapt resource value: 0x7F100276
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131755638;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -5447,8 +5726,8 @@ namespace AbcPlaza
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F100279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131755641;
+			// aapt resource value: 0x7F100284
+			public const int DesignTheme_bottomSheetDialogTheme = 2131755652;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -5466,8 +5745,8 @@ namespace AbcPlaza
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F100283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131755651;
+			// aapt resource value: 0x7F100288
+			public const int DrawerArrowToggle_arrowHeadLength = 2131755656;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -5500,8 +5779,8 @@ namespace AbcPlaza
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F100292
-			public const int FloatingActionButton_backgroundTint = 2131755666;
+			// aapt resource value: 0x7F100297
+			public const int FloatingActionButton_backgroundTint = 2131755671;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -5509,8 +5788,8 @@ namespace AbcPlaza
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F100301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131755777;
+			// aapt resource value: 0x7F100306
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131755782;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -5546,8 +5825,8 @@ namespace AbcPlaza
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F100010
-			public const int FontFamilyFont_android_font = 2131755024;
+			// aapt resource value: 0x7F100015
+			public const int FontFamilyFont_android_font = 2131755029;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -5564,8 +5843,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F100003
-			public const int FontFamily_fontProviderAuthority = 2131755011;
+			// aapt resource value: 0x7F100008
+			public const int FontFamily_fontProviderAuthority = 2131755016;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -5587,8 +5866,8 @@ namespace AbcPlaza
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F100303
-			public const int ForegroundLinearLayout_android_foreground = 2131755779;
+			// aapt resource value: 0x7F100308
+			public const int ForegroundLinearLayout_android_foreground = 2131755784;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -5607,8 +5886,8 @@ namespace AbcPlaza
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F100307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131755783;
+			// aapt resource value: 0x7F100312
+			public const int LinearLayoutCompat_android_baselineAligned = 2131755794;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -5634,8 +5913,8 @@ namespace AbcPlaza
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F100317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131755799;
+			// aapt resource value: 0x7F100322
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131755810;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -5656,8 +5935,8 @@ namespace AbcPlaza
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F100322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131755810;
+			// aapt resource value: 0x7F100327
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131755815;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -5670,8 +5949,8 @@ namespace AbcPlaza
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F100325
-			public const int MenuGroup_android_checkableBehavior = 2131755813;
+			// aapt resource value: 0x7F100330
+			public const int MenuGroup_android_checkableBehavior = 2131755824;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -5713,8 +5992,8 @@ namespace AbcPlaza
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F100332
-			public const int MenuItem_actionLayout = 2131755826;
+			// aapt resource value: 0x7F100337
+			public const int MenuItem_actionLayout = 2131755831;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -5793,8 +6072,8 @@ namespace AbcPlaza
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F100356
-			public const int MenuView_android_headerBackground = 2131755862;
+			// aapt resource value: 0x7F100361
+			public const int MenuView_android_headerBackground = 2131755873;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -5832,8 +6111,8 @@ namespace AbcPlaza
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F100366
-			public const int NavigationView_android_background = 2131755878;
+			// aapt resource value: 0x7F100371
+			public const int NavigationView_android_background = 2131755889;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -5870,11 +6149,11 @@ namespace AbcPlaza
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F100381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131755905;
+			// aapt resource value: 0x7F100386
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131755910;
 			
-			// aapt resource value: 0x7F100377
-			public const int PopupWindow_android_popupAnimationStyle = 2131755895;
+			// aapt resource value: 0x7F100382
+			public const int PopupWindow_android_popupAnimationStyle = 2131755906;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -5886,8 +6165,8 @@ namespace AbcPlaza
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F100383
-			public const int RecycleListView_paddingBottomNoButtons = 2131755907;
+			// aapt resource value: 0x7F100388
+			public const int RecycleListView_paddingBottomNoButtons = 2131755912;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -5905,8 +6184,8 @@ namespace AbcPlaza
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F100386
-			public const int RecyclerView_android_descendantFocusability = 2131755910;
+			// aapt resource value: 0x7F100391
+			public const int RecyclerView_android_descendantFocusability = 2131755921;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -5941,14 +6220,14 @@ namespace AbcPlaza
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F100398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131755928;
+			// aapt resource value: 0x7F100403
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131756035;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F100400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131756032;
+			// aapt resource value: 0x7F100405
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131756037;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -5969,8 +6248,8 @@ namespace AbcPlaza
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F100402
-			public const int SearchView_android_focusable = 2131756034;
+			// aapt resource value: 0x7F100407
+			public const int SearchView_android_focusable = 2131756039;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -6025,8 +6304,8 @@ namespace AbcPlaza
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F100420
-			public const int SnackbarLayout_android_maxWidth = 2131756064;
+			// aapt resource value: 0x7F100425
+			public const int SnackbarLayout_android_maxWidth = 2131756069;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -6041,8 +6320,8 @@ namespace AbcPlaza
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F100424
-			public const int Spinner_android_dropDownWidth = 2131756068;
+			// aapt resource value: 0x7F100429
+			public const int Spinner_android_dropDownWidth = 2131756073;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -6072,8 +6351,8 @@ namespace AbcPlaza
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F100430
-			public const int SwitchCompat_android_textOff = 2131756080;
+			// aapt resource value: 0x7F100435
+			public const int SwitchCompat_android_textOff = 2131756085;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -6119,8 +6398,8 @@ namespace AbcPlaza
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F100445
-			public const int TabItem_android_icon = 2131756101;
+			// aapt resource value: 0x7F100450
+			public const int TabItem_android_icon = 2131756112;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -6146,8 +6425,8 @@ namespace AbcPlaza
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F100449
-			public const int TabLayout_tabBackground = 2131756105;
+			// aapt resource value: 0x7F100454
+			public const int TabLayout_tabBackground = 2131756116;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -6209,8 +6488,8 @@ namespace AbcPlaza
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F100466
-			public const int TextAppearance_android_fontFamily = 2131756134;
+			// aapt resource value: 0x7F100471
+			public const int TextAppearance_android_fontFamily = 2131756145;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -6266,8 +6545,8 @@ namespace AbcPlaza
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F100480
-			public const int TextInputLayout_android_hint = 2131756160;
+			// aapt resource value: 0x7F100485
+			public const int TextInputLayout_android_hint = 2131756165;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -6345,8 +6624,8 @@ namespace AbcPlaza
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F100497
-			public const int Toolbar_android_gravity = 2131756183;
+			// aapt resource value: 0x7F100502
+			public const int Toolbar_android_gravity = 2131756290;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -6444,8 +6723,8 @@ namespace AbcPlaza
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F100533
-			public const int ViewBackgroundHelper_android_background = 2131756339;
+			// aapt resource value: 0x7F100538
+			public const int ViewBackgroundHelper_android_background = 2131756344;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -6458,8 +6737,8 @@ namespace AbcPlaza
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F100537
-			public const int ViewStubCompat_android_id = 2131756343;
+			// aapt resource value: 0x7F100542
+			public const int ViewStubCompat_android_id = 2131756354;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -6467,8 +6746,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F100527
-			public const int View_android_focusable = 2131756327;
+			// aapt resource value: 0x7F100532
+			public const int View_android_focusable = 2131756338;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
