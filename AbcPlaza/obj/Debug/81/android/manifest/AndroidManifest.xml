@@ -10,6 +10,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="UIActivity" android:name="md57483ef542cc1cd6409a96fbccd8cf5ef.UIActivity" />
     <activity android:label="DemoActivity" android:name="md51054aacd918cfc1c61110b47ebd25b01.DemoActivity" />
     <activity android:label="Thêm thiết bị" android:name="md5c3731a2352684cbffa83b2747d6caed5.AddEquipmentActivity" />
     <activity android:label="Cập nhật thiết bị" android:name="md5c3731a2352684cbffa83b2747d6caed5.UpdateEquipmentActivity" />

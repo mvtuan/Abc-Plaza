@@ -74,6 +74,7 @@
     <Compile Include="Fragments\EquipmentFragment.cs" />
     <Compile Include="Fragments\EquipmentSupportFragment.cs" />
     <Compile Include="Fragments\SupportFragment.cs" />
+    <Compile Include="Fragments\UIActivity.cs" />
     <Compile Include="Listener\IItemClickListener.cs" />
     <Compile Include="Listener\IRecycleViewOnItemClickListener .cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -196,7 +197,11 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_ui.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_equipment.axml">
       <SubType>Designer</SubType>
