@@ -1,7 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="DANH SÁCH CƯ DÂN CHUNG CƯ"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize = "35px"
+		android:textColor = "#003366"
+		android:gravity="center"
+		android:id="@+id/text_title" />
+	
+	<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_cd_hoten"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:columnCount="9"
+			android:rowCount="1"
+			android:layout_gravity = "center"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:layout_marginLeft = "20px"
+			android:layout_marginRight = "20px"
+			android:clipToPadding="true">
 
+		<SearchView
+
+			android:queryHint="Tìm kiếm"
+			android:iconifiedByDefault="false"
+			android:layout_alignParentTop="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop = "20px"
+			android:layout_marginBottom = "20px"
+			android:layout_marginRight = "20px"
+			android:id="@+id/searchView1" />
+
+		<Button
+			android:text="Tìm"
+			android:textSize = "18px"
+			android:layout_width="100px"
+			android:layout_height="40px"
+			android:background = "#336699"
+			android:textColor = "#ffffff"
+
+			android:layout_marginTop = "20px"
+			android:layout_marginBottom = "20px"
+			android:id="@+id/button4" />
+
+	</GridLayout>
+
+	<GridLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:id="@+id/GridLayout_cd_hoten"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:columnCount="9"
+			android:rowCount="1"
+			android:layout_gravity = "center"
+			android:orientation="horizontal"
+			android:fitsSystemWindows="true"
+			android:layout_marginLeft = "20px"
+			android:layout_marginRight = "20px"
+			android:clipToPadding="true">		
+
+			<TextView
+				android:text= "HỌ TÊN"
+				android:textSize = "24px"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="200px"
+				android:textColor = "#336699"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1" />
+			<TextView
+				android:text="GIỚI TÍNH"
+				android:textSize = "24px"
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="120px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView2" />
+			<TextView
+				android:text="TUỔI"
+				android:textSize = "24px"	
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView3" />
+			<TextView
+				android:text="TÒA"
+				android:textSize = "24px"	
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView4" />
+			<TextView
+				android:text="DÃY"
+				android:textSize = "24px"	
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView5" />
+			<TextView
+				android:text="TẦNG"
+				android:textSize = "24px"	
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView6" />
+			<TextView
+				android:text="PHÒNG"
+				android:textSize = "24px"	
+				android:textColor = "#336699"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="90px"
+				android:layout_height="wrap_content"
+				android:layout_marginRight = "60px"
+				android:id="@+id/textView7" />
+			
+	</GridLayout>
+
+
+	<ListView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/listView_resident" />
+	
 </LinearLayout>
