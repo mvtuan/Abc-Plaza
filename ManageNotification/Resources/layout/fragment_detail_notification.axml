@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<ImageView
+		android:src="@drawable/ic_back"
+		android:layout_width="60px"
+		android:layout_height="60px"
+		android:id="@+id/image_back"
+		android:layout_marginTop="15px"
+		android:layout_marginLeft="10px"
+		/>
+	<TextView
+		android:id="@+id/a"
+		android:layout_width="381.0dp"
+		android:layout_marginLeft="10px"
+		android:layout_marginTop="20px"
+		android:layout_height="wrap_content"
+		android:textSize = "35px"
+		android:text="Thông báo 1"/>
+	<ImageView
+		android:src="@drawable/ic_recyclebin"
+		android:layout_width="@dimen/abc_action_bar_default_height_material"
+		android:layout_height="@dimen/abc_action_bar_content_inset_with_nav"
+		android:id="@+id/image_delete_notification"
+		android:layout_gravity="bottom"
+		android:layout_marginTop="750px"
+		android:layout_marginLeft="600px"
+		/>
+</LinearLayout>

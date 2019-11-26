@@ -1,0 +1,6 @@
+<AbsoluteLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">  
+    android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"&gt;
+	
+	<SearchView android:minWidth="25px" android:minHeight="25px" android:queryHint="Tìm kiếm" android:iconifiedByDefault="false" android:layout_alignParentTop="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/searchView1"></SearchView><ListView android:minWidth="25px" android:minHeight="25px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10px" android:id="@+id/listView1" android:divider="#DDDFE2" android:dividerHeight="2dp" android:background="#E5EAF2" /><FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"><ImageView android:src="@drawable/ic_recyclebin" android:layout_width="@dimen/abc_action_bar_default_height_material" android:layout_height="@dimen/abc_action_bar_content_inset_with_nav" android:id="@+id/image_add_resident" android:layout_gravity="bottom|right" android:layout_marginBottom="50px" android:layout_marginRight="30px" /></FrameLayout></AbsoluteLayout>
