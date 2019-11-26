@@ -4,6 +4,7 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using System.Collections.Generic;
+using System;
 
 namespace Manager
 {
@@ -35,7 +36,7 @@ namespace Manager
                     gd = "Nam";
                 }
 
-                n = n + (i + 64).ToString();
+                n = n + Convert.ToChar(i + 64);
 
                 C_Sharp.Resident resident = new C_Sharp.Resident()
                 {

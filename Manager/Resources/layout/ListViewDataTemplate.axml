@@ -21,7 +21,7 @@
 			<TextView
 				android:text="NAME"
 				android:textSize = "22px"
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="200px"
 				android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
 			<TextView
 				android:text="GENDER"
 				android:textSize = "22px"	
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="120px"
 				android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
 			<TextView
 				android:text="AGE"
 				android:textSize = "22px"	
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="100px"
 				android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
 			<TextView
 				android:text="BLOCK"
 				android:textSize = "22px"
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="100px"
 				android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
 			<TextView
 				android:text="AREA"
 				android:textSize = "22px"	
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="100px"
 				android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
 			<TextView
 				android:text="FLOOR"
 				android:textSize = "22px"
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="100px"
 				android:layout_height="wrap_content"
@@ -69,17 +69,17 @@
 			<TextView
 				android:text="APM"
 				android:textSize = "22px"	
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_width="80px"
 				android:layout_height="wrap_content"
 				android:id="@+id/textView7" />
 
 			<ImageButton
-				android:src="@drawable/ic_pencil"
+				android:src="@drawable/ic_delete"
 				android:id="@+id/imageButton_cmnd_sau" 
 				android:layout_width = "30px"
-				android:layout_marginTop = "15px"
+				android:layout_marginBottom = "15px"
 				android:layout_height = "30px"
 				android:layout_marginLeft = "30px"
 				android:layout_gravity = "center"/>
