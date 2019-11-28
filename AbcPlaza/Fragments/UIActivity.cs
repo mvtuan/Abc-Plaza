@@ -14,7 +14,7 @@ using System;
 
 namespace AbcPlaza.Fragments
 {
-    [Activity(Label = "UIActivity")]
+    [Activity(Label = "UIActivity", MainLauncher = true)]
     public class UIActivity : AppCompatActivity
     {
         ViewPager viewpager;

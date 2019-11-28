@@ -3293,7 +3293,6 @@ containing a value of this type.
         public static int tabMode=0x7f08001f;
         public static int tabs=0x7f080098;
         public static int tag_transition_group=0x7f080019;
-        public static int td=0x7f08009f;
         public static int text=0x7f08001a;
         public static int text2=0x7f08001b;
         public static int textSpacerNoButtons=0x7f08006a;
@@ -3315,8 +3314,9 @@ containing a value of this type.
         public static int transition_position=0x7f080011;
         public static int transition_scene_layoutid_cache=0x7f080012;
         public static int transition_transform=0x7f080013;
-        public static int tv=0x7f08009d;
-        public static int tx=0x7f08009e;
+        public static int tv_expiration=0x7f08009f;
+        public static int tv_name=0x7f08009d;
+        public static int tv_purchase=0x7f08009e;
         public static int uniform=0x7f08002d;
         public static int up=0x7f080009;
         public static int useLogo=0x7f080026;

@@ -2879,9 +2879,6 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x7F020022
-			public const int td = 2130837538;
-			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
 			
@@ -2945,11 +2942,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F020022
+			public const int tv_expiration = 2130837538;
+			
 			// aapt resource value: 0x7F020020
-			public const int tv = 2130837536;
+			public const int tv_name = 2130837536;
 			
 			// aapt resource value: 0x7F020021
-			public const int tx = 2130837537;
+			public const int tv_purchase = 2130837537;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;

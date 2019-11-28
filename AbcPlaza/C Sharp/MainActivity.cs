@@ -11,7 +11,7 @@ using AbcPlaza.Fragments;
 
 namespace AbcPlaza
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme",MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
         TextView textMessage;

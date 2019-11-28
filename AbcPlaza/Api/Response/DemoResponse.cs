@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace AbcPlaza.Api.Response
 {
-    class DemoResponse
+    public class DemoResponse
     {
         private string name;
 

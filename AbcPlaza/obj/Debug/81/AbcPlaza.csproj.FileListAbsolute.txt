@@ -4,7 +4,6 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\bin\Debug\AbcPlaza.AbcPlaza.apk
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\bin\Debug\AbcPlaza.AbcPlaza-Signed.apk
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\AbcPlaza.nuget.stamp
-D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\AbcPlaza.csprojAssemblyReference.cache
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\libraryimports.cache.stamp
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res.flag
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\AbcPlaza.csproj.CoreCompileInputs.cache
@@ -119,3 +118,4 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Sys
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Web.Services.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Xml.pdb
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\AbcPlaza.csprojAssemblyReference.cache

@@ -951,7 +951,6 @@ int id submit_area 0x7f080087
 int id tabMode 0x7f08001f
 int id tabs 0x7f080098
 int id tag_transition_group 0x7f080019
-int id td 0x7f08009f
 int id text 0x7f08001a
 int id text2 0x7f08001b
 int id textSpacerNoButtons 0x7f08006a
@@ -973,8 +972,9 @@ int id transition_layout_save 0x7f080010
 int id transition_position 0x7f080011
 int id transition_scene_layoutid_cache 0x7f080012
 int id transition_transform 0x7f080013
-int id tv 0x7f08009d
-int id tx 0x7f08009e
+int id tv_expiration 0x7f08009f
+int id tv_name 0x7f08009d
+int id tv_purchase 0x7f08009e
 int id uniform 0x7f08002d
 int id up 0x7f080009
 int id useLogo 0x7f080026

@@ -15,6 +15,11 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
+using System.Net.Http;
+using AbcPlaza.Api;
+using Newtonsoft.Json;
+using Android.Util;
+using AbcPlaza.Api.Request;
 
 namespace AbcPlaza.Fragments
 {
@@ -25,7 +30,7 @@ namespace AbcPlaza.Fragments
         RecyclerView mRecycleView;
         RecyclerView.LayoutManager mLayoutManager;
         EquipmentAdapter equipmentAdapter;
-        List<Equipment> data = new List<Equipment>();
+        List<EquipmentResponse> data = new List<EquipmentResponse>();
 
 
 
@@ -40,34 +45,37 @@ namespace AbcPlaza.Fragments
                 Intent addIntent = new Intent(Context, typeof(AddEquipmentActivity));
                 StartActivity(addIntent);
             };
-
-
             mLayoutManager = new LinearLayoutManager(Context);
             mRecycleView.SetLayoutManager(mLayoutManager);
-            Equipment data1 = new Equipment();
-            Equipment data2 = new Equipment();
-            Equipment data3 = new Equipment();
-            Equipment data4 = new Equipment();
-            data1.image = Resource.Drawable.android;
-            data1.td_dm = "30-09-2018";
-            data1.tv_dm = "Máy quạt";
-            data1.tx_dm = "30-09-2018";
-            data.Add(data1);
-            data2.image = Resource.Drawable.android;
-            data2.td_dm = "30-09-2018";
-            data2.tv_dm = "Tủ lạnh";
-            data2.tx_dm = "30-09-2018";
-            data.Add(data2);
-            data3.image = Resource.Drawable.android;
-            data3.td_dm = "30-09-2018";
-            data3.tv_dm = "Điều hòa";
-            data3.tx_dm = "30-09-2018";
-            data.Add(data3);
-            data4.image = Resource.Drawable.android;
-            data4.td_dm = "30-09-2018";
-            data4.tv_dm = "Bếp điện";
-            data4.tx_dm = "30-09-2018";
-            data.Add(data4);
+            var model = new RestApi();
+            try
+            {
+                HttpResponseMessage message = model.GetAsync("http://172.19.200.72:45461/odata/Equipment").Result;
+                if (message.IsSuccessStatusCode)
+                {
+                    var content = message.Content.ReadAsStringAsync();
+                    var response = JsonConvert.DeserializeObject<ValueResponse>(content.Result);
+                    int count = response.value.Count();
+                    for (int i = 0; i < count; i++)
+                    {
+                        EquipmentResponse equipment = new EquipmentResponse();
+                        equipment.Name = response.value.ElementAt(i).Name;
+                        equipment.PurchaseDate = response.value.ElementAt(i).PurchaseDate;
+                        equipment.ExpirationDate = response.value.ElementAt(i).ExpirationDate;
+                        data.Add(equipment);
+
+                    }
+                }
+                else
+                {
+                    Log.Error("Some errors", " errors");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
             equipmentAdapter = new EquipmentAdapter(data, Context);
             mRecycleView.SetAdapter(equipmentAdapter);
             equipmentAdapter.SetRecycleViewOnItemClickListener(this);
@@ -78,8 +86,8 @@ namespace AbcPlaza.Fragments
         public void OnClick(View view, int position)
         {
             Intent updateIntent = new Intent(Context, typeof(UpdateEquipmentActivity));
-            updateIntent.PutExtra("abc", data[position].td_dm);
-            updateIntent.PutExtra("cbd", data[position].tv_dm);
+            updateIntent.PutExtra("abc", data[position].PurchaseDate);
+            updateIntent.PutExtra("cbd", data[position].Id);
             StartActivity(updateIntent);
         }
 

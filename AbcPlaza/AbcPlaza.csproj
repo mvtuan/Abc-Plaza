@@ -60,8 +60,10 @@
     <Compile Include="Activities\UpdateEquipmentActivity.cs" />
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Api\Request\DemoRequest.cs" />
+    <Compile Include="Api\Response\BaseResponse.cs" />
     <Compile Include="Api\Response\DemoResponse.cs" />
-    <Compile Include="Api\Response\Equipment.cs" />
+    <Compile Include="Api\Response\EquipmentResponse.cs" />
+    <Compile Include="Api\Response\ValueResponse.cs" />
     <Compile Include="Api\RestApi.cs" />
     <Compile Include="C Sharp\AccountFragment.cs" />
     <Compile Include="C Sharp\ApartmentFragment.cs" />

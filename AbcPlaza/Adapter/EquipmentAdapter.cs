@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
+using AbcPlaza.Api;
 using AbcPlaza.Api.Response;
 using AbcPlaza.Listener;
 using Android.App;
@@ -22,11 +24,11 @@ namespace AbcPlaza.Adapter
         {
             this.recycleViewOnItemClickListener = recycleViewOnItemClickListener;
         }
-        public List<Equipment> data { get; set; }
+        public List<EquipmentResponse> data { get; set; }
         private Context mCtx;
 
 
-        public EquipmentAdapter(List<Equipment> data, Context mCtx)
+        public EquipmentAdapter(List<EquipmentResponse> data, Context mCtx)
         {
             this.data = data;
             this.mCtx = mCtx;
@@ -43,10 +45,10 @@ namespace AbcPlaza.Adapter
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             ViewHolder viewHolder = holder as ViewHolder;
+            viewHolder.tv_Name.Text = data[position].Name;
+            viewHolder.tv_Purchase.Text = data[position].PurchaseDate;
+            viewHolder.tv_Expiration.Text = data[position].ExpirationDate;
             viewHolder.img_abc.SetImageResource(data[position].image);
-            viewHolder.tv_abc.Text = data[position].tv_dm;
-            viewHolder.tx_abc.Text = data[position].tx_dm;
-            viewHolder.td_abc.Text = data[position].td_dm;
 
             viewHolder.buttonOptions_abc.Click += (sender, e) =>
             {
@@ -98,9 +100,12 @@ namespace AbcPlaza.Adapter
             {
                 case Resource.Id.menu_delete:
                     {
+                        var model = new RestApi();
+                        HttpResponseMessage message = model.DeleteAsync("http://172.19.200.72:45461/odata/Equipment/1").Result;
+
                         Console.WriteLine("postion:{0}", position);
-                        adapter.data.Remove(adapter.data[position]);
-                        adapter.NotifyItemRemoved(position);
+                        //adapter.data.Remove(adapter.data[position]);
+                        //adapter.NotifyItemRemoved(position);
                         break;
                     }
             }
@@ -113,19 +118,20 @@ namespace AbcPlaza.Adapter
         // https://www.youtube.com/watch?v=CN66PE1j7yw
         private IItemClickListener itemClickListener;
 
+       
+        public TextView tv_Name { get; set; }
+        public TextView tv_Purchase { get; set; }
+        public TextView tv_Expiration { get; set; }
         public ImageView img_abc { get; set; }
-        public TextView tv_abc { get; set; }
-        public TextView tx_abc { get; set; }
-        public TextView td_abc { get; set; }
         public Button buttonOptions_abc { get; set; }
 
 
         public ViewHolder(View itemView) : base(itemView)
         {
+            tv_Name = (TextView)itemView.FindViewById(Resource.Id.tv_name);
+            tv_Purchase = (TextView)itemView.FindViewById(Resource.Id.tv_purchase);
+            tv_Expiration = (TextView)itemView.FindViewById(Resource.Id.tv_expiration);
             img_abc = (ImageView)itemView.FindViewById(Resource.Id.img);
-            tv_abc = (TextView)itemView.FindViewById(Resource.Id.tv);
-            tx_abc = (TextView)itemView.FindViewById(Resource.Id.tx);
-            td_abc = (TextView)itemView.FindViewById(Resource.Id.td);
             buttonOptions_abc = (Button)itemView.FindViewById(Resource.Id.buttonOptions);
             itemView.SetOnClickListener(this);
             itemView.SetOnLongClickListener(this);

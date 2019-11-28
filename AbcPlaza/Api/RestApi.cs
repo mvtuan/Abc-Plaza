@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Android.App;
@@ -22,6 +23,7 @@ namespace AbcPlaza.Api
 
         public async Task<HttpResponseMessage> GetAsync(string url)
         {
+            //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             var uri = new Uri(url);
             return await client.GetAsync(uri);
         }
