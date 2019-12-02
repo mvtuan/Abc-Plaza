@@ -60,7 +60,6 @@
     <Compile Include="Activities\UpdateEquipmentActivity.cs" />
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Api\Request\DemoRequest.cs" />
-    <Compile Include="Api\Response\BaseResponse.cs" />
     <Compile Include="Api\Response\DemoResponse.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
     <Compile Include="Api\Response\ValueResponse.cs" />
@@ -190,11 +189,6 @@
     <AndroidResource Include="Resources\drawable\ic_property_black_18dp.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\demo.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_equipment_support.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -243,6 +237,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\android.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\demo.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

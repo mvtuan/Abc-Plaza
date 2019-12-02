@@ -162,7 +162,7 @@
             </android.support.v7.widget.CardView>
 
 			<Button
-                android:id="@+id/btn_add_agp_create"
+                android:id="@+id/btn_add_equipment"
                 android:layout_width="140dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"

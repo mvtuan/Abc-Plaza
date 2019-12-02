@@ -49,7 +49,6 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\fragmen
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\fragment_account.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\fragment_bills.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\drawable\ic_property_black_18dp.xml
-D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\demo.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\fragment_equipment_support.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\activity_ui.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\fragment_equipment.xml
@@ -119,3 +118,4 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Sys
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\System.Xml.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\AbcPlaza.csprojAssemblyReference.cache
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\demo.xml

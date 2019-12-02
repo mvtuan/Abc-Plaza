@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using AbcPlaza.Api;
 using AbcPlaza.Api.Response;
 using AbcPlaza.Listener;
@@ -11,6 +12,7 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.Widget;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 
@@ -34,6 +36,10 @@ namespace AbcPlaza.Adapter
             this.mCtx = mCtx;
         }
 
+        public EquipmentAdapter()
+        {
+        }
+
         public override int ItemCount
         {
             get
@@ -41,14 +47,13 @@ namespace AbcPlaza.Adapter
                 return data.Count;
             }
         }
-
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             ViewHolder viewHolder = holder as ViewHolder;
             viewHolder.tv_Name.Text = data[position].Name;
             viewHolder.tv_Purchase.Text = data[position].PurchaseDate;
             viewHolder.tv_Expiration.Text = data[position].ExpirationDate;
-            viewHolder.img_abc.SetImageResource(data[position].image);
+            //viewHolder.img_abc.SetImageResource(data[position].image);
 
             viewHolder.buttonOptions_abc.Click += (sender, e) =>
             {
@@ -82,7 +87,15 @@ namespace AbcPlaza.Adapter
             }
 
         }
+
+        public void AddItem(EquipmentResponse equipment)
+        {
+            //this.data.Add(equipment);
+            this.NotifyItemInserted(5);
+            this.NotifyDataSetChanged();
+        }
     }
+
     public class MyOnMenuItemClickListener : Java.Lang.Object, Android.Support.V7.Widget.PopupMenu.IOnMenuItemClickListener
     {
         readonly EquipmentAdapter adapter;
@@ -100,12 +113,28 @@ namespace AbcPlaza.Adapter
             {
                 case Resource.Id.menu_delete:
                     {
-                        var model = new RestApi();
-                        HttpResponseMessage message = model.DeleteAsync("http://172.19.200.72:45461/odata/Equipment/1").Result;
-
-                        Console.WriteLine("postion:{0}", position);
-                        //adapter.data.Remove(adapter.data[position]);
-                        //adapter.NotifyItemRemoved(position);
+                        try
+                        {
+                            string id = adapter.data.ElementAt(position).Id;
+                            HttpClient client = new HttpClient();
+                            string url = "http://192.168.1.233:45455/odata/Equipment/" + id;
+                            var uri = new Uri(url);
+                            Task<HttpResponseMessage> message = client.DeleteAsync(uri);
+                            if (message.Result.IsSuccessStatusCode)
+                            {
+                                adapter.data.Remove(adapter.data[position]);
+                                adapter.NotifyItemRemoved(position);
+                                adapter.NotifyDataSetChanged();
+                            }
+                            else
+                            {
+                                Log.Error("Some errors", " errors");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.ToString());
+                        }
                         break;
                     }
             }
@@ -118,7 +147,7 @@ namespace AbcPlaza.Adapter
         // https://www.youtube.com/watch?v=CN66PE1j7yw
         private IItemClickListener itemClickListener;
 
-       
+
         public TextView tv_Name { get; set; }
         public TextView tv_Purchase { get; set; }
         public TextView tv_Expiration { get; set; }

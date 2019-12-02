@@ -22,7 +22,7 @@ namespace AbcPlaza.Api.Response
 
         public string ExpirationDate { get; set; }
 
-        public int image { get; set; }
+        //public int image { get; set; }
 
 
     }

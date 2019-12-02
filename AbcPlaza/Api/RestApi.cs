@@ -23,7 +23,6 @@ namespace AbcPlaza.Api
 
         public async Task<HttpResponseMessage> GetAsync(string url)
         {
-            //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             var uri = new Uri(url);
             return await client.GetAsync(uri);
         }
