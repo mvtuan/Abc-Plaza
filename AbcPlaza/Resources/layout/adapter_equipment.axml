@@ -11,51 +11,91 @@
 		android:layout_height="match_parent"
 		android:layout_width="wrap_content"
 		android:layout_gravity="center"
-		card_view:cardElevation="6dp" 
-		card_view:cardCornerRadius="4dp"  
-		card_view:cardUseCompatPadding="true">
+		android:clickable="false"
+		card_view:cardBackgroundColor="#ffffff"
+		card_view:cardElevation="28dp"
+		>
+		
 
 		<RelativeLayout
 			android:layout_height="match_parent"
 			android:layout_width="match_parent">
+
 			<ImageView
 				android:id="@+id/img"
 				android:layout_width="100dp"
-				android:layout_height="100dp"/>
-				
-
+				android:layout_height="100dp"/>		
+			
 			<TextView
 				android:id="@+id/tv_name"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_margin="6dp"
 				android:layout_toRightOf="@+id/img"
 				android:layout_marginLeft="10dp"
 				android:text="Máy quạt"
 				android:textSize="15sp"/>
+
 			<TextView
-				android:id="@+id/tv_purchase"
+				android:id="@+id/txt_purchase"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:layout_below="@+id/tv_name"
 				android:layout_toRightOf="@+id/img"
-				android:layout_marginLeft="10dp"
-				android:text="Ngày mua"
-				android:textSize="12sp"/>
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="1dp"
+				android:text="Ngày mua:"
+				android:textSize="10sp"/>
+			
 			<TextView
-				android:id="@+id/tv_expiration"
+				android:id="@+id/tv_purchase"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv_name"
+				android:layout_toRightOf="@+id/txt_purchase"
+				android:layout_marginLeft="3dp"
+				android:layout_marginTop="1dp"
+				android:text="01-01-2019"
+				android:textSize="10sp"/>
+
+			<TextView
+				android:id="@+id/txt_expiration"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:layout_below="@+id/tv_purchase"
 				android:layout_marginTop="7dp"
-				android:layout_marginLeft="10dp"
-				android:text="Hạn sử dụng"
+				android:layout_marginLeft="5dp"
+				android:text="Hạn bảo hành:"
 				android:layout_toRightOf="@+id/img"
-				android:textSize="12sp"/>
+				android:textSize="10sp"/>
+
+			<TextView
+				android:id="@+id/tv_expiration"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/tv_purchase"
+				android:layout_toRightOf="@+id/txt_expiration"
+				android:layout_marginTop="7dp"
+				android:layout_marginLeft="3dp"
+				android:text="5"
+				android:textSize="10sp"/>
+
+			<TextView
+				android:id="@+id/txt_month"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/txt_purchase"
+				android:layout_toRightOf="@+id/tv_expiration"
+				android:layout_marginTop="7dp"
+				android:layout_marginLeft="5dp"
+				android:text="tháng"
+				android:textSize="10sp"/>
 			
 		<Button
         android:id="@+id/buttonOptions"
         android:layout_width="10dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginEnd="10dp"
@@ -68,5 +108,4 @@
 		</RelativeLayout>
 
 		</android.support.v7.widget.CardView>
-
-</LinearLayout>
+	</LinearLayout>

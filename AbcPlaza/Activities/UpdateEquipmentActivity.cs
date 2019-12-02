@@ -46,12 +46,12 @@ namespace AbcPlaza.Activities
                 try
                 {
                     HttpClient client = new HttpClient();
-                    var uri = new Uri("http://192.168.1.233:45455/odata/Equipment/65");
+                    var uri = new Uri("http://172.19.200.228:45455/odata/Equipment/65");
                     EquipmentResponse equipment = new EquipmentResponse();
                     equipment.Id = "65";
-                    equipment.Name = "abcd";
+                    equipment.EquipmentName = "abcd";
                     equipment.PurchaseDate = "2021-01-01";
-                    equipment.ExpirationDate = "2021-01-01";
+                    equipment.WarrantyPeriod = 18;
                     var json = JsonConvert.SerializeObject(equipment);
                     var content = new StringContent(json, Encoding.UTF8, "application/json");
                     Task<HttpResponseMessage> message = client.PutAsync(uri, content);

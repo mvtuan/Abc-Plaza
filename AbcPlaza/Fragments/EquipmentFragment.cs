@@ -124,7 +124,7 @@ namespace AbcPlaza.Fragments
                     srAGP.Refreshing = true;
                 }
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://192.168.1.233:45455/odata/Equipment");
+                var uri = new Uri("http://172.19.200.228:45455/odata/Equipment");
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
@@ -140,9 +140,10 @@ namespace AbcPlaza.Fragments
                     {
                         EquipmentResponse equipment = new EquipmentResponse();
                         equipment.Id = response.value.ElementAt(i).Id;
-                        equipment.Name = response.value.ElementAt(i).Name;
+                        equipment.EquipmentName = response.value.ElementAt(i).EquipmentName;
                         equipment.PurchaseDate = response.value.ElementAt(i).PurchaseDate;
-                        equipment.ExpirationDate = response.value.ElementAt(i).ExpirationDate;
+                        equipment.WarrantyPeriod = response.value.ElementAt(i).WarrantyPeriod;
+                        
                         equipments.Add(equipment);
                         equipmentAdapter.NotifyDataSetChanged();
 

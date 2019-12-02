@@ -16,11 +16,12 @@ namespace AbcPlaza.Api.Response
     {
         public string Id { get; set; }
 
-        public string Name { get; set; }
+        public string EquipmentName { get; set; }
 
         public string PurchaseDate { get; set; }
 
-        public string ExpirationDate { get; set; }
+        public int WarrantyPeriod { get; set; }
+
 
         //public int image { get; set; }
 

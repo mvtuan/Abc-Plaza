@@ -50,10 +50,11 @@ namespace AbcPlaza.Adapter
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             ViewHolder viewHolder = holder as ViewHolder;
-            viewHolder.tv_Name.Text = data[position].Name;
+            viewHolder.tv_Name.Text = data[position].EquipmentName;
             viewHolder.tv_Purchase.Text = data[position].PurchaseDate;
-            viewHolder.tv_Expiration.Text = data[position].ExpirationDate;
+            viewHolder.tv_Expiration.Text = data[position].WarrantyPeriod.ToString();
             //viewHolder.img_abc.SetImageResource(data[position].image);
+            viewHolder.img_abc.SetImageResource(Resource.Drawable.fan);
 
             viewHolder.buttonOptions_abc.Click += (sender, e) =>
             {
@@ -117,7 +118,7 @@ namespace AbcPlaza.Adapter
                         {
                             string id = adapter.data.ElementAt(position).Id;
                             HttpClient client = new HttpClient();
-                            string url = "http://192.168.1.233:45455/odata/Equipment/" + id;
+                            string url = "http://172.19.200.228:45455/odata/Equipment/" + id;
                             var uri = new Uri(url);
                             Task<HttpResponseMessage> message = client.DeleteAsync(uri);
                             if (message.Result.IsSuccessStatusCode)
