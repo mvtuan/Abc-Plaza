@@ -124,7 +124,7 @@ namespace AbcPlaza.Fragments
                     srAGP.Refreshing = true;
                 }
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://172.19.200.228:45455/odata/Equipment");
+                var uri = new Uri("http://192.168.1.233:45455/odata/Equipment");
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
@@ -165,7 +165,7 @@ namespace AbcPlaza.Fragments
         {
             Intent updateIntent = new Intent(Context, typeof(UpdateEquipmentActivity));
             updateIntent.PutExtra("abc", equipments[position].PurchaseDate);
-            updateIntent.PutExtra("cbd", equipments[position].Id);
+            updateIntent.PutExtra("id", equipments[position].Id);
             StartActivityForResult(updateIntent, 100);
             //StartActivity(updateIntent);
         }

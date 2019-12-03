@@ -16,6 +16,7 @@ using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Android.Util;
 using AbcPlaza.Api.Response;
+using Java.Util;
 
 namespace AbcPlaza.Activities
 {
@@ -25,6 +26,10 @@ namespace AbcPlaza.Activities
         //private Button btnImage;
         //private CircleImageView imgAGP;
 
+       
+        private EditText updateEquipmentName;
+        private EditText updatePurchaseDate;
+        private EditText updateWarrantyPeriod;
         private Button updateEquipment;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -32,6 +37,9 @@ namespace AbcPlaza.Activities
             SetContentView(Resource.Layout.activity_update_equipment);
 
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+            updateEquipmentName = FindViewById<EditText>(Resource.Id.edt_update_equipment_name);
+            updatePurchaseDate = FindViewById<EditText>(Resource.Id.edt_update_purchase_date);
+            updateWarrantyPeriod = FindViewById<EditText>(Resource.Id.edt_update_warranty_period);
             updateEquipment = FindViewById<Button>(Resource.Id.btn_update_equipment);
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
@@ -41,17 +49,33 @@ namespace AbcPlaza.Activities
 
             // Create your application here
 
+            updatePurchaseDate.Click += (sender, e) =>
+            {
+                Calendar cldr = Calendar.Instance;
+                int day = cldr.Get(CalendarField.DayOfMonth);
+                int month = cldr.Get(CalendarField.Month);
+                int year = cldr.Get(CalendarField.Year);
+                // date picker dialog
+                DatePickerDialog picker = new DatePickerDialog(this, OnDateSet, year, month, day);
+                picker.Show();
+            };
+
             updateEquipment.Click += (sender, e) =>
             {
                 try
                 {
-                    HttpClient client = new HttpClient();
-                    var uri = new Uri("http://172.19.200.228:45455/odata/Equipment/65");
+                    
                     EquipmentResponse equipment = new EquipmentResponse();
-                    equipment.Id = "65";
-                    equipment.EquipmentName = "abcd";
-                    equipment.PurchaseDate = "2021-01-01";
-                    equipment.WarrantyPeriod = 18;
+                    equipment.Id = Intent.GetStringExtra("id");
+                    equipment.EquipmentName = updateEquipmentName.Text.ToString();
+                    string update = updatePurchaseDate.Text.ToString();
+                    DateTime dt = DateTime.ParseExact(update, "dd/MM/yyyy", null);
+                    equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
+                    string warrantyPeriod = updateWarrantyPeriod.Text.ToString();
+                    equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
+                    string url = "http://192.168.1.233:45455/odata/Equipment/" + equipment.Id;
+                    HttpClient client = new HttpClient();
+                    var uri = new Uri(url);
                     var json = JsonConvert.SerializeObject(equipment);
                     var content = new StringContent(json, Encoding.UTF8, "application/json");
                     Task<HttpResponseMessage> message = client.PutAsync(uri, content);
@@ -59,7 +83,6 @@ namespace AbcPlaza.Activities
                     {
                         Intent data = new Intent();
                         // Truyền data vào intent
-                     
                         SetResult(Result.Ok, data);
                         Finish();
                     }
@@ -73,6 +96,28 @@ namespace AbcPlaza.Activities
                     Console.WriteLine(ex.ToString());
                 }
             };
+        }
+        private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)
+        {
+            if (e.Date.Day.ToString().Length < 2 && e.Date.Month.ToString().Length < 2)
+            {
+                updatePurchaseDate.Text = "0" + e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+            }
+            else
+            {
+                if (e.Date.Day.ToString().Length < 2)
+                {
+                    updatePurchaseDate.Text = "0" + e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else if (e.Date.Month.ToString().Length < 2)
+                {
+                    updatePurchaseDate.Text = e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else
+                {
+                    updatePurchaseDate.Text = e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+            }
         }
         private void openFileChooser()
         {

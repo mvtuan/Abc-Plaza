@@ -24,7 +24,7 @@ namespace AbcPlaza.Activities
     [Activity(Label = "Thêm thiết bị")]
     public class AddEquipmentActivity : AppCompatActivity
     {
-        public static  String EXTRA_DATA = "EXTRA_DATA";
+        public static String EXTRA_DATA = "EXTRA_DATA";
 
         private EditText addEquipmentName;
         private EditText addPurchaseDate;
@@ -53,12 +53,13 @@ namespace AbcPlaza.Activities
                  try
                  {
                      HttpClient client = new HttpClient();
-                     var uri = new Uri("http://172.19.200.228:45455/odata/Equipment");
+                     var uri = new Uri("http://192.168.1.233:45455/odata/Equipment");
                      EquipmentResponse equipment = new EquipmentResponse();
                      equipment.Id = "1";
                      equipment.EquipmentName = addEquipmentName.Text.ToString();
-                     //equipment.PurchaseDate = addPurchaseDate.Text.ToString();
-                     equipment.PurchaseDate = "2010-01-01";
+                     string add = addPurchaseDate.Text.ToString();      
+                     DateTime dt = DateTime.ParseExact(add, "dd/MM/yyyy", null);
+                     equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
                      string warrantyPeriod = addWarrantyPeriod.Text.ToString();
                      equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
                      var json = JsonConvert.SerializeObject(equipment);
@@ -68,19 +69,19 @@ namespace AbcPlaza.Activities
                      {
                          Intent data = new Intent();
                          data.PutExtra(EXTRA_DATA, "Some interesting data!");
-                         SetResult(Result.Ok,data);
-                         Finish(); 
+                         SetResult(Result.Ok, data);
+                         Finish();
                      }
                      else
                      {
                          Log.Error("Some errors", " errors");
                      }
                  }
-                 catch(Exception ex)
+                 catch (Exception ex)
                  {
                      Console.WriteLine(ex.ToString());
                  }
-                
+
              };
 
 
@@ -94,7 +95,25 @@ namespace AbcPlaza.Activities
 
         private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)
         {
-            addPurchaseDate.Text = e.Date.ToShortDateString();
+            if (e.Date.Day.ToString().Length < 2 && e.Date.Month.ToString().Length < 2)
+            {
+                addPurchaseDate.Text = "0" + e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+            }
+            else
+            {
+                if (e.Date.Day.ToString().Length < 2)
+                {
+                    addPurchaseDate.Text = "0" + e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else if (e.Date.Month.ToString().Length < 2)
+                {
+                    addPurchaseDate.Text = e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else
+                {
+                    addPurchaseDate.Text = e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+            }
         }
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
