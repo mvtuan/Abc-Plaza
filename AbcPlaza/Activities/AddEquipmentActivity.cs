@@ -10,7 +10,6 @@ using Android.Runtime;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
-using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 using Java.Util;
 using Newtonsoft.Json;
 using System.Net.Http;
@@ -34,6 +33,20 @@ namespace AbcPlaza.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_add_equipment);
+
+
+            //ActionBar.SetTitle(Resource.String.title_add_equipment);
+
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            //SupportActionBar.SetHomeButtonEnabled(true);
+            // Create your application here
+
+            //SupportActionBar.SetTitle(Resource.String.title_add_equipment);
+            //SupportActionBar.Title = "123";
+            //SupportActionBar
             addEquipmentName = (EditText)FindViewById(Resource.Id.edt_add_equipment_name);
             addPurchaseDate = (EditText)FindViewById(Resource.Id.edt_add_purchase_date);
             addWarrantyPeriod = (EditText)FindViewById(Resource.Id.edt_add_warranty_period);
@@ -53,7 +66,7 @@ namespace AbcPlaza.Activities
                  try
                  {
                      HttpClient client = new HttpClient();
-                     var uri = new Uri("http://192.168.1.233:45455/odata/Equipment");
+                     var uri = new Uri("http://172.19.200.228:45457/odata/Equipment");
                      EquipmentResponse equipment = new EquipmentResponse();
                      equipment.Id = "1";
                      equipment.EquipmentName = addEquipmentName.Text.ToString();
@@ -85,12 +98,6 @@ namespace AbcPlaza.Activities
              };
 
 
-            var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            SupportActionBar.SetDisplayShowTitleEnabled(true);
-            //SupportActionBar.SetHomeButtonEnabled(true);
-            // Create your application here
         }
 
         private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)

@@ -14,7 +14,7 @@ using System;
 
 namespace AbcPlaza.Fragments
 {
-    [Activity(Label = "UIActivity", MainLauncher = true)]
+    [Activity(Label = "Thông tin tài sản")]
     public class UIActivity : AppCompatActivity
     {
         ViewPager viewpager;
@@ -25,10 +25,13 @@ namespace AbcPlaza.Fragments
             SetContentView(Resource.Layout.activity_ui);
             viewpager = FindViewById<Android.Support.V4.View.ViewPager>(Resource.Id.viewpager);
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+         
             SetSupportActionBar(toolbar);
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
-            SupportActionBar.SetDisplayShowTitleEnabled(false);
-            SupportActionBar.SetHomeButtonEnabled(false);
+            
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            //SupportActionBar.SetHomeButtonEnabled(false);
+            //SupportActionBar.SetTitle(Resource.String.title_abc);
             setupViewPager(viewpager);
             var tabLayout = FindViewById<TabLayout>(Resource.Id.tabs);
             tabLayout.SetupWithViewPager(viewpager);

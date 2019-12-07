@@ -2438,8 +2438,8 @@ namespace AbcPlaza
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020031
-			public const int a = 2130837553;
+			// aapt resource value: 0x7F020033
+			public const int a = 2130837555;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2507,8 +2507,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F020002
-			public const int appbar = 2130837506;
+			// aapt resource value: 0x7F020014
+			public const int appbar = 2130837524;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -2522,23 +2522,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020009
-			public const int btn_add_equipment = 2130837513;
+			// aapt resource value: 0x7F020008
+			public const int btn_add_equipment = 2130837512;
 			
-			// aapt resource value: 0x7F020030
-			public const int btn_demo = 2130837552;
+			// aapt resource value: 0x7F020032
+			public const int btn_demo = 2130837554;
 			
-			// aapt resource value: 0x7F020005
-			public const int btn_update_agp_image = 2130837509;
+			// aapt resource value: 0x7F020004
+			public const int btn_update_agp_image = 2130837508;
 			
-			// aapt resource value: 0x7F020020
-			public const int btn_update_equipment = 2130837536;
+			// aapt resource value: 0x7F020022
+			public const int btn_update_equipment = 2130837538;
 			
-			// aapt resource value: 0x7F020038
-			public const int button = 2130837560;
+			// aapt resource value: 0x7F020039
+			public const int button = 2130837561;
 			
-			// aapt resource value: 0x7F020029
-			public const int buttonOptions = 2130837545;
+			// aapt resource value: 0x7F020031
+			public const int buttonOptions = 2130837553;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2555,14 +2555,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020010
-			public const int container = 2130837520;
+			// aapt resource value: 0x7F020009
+			public const int container = 2130837513;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
-			// aapt resource value: 0x7F020011
-			public const int content_frame = 2130837521;
+			// aapt resource value: 0x7F020010
+			public const int content_frame = 2130837520;
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
@@ -2573,8 +2573,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020021
-			public const int cv = 2130837537;
+			// aapt resource value: 0x7F020023
+			public const int cv = 2130837539;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2597,29 +2597,29 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F020037
-			public const int editText1 = 2130837559;
+			// aapt resource value: 0x7F020038
+			public const int editText1 = 2130837560;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
+			// aapt resource value: 0x7F020005
+			public const int edt_add_equipment_name = 2130837509;
+			
 			// aapt resource value: 0x7F020006
-			public const int edt_add_equipment_name = 2130837510;
+			public const int edt_add_purchase_date = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int edt_add_purchase_date = 2130837511;
-			
-			// aapt resource value: 0x7F020008
-			public const int edt_add_warranty_period = 2130837512;
-			
-			// aapt resource value: 0x7F020017
-			public const int edt_update_equipment_name = 2130837527;
-			
-			// aapt resource value: 0x7F020018
-			public const int edt_update_purchase_date = 2130837528;
+			public const int edt_add_warranty_period = 2130837511;
 			
 			// aapt resource value: 0x7F020019
-			public const int edt_update_warranty_period = 2130837529;
+			public const int edt_update_equipment_name = 2130837529;
+			
+			// aapt resource value: 0x7F020020
+			public const int edt_update_purchase_date = 2130837536;
+			
+			// aapt resource value: 0x7F020021
+			public const int edt_update_warranty_period = 2130837537;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
@@ -2633,8 +2633,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F020034
-			public const int fab_add_equipment = 2130837556;
+			// aapt resource value: 0x7F020035
+			public const int fab_add_equipment = 2130837557;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2660,11 +2660,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F020022
-			public const int img = 2130837538;
+			// aapt resource value: 0x7F020024
+			public const int img = 2130837540;
 			
-			// aapt resource value: 0x7F020004
-			public const int img_update_agp_image = 2130837508;
+			// aapt resource value: 0x7F020003
+			public const int img_update_agp_image = 2130837507;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2693,8 +2693,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020014
-			public const int main_content = 2130837524;
+			// aapt resource value: 0x7F020002
+			public const int ll_add = 2130837506;
+			
+			// aapt resource value: 0x7F020018
+			public const int ll_update = 2130837528;
+			
+			// aapt resource value: 0x7F020013
+			public const int main_content = 2130837523;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2702,11 +2708,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020044
-			public const int menu_delete = 2130837572;
+			// aapt resource value: 0x7F020046
+			public const int menu_delete = 2130837574;
 			
-			// aapt resource value: 0x7F020012
-			public const int message = 2130837522;
+			// aapt resource value: 0x7F020011
+			public const int message = 2130837521;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -2714,26 +2720,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020013
-			public const int navigation = 2130837523;
+			// aapt resource value: 0x7F020012
+			public const int navigation = 2130837522;
+			
+			// aapt resource value: 0x7F020045
+			public const int navigation_account = 2130837573;
+			
+			// aapt resource value: 0x7F020042
+			public const int navigation_apartment = 2130837570;
 			
 			// aapt resource value: 0x7F020043
-			public const int navigation_account = 2130837571;
-			
-			// aapt resource value: 0x7F020040
-			public const int navigation_apartment = 2130837568;
-			
-			// aapt resource value: 0x7F020041
-			public const int navigation_bills = 2130837569;
+			public const int navigation_bills = 2130837571;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020042
-			public const int navigation_notifications = 2130837570;
+			// aapt resource value: 0x7F020044
+			public const int navigation_notifications = 2130837572;
 			
-			// aapt resource value: 0x7F020039
-			public const int navigation_service = 2130837561;
+			// aapt resource value: 0x7F020041
+			public const int navigation_service = 2130837569;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2771,8 +2777,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F020033
-			public const int recyclerView = 2130837555;
+			// aapt resource value: 0x7F020034
+			public const int recyclerView = 2130837556;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2855,8 +2861,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C006E
 			public const int spacer = 2131492974;
 			
-			// aapt resource value: 0x7F020036
-			public const int spinner = 2130837558;
+			// aapt resource value: 0x7F020037
+			public const int spinner = 2130837559;
 			
 			// aapt resource value: 0x7F0C006F
 			public const int split_action_bar = 2131492975;
@@ -2869,9 +2875,6 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
-			
-			// aapt resource value: 0x7F020032
-			public const int sr_agricultural_product = 2130837554;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -2888,8 +2891,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
 			
-			// aapt resource value: 0x7F020015
-			public const int tabs = 2130837525;
+			// aapt resource value: 0x7F020016
+			public const int tabs = 2130837526;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
@@ -2912,8 +2915,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020035
-			public const int textView1 = 2130837557;
+			// aapt resource value: 0x7F020036
+			public const int textView1 = 2130837558;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2930,8 +2933,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
 			
-			// aapt resource value: 0x7F020003
-			public const int toolbar = 2130837507;
+			// aapt resource value: 0x7F020015
+			public const int toolbar = 2130837525;
+			
+			// aapt resource value: 0x7F020040
+			public const int toolbar_main = 2130837568;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2957,23 +2963,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F020027
-			public const int tv_expiration = 2130837543;
-			
-			// aapt resource value: 0x7F020023
-			public const int tv_name = 2130837539;
+			// aapt resource value: 0x7F020029
+			public const int tv_expiration = 2130837545;
 			
 			// aapt resource value: 0x7F020025
-			public const int tv_purchase = 2130837541;
+			public const int tv_name = 2130837541;
 			
-			// aapt resource value: 0x7F020026
-			public const int txt_expiration = 2130837542;
+			// aapt resource value: 0x7F020027
+			public const int tv_purchase = 2130837543;
 			
 			// aapt resource value: 0x7F020028
-			public const int txt_month = 2130837544;
+			public const int txt_expiration = 2130837544;
 			
-			// aapt resource value: 0x7F020024
-			public const int txt_purchase = 2130837540;
+			// aapt resource value: 0x7F020030
+			public const int txt_month = 2130837552;
+			
+			// aapt resource value: 0x7F020026
+			public const int txt_purchase = 2130837542;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2981,8 +2987,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020016
-			public const int viewpager = 2130837526;
+			// aapt resource value: 0x7F020017
+			public const int viewpager = 2130837527;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3271,6 +3277,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
+			// aapt resource value: 0x7F030017
+			public const int toolbar = 2130903063;
+			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
@@ -3430,20 +3439,20 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
-			// aapt resource value: 0x7F080010
-			public const int btn_agp_add = 2131230736;
-			
 			// aapt resource value: 0x7F080012
-			public const int btn_agp_update = 2131230738;
+			public const int btn_agp_add = 2131230738;
 			
-			// aapt resource value: 0x7F080013
-			public const int btn_send = 2131230739;
+			// aapt resource value: 0x7F080014
+			public const int btn_agp_update = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int btn_send = 2131230741;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F080014
-			public const int menu_item_equipment_delete = 2131230740;
+			// aapt resource value: 0x7F080016
+			public const int menu_item_equipment_delete = 2131230742;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;
@@ -3466,8 +3475,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
 			
+			// aapt resource value: 0x7F080017
+			public const int title_abc = 2131230743;
+			
 			// aapt resource value: 0x7F080008
 			public const int title_accounts = 2131230728;
+			
+			// aapt resource value: 0x7F080011
+			public const int title_add_equipment = 2131230737;
 			
 			// aapt resource value: 0x7F080009
 			public const int title_apartment = 2131230729;
@@ -3478,6 +3493,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080004
 			public const int title_dashboard = 2131230724;
 			
+			// aapt resource value: 0x7F080010
+			public const int title_equipment = 2131230736;
+			
 			// aapt resource value: 0x7F080003
 			public const int title_home = 2131230723;
 			
@@ -3487,8 +3505,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080006
 			public const int title_services = 2131230726;
 			
-			// aapt resource value: 0x7F080011
-			public const int txt_agp_add_detect_temperature = 2131230737;
+			// aapt resource value: 0x7F080013
+			public const int txt_agp_add_detect_temperature = 2131230739;
 			
 			static String()
 			{
@@ -4417,6 +4435,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F16012B
 			public const int Theme_Design_NoActionBar = 2132148523;
+			
+			// aapt resource value: 0x7F090004
+			public const int Toolbar_TitleText = 2131296260;
 			
 			// aapt resource value: 0x7F16012C
 			public const int Widget_AppCompat_ActionBar = 2132148524;

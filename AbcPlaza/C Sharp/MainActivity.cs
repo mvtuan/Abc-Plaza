@@ -3,24 +3,28 @@ using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
-using Android.Support.V4.App;
-using Android.Views;
 using Android.Widget;
 using Android.App;
 using AbcPlaza.Fragments;
 
 namespace AbcPlaza
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         TextView textMessage;
+        private Android.Support.V7.Widget.Toolbar toolbar = null;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
 
+            SetSupportActionBar(toolbar);
+
+            //SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
 
@@ -38,10 +42,11 @@ namespace AbcPlaza
         {
             //load fragment
             Android.Support.V4.App.Fragment fragment = null;
-            switch(id)
+            switch (id)
             {
                 case Resource.Id.navigation_service:
-                    fragment = ServiceFragment.NewInstance();
+                    fragment = EquipmentFragment.NewInstance();
+                    toolbar.SetTitle(Resource.String.title_equipment);
                     break;
                 case Resource.Id.navigation_apartment:
                     fragment = ApartmentFragment.NewInstance();
@@ -55,7 +60,7 @@ namespace AbcPlaza
                 case Resource.Id.navigation_account:
                     fragment = AccountFragment.NewInstance();
                     break;
-              
+
 
             }
             if (fragment == null)

@@ -118,7 +118,7 @@ namespace AbcPlaza.Adapter
                         {
                             string id = adapter.data.ElementAt(position).Id;
                             HttpClient client = new HttpClient();
-                            string url = "http://192.168.1.233:45455/odata/Equipment/" + id;
+                            string url = "http://172.19.200.228:45457/odata/Equipment/" + id;
                             var uri = new Uri(url);
                             Task<HttpResponseMessage> message = client.DeleteAsync(uri);
                             if (message.Result.IsSuccessStatusCode)

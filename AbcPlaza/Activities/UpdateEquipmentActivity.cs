@@ -36,14 +36,18 @@ namespace AbcPlaza.Activities
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_update_equipment);
 
-            var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+            //var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
+
+
             updateEquipmentName = FindViewById<EditText>(Resource.Id.edt_update_equipment_name);
             updatePurchaseDate = FindViewById<EditText>(Resource.Id.edt_update_purchase_date);
             updateWarrantyPeriod = FindViewById<EditText>(Resource.Id.edt_update_warranty_period);
             updateEquipment = FindViewById<Button>(Resource.Id.btn_update_equipment);
-            SetSupportActionBar(toolbar);
-            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            SupportActionBar.SetDisplayShowTitleEnabled(true);
+      
 
             //btnImage = (Button)FindViewById(Resource.Id.btn_update_agp_image);
 
@@ -73,7 +77,7 @@ namespace AbcPlaza.Activities
                     equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
                     string warrantyPeriod = updateWarrantyPeriod.Text.ToString();
                     equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
-                    string url = "http://192.168.1.233:45455/odata/Equipment/" + equipment.Id;
+                    string url = "http://172.19.200.228:45457/odata/Equipment/" + equipment.Id;
                     HttpClient client = new HttpClient();
                     var uri = new Uri(url);
                     var json = JsonConvert.SerializeObject(equipment);
