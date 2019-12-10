@@ -44,6 +44,7 @@ D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\res\layout\fragment_c
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\res\layout\fragment_detail_notification.xml
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\res\layout\fragment_notification.xml
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\res\layout\fragment_write_feedback.xml
+D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\res\layout\fragment_feedback.xml
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\R.cs.flag
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\R.txt
 D:\Document\PTUDHTTTHD\Nhu\ManageNotification\obj\Debug\81\uploadflags.txt

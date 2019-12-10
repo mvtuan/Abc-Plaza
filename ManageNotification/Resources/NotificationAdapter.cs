@@ -24,11 +24,19 @@ namespace ManageNotification.Resources
     {
         private Activity activity;
         private List<Notification> notifications;
+        private MainActivity mainActivity;
+        private Notification notification;
 
         public NotificationAdapter(Activity activity, List<Notification>notifications)
         {
             this.activity = activity;
             this.notifications = notifications;
+        }
+
+        public NotificationAdapter(MainActivity mainActivity, Notification notification)
+        {
+            this.mainActivity = mainActivity;
+            this.notification = notification;
         }
 
         public override int Count
@@ -51,7 +59,7 @@ namespace ManageNotification.Resources
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-           
+
             var view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.fragment_notification, parent, false);
             var txtTitle = view.FindViewById<TextView>(Resource.Id.textTitle);
             var txtContent = view.FindViewById<TextView>(Resource.Id.textContent);
@@ -63,6 +71,21 @@ namespace ManageNotification.Resources
 
             return view;
         }
+
+        //public override View GetView(int position, View convertView, ViewGroup parent)
+        //{
+
+        //    var view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.fragment_notification, parent, false);
+        //    var txtTitle1 = view.FindViewById<TextView>(Resource.Id.textTitle1);
+        //    var txtContent1 = view.FindViewById<TextView>(Resource.Id.textContent1);
+        //    var txtDate1 = view.FindViewById<TextView>(Resource.Id.textDate1);
+
+        //    txtTitle1.Text = notifications[position].title;
+        //    txtContent1.Text = notifications[position].content;
+        //    txtDate1.Text = notifications[position].date.ToString();
+
+        //    return view;
+        //}
     }
 
 }

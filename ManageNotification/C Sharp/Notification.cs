@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using ManageNotification.Resources;
 
 namespace ManageNotification
 {
@@ -19,6 +20,6 @@ namespace ManageNotification
         public int id { get; set; }
         public int sender { get; set; }
         public string title { get; set; }
-
+        public NotificationAdapter Adapter { get; internal set; }
     }
 }
