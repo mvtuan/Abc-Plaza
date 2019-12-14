@@ -56,8 +56,11 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\UIActivity.cs" />
+    <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="C Sharp\MainActivity.cs" />
     <Compile Include="C Sharp\Resident.cs" />
+    <Compile Include="Fragments\EquipmentFragment.cs" />
     <Compile Include="Resources\CustomAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -178,6 +181,24 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\ListViewDataTemplate.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_ui.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_equipment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\custom_resident_equipment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
