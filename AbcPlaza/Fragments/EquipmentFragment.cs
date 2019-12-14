@@ -22,6 +22,7 @@ using Android.Util;
 using AbcPlaza.Api.Request;
 using System.Threading.Tasks;
 using Android.Support.V4.Widget;
+using AbcPlaza.Constant;
 
 namespace AbcPlaza.Fragments
 {
@@ -85,7 +86,7 @@ namespace AbcPlaza.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://192.168.1.233:45455/odata/Equipment");
+                var uri = new Uri(Url.EQUIPMENT_URL);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
@@ -104,6 +105,7 @@ namespace AbcPlaza.Fragments
                         equipment.EquipmentName = response.value.ElementAt(i).EquipmentName;
                         equipment.PurchaseDate = response.value.ElementAt(i).PurchaseDate;
                         equipment.WarrantyPeriod = response.value.ElementAt(i).WarrantyPeriod;
+                        equipment.EquipmentImage = response.value.ElementAt(i).EquipmentImage;
                         equipments.Add(equipment);
                         equipmentAdapter.NotifyDataSetChanged();
                     }

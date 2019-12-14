@@ -1,5 +1,11 @@
 Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 Refractored.Controls.CircleImageView
+Square.OkHttp
+Square.OkIO
+Square.Picasso
 System.Net.Http.Extensions
 System.Net.Http.Primitives
 System.Runtime

@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
-using AbcPlaza.Api;
 using AbcPlaza.Api.Response;
+using AbcPlaza.Constant;
 using AbcPlaza.Listener;
-using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Square.Picasso;
 
 namespace AbcPlaza.Adapter
 {
@@ -53,8 +50,10 @@ namespace AbcPlaza.Adapter
             viewHolder.tv_Name.Text = data[position].EquipmentName;
             viewHolder.tv_Purchase.Text = data[position].PurchaseDate;
             viewHolder.tv_Expiration.Text = data[position].WarrantyPeriod.ToString();
-            //viewHolder.img_abc.SetImageResource(data[position].image);
-            viewHolder.img_abc.SetImageResource(Resource.Drawable.fan);
+            Picasso.With(mCtx)
+           .Load(data[position].EquipmentImage)
+           .Resize(90, 90)
+           .Into(viewHolder.img_abc);
 
             viewHolder.buttonOptions_abc.Click += (sender, e) =>
             {
@@ -88,13 +87,6 @@ namespace AbcPlaza.Adapter
             }
 
         }
-
-        public void AddItem(EquipmentResponse equipment)
-        {
-            //this.data.Add(equipment);
-            this.NotifyItemInserted(5);
-            this.NotifyDataSetChanged();
-        }
     }
 
     public class MyOnMenuItemClickListener : Java.Lang.Object, Android.Support.V7.Widget.PopupMenu.IOnMenuItemClickListener
@@ -118,7 +110,7 @@ namespace AbcPlaza.Adapter
                         {
                             string id = adapter.data.ElementAt(position).Id;
                             HttpClient client = new HttpClient();
-                            string url = "http://172.19.200.228:45457/odata/Equipment/" + id;
+                            string url = Url.EQUIPMENT_URL + id;
                             var uri = new Uri(url);
                             Task<HttpResponseMessage> message = client.DeleteAsync(uri);
                             if (message.Result.IsSuccessStatusCode)

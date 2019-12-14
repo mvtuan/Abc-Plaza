@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 using Android.Util;
 using AbcPlaza.Api.Response;
 using Java.Util;
+using AbcPlaza.Constant;
 
 namespace AbcPlaza.Activities
 {
@@ -77,7 +78,7 @@ namespace AbcPlaza.Activities
                     equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
                     string warrantyPeriod = updateWarrantyPeriod.Text.ToString();
                     equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
-                    string url = "http://172.19.200.228:45457/odata/Equipment/" + equipment.Id;
+                    string url = Url.EQUIPMENT_URL + equipment.Id;
                     HttpClient client = new HttpClient();
                     var uri = new Uri(url);
                     var json = JsonConvert.SerializeObject(equipment);

@@ -50,18 +50,20 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp">
 
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/img_update_agp_image"
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:layout_centerHorizontal="true"/>
+                       
+						  <ImageView
+				        android:src="@android:drawable/ic_menu_gallery"
+                        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+                        android:id="@+id/img_add_equipment_image" />
                          
 
                         <Button
-                            android:id="@+id/btn_update_agp_image"
+                            android:id="@+id/btn_add_equipment_image"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@+id/img_update_agp_image"
+                            android:layout_below="@+id/img_add_equipment_image"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="4dp"                     
                             android:textSize="12sp"

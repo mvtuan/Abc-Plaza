@@ -22,9 +22,7 @@ namespace AbcPlaza.Api.Response
 
         public int WarrantyPeriod { get; set; }
 
-
-        //public int image { get; set; }
-
+        public string EquipmentImage { get; set; }
 
     }
 }

@@ -108,7 +108,13 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "AbcPlaza.dll" comes first in this list. */
 		"AbcPlaza.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"Refractored.Controls.CircleImageView.dll",
+		"Square.OkHttp.dll",
+		"Square.OkIO.dll",
+		"Square.Picasso.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

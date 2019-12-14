@@ -72,6 +72,7 @@
     <Compile Include="C Sharp\NotificationFragment.cs" />
     <Compile Include="C Sharp\ResidentFragment.cs" />
     <Compile Include="C Sharp\ServiceFragment.cs" />
+    <Compile Include="Constant\Url.cs" />
     <Compile Include="Fragments\EquipmentFragment.cs" />
     <Compile Include="Fragments\EquipmentSupportFragment.cs" />
     <Compile Include="Fragments\SupportFragment.cs" />
@@ -128,6 +129,12 @@
     </PackageReference>
     <PackageReference Include="Refractored.Controls.CircleImageView">
       <Version>1.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Square.Picasso">
+      <Version>2.5.2.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>4.0.1.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
