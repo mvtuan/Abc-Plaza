@@ -56,11 +56,19 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\EquipmentActivity.cs" />
     <Compile Include="Activities\UIActivity.cs" />
     <Compile Include="Adapter\EquipmentAdapter.cs" />
+    <Compile Include="Adapter\ResidentAdapter.cs" />
+    <Compile Include="Api\Response\EquipmentResponse.cs" />
+    <Compile Include="Api\Response\ListResidentResponse.cs" />
+    <Compile Include="Api\Response\ResidentResponse.cs" />
     <Compile Include="C Sharp\MainActivity.cs" />
     <Compile Include="C Sharp\Resident.cs" />
-    <Compile Include="Fragments\EquipmentFragment.cs" />
+    <Compile Include="Constant\Url.cs" />
+    <Compile Include="Fragments\ResidentFragment.cs" />
+    <Compile Include="Listener\IItemClickListener.cs" />
+    <Compile Include="Listener\IRecycleViewOnItemClickListener.cs" />
     <Compile Include="Resources\CustomAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,15 +106,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v4">
-      <Version>27.0.2.1</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
-      <Version>27.0.2.1</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\navigation.xml" />
@@ -198,7 +197,40 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\custom_resident_equipment.axml">
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="System.Net.Http">
+      <Version>4.3.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Design">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\custom_resident.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Api\Request\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_equipment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\custom_equipment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

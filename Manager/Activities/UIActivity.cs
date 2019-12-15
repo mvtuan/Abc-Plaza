@@ -46,7 +46,7 @@ namespace Manager.Activities
             switch (id)
             {
                 case Resource.Id.navigation_apartments:
-                    fragment = EquipmentFragment.NewInstance();
+                    fragment = ResidentFragment.NewInstance();
                     //toolbar.SetTitle(Resource.String.title_equipment);
                     break;
                     //case Resource.Id.navigation_apartment:

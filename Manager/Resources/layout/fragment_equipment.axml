@@ -4,10 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-	<TextView
-        android:id="@+id/a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-		android:text="Thiet bi"/>
+	   <android.support.v7.widget.RecyclerView  
+		android:id="@+id/rc_resident"  
+		android:scrollbars="vertical"
+		android:layout_width="match_parent"  
+		android:layout_height="match_parent"
+		android:background="#eaecee"
+		android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+		/> 
 
 </LinearLayout>
