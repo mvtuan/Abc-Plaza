@@ -24,4 +24,9 @@ namespace Manager.Api.Response
 
         public string EquipmentImage { get; set; }
     }
+
+    public class Equipments
+    {
+        public List<EquipmentResponse> value { get; set; }
+    }
 }

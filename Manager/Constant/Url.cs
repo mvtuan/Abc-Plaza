@@ -14,7 +14,7 @@ namespace Manager.Constant
 {
     public class Url
     {
-        public static string EQUIPMENT_URL = "http://10.10.162.163:45455/odata/Equipment/";
-        public static string RESIDENT_URL = "http://172.16.0.120:45457/odata/Resident/";
+        public static string EQUIPMENT_URL = "http://10.10.162.163:45455/Equipment/";
+        public static string RESIDENT_URL = "http://172.16.0.120:45457/Resident/";
     }
 }

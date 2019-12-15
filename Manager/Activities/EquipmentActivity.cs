@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
-
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Manager.Adapter;
 using Manager.Api.Response;
+using Newtonsoft.Json;
 
 namespace Manager.Activities
 {
@@ -30,23 +33,52 @@ namespace Manager.Activities
             SetContentView(Resource.Layout.activity_equipment);
             equipmentRecyclerView = FindViewById<RecyclerView>(Resource.Id.rc_equipment);
             mLayoutManager = new LinearLayoutManager(this);
-            //mLayoutManager = new LinearLayoutManager(this);
-
             equipmentRecyclerView.SetLayoutManager(mLayoutManager);
-            EquipmentResponse r1 = new EquipmentResponse();
-            EquipmentResponse r2 = new EquipmentResponse();
-            EquipmentResponse r3 = new EquipmentResponse();
-            r1.EquipmentName = "Máy quạt";
-            r2.EquipmentName = "Bếp điện";
-            r3.EquipmentName = "Tủ lạnh";
-            equipments.Add(r1);
-            equipments.Add(r2);
-            equipments.Add(r3);
             equipmentAdapter = new EquipmentAdapter(equipments, this);
             equipmentRecyclerView.SetAdapter(equipmentAdapter);
             //equipmentAdapter.SetRecycleViewOnItemClickListener(this);
+            GetListEquipment();
 
             // Create your application here
+        }
+
+        private void GetListEquipment()
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                string residentId = Intent.GetStringExtra("id");
+                string url = "http://192.168.1.233:45457/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
+                var uri = new Uri(url);
+                Task<HttpResponseMessage> message = client.GetAsync(uri);
+                if (message.Result.IsSuccessStatusCode)
+
+                {
+                    var content = message.Result.Content.ReadAsStringAsync();
+                    var response = JsonConvert.DeserializeObject<Equipments>(content.Result);
+                    int count = response.value.Count();
+                    for (int i = 0; i < count; i++)
+                    {
+                        EquipmentResponse equipment = new EquipmentResponse();
+                        equipment.Id = response.value.ElementAt(i).Id;
+                        equipment.EquipmentName = response.value.ElementAt(i).EquipmentName;
+                        equipment.PurchaseDate = response.value.ElementAt(i).PurchaseDate;
+                        equipment.WarrantyPeriod = response.value.ElementAt(i).WarrantyPeriod;
+                        equipment.EquipmentImage = response.value.ElementAt(i).EquipmentImage;
+                        equipments.Add(equipment);
+                        equipmentAdapter.NotifyDataSetChanged();
+                    }
+                }
+                else
+                {
+                    Log.Error("Some errors", " errors");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
         }
     }
 }

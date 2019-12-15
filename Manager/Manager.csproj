@@ -61,7 +61,6 @@
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Adapter\ResidentAdapter.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
-    <Compile Include="Api\Response\ListResidentResponse.cs" />
     <Compile Include="Api\Response\ResidentResponse.cs" />
     <Compile Include="C Sharp\MainActivity.cs" />
     <Compile Include="C Sharp\Resident.cs" />

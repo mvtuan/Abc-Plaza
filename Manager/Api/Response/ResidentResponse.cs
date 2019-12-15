@@ -24,4 +24,9 @@ namespace Manager.Api.Response
 
         public string ResidentImage { get; set; }
     }
+
+    public class Residents
+    {
+        public List<ResidentResponse> value { get; set; }
+    }
 }

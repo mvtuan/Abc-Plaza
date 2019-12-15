@@ -43,9 +43,6 @@ namespace Manager.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
-            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
             View v = inflater.Inflate(Resource.Layout.fragment_equipment, container, false);
             mRecycleView = v.FindViewById<RecyclerView>(Resource.Id.rc_resident);
             mLayoutManager = new LinearLayoutManager(Context);
@@ -62,13 +59,13 @@ namespace Manager.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri(Url.RESIDENT_URL);
+                var uri = new Uri("http://192.168.1.233:45457/Resident/");
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
                 {
                     var content = message.Result.Content.ReadAsStringAsync();
-                    var response = JsonConvert.DeserializeObject<ListResidentResponse>(content.Result);
+                    var response = JsonConvert.DeserializeObject<Residents>(content.Result);
                     int count = response.value.Count();
                     for (int i = 0; i < count; i++)
                     {
@@ -97,8 +94,7 @@ namespace Manager.Fragments
         public void OnClick(View view, int position)
         {
             Intent updateIntent = new Intent(Context, typeof(EquipmentActivity));
-            //updateIntent.PutExtra("abc", equipments[position].Name);
-            //updateIntent.PutExtra("id", equipments[position].Id);
+            updateIntent.PutExtra("id", residents[position].Id);
             StartActivityForResult(updateIntent, 100);
         }
 
