@@ -11,6 +11,7 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using Manager.Api.Response;
+using Square.Picasso;
 
 namespace Manager.Adapter
 {
@@ -41,6 +42,10 @@ namespace Manager.Adapter
             viewHolder.equipmentName.Text = data[position].EquipmentName;
             viewHolder.purchase.Text = data[position].PurchaseDate;
             viewHolder.expiration.Text = data[position].WarrantyPeriod.ToString();
+            Picasso.With(context)
+            .Load(data[position].EquipmentImage)
+            .Resize(90, 90)
+            .Into(viewHolder.equipmentImage);
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)

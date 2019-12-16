@@ -6,12 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+	
+		
+
 		<FrameLayout
         android:id="@+id/content_frame"
 		android:layout_below="@+id/ln_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" 
         android:layout_above="@+id/navigation"/>
+
+	   <include layout="@layout/toolbar"/>
 		
 
     <TextView

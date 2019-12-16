@@ -108,6 +108,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Manager.dll" comes first in this list. */
 		"Manager.dll",
 		"Newtonsoft.Json.dll",
+		"Square.OkHttp.dll",
+		"Square.OkIO.dll",
+		"Square.Picasso.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

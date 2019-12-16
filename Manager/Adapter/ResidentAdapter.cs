@@ -13,6 +13,7 @@ using Android.Widget;
 using Manager.Api.Response;
 using Manager.Fragments;
 using Manager.Listener;
+using Square.Picasso;
 
 namespace Manager.Adapter
 {
@@ -47,7 +48,11 @@ namespace Manager.Adapter
             viewHolder.residentName.Text = data[position].ResidentName;
             viewHolder.room.Text = data[position].Room;
             viewHolder.floor.Text = data[position].Floor;
-            
+             Picasso.With(context)
+            .Load(data[position].ResidentImage)
+            .Resize(90, 90)
+            .Into(viewHolder.residentImage);
+
             viewHolder.SetItemClickListener(this);
         }
 

@@ -25,9 +25,9 @@ namespace Manager.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_ui);
-            //toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id);
-            //SetSupportActionBar(toolbar);
-            //SupportActionBar.SetDisplayShowTitleEnabled(true);
+            toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
@@ -47,7 +47,7 @@ namespace Manager.Activities
             {
                 case Resource.Id.navigation_apartments:
                     fragment = ResidentFragment.NewInstance();
-                    //toolbar.SetTitle(Resource.String.title_equipment);
+                    toolbar.SetTitle(Resource.String.title_equipment);
                     break;
                     //case Resource.Id.navigation_apartment:
                     //    fragment = ApartmentFragment.NewInstance();

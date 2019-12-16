@@ -3,6 +3,9 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Java
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Mono.Android.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\mscorlib.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Square.OkHttp.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Square.OkIO.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Square.Picasso.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.Core.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.Net.Http.dll

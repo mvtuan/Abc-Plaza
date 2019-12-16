@@ -110,7 +110,6 @@
 			android:layout_marginRight="5dp"
 			android:background="@android:color/transparent"
 			android:gravity="center"
-			android:text="&#8942;"
 			android:textAppearance="?android:textAppearanceLarge" />
 
 		</RelativeLayout>

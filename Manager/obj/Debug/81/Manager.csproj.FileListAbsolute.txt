@@ -4,6 +4,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\Manager.Manager.apk
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\Manager.Manager-Signed.apk
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\Manager.nuget.stamp
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\Manager.csprojAssemblyReference.cache
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\libraryimports.cache.stamp
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res.flag
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\Manager.csproj.CoreCompileInputs.cache
@@ -61,6 +62,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res\layout\fragment
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res\layout\custom_resident.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res\layout\activity_equipment.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res\layout\custom_equipment.xml
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\res\layout\toolbar.xml
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\R.cs.flag
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\R.txt
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\uploadflags.txt
@@ -68,12 +70,10 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\Mono.Android.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\mscorlib.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Core.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.pdb
-D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Xml.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Net.Http.pdb
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Xml.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Runtime.Serialization.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.ServiceModel.Internals.pdb
-D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\Mono.Security.pdb
-D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\Manager.csprojAssemblyReference.cache
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Data.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Numerics.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Transactions.pdb
@@ -82,6 +82,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.IO.Compression.
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.ComponentModel.Composition.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Web.Services.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\System.Xml.Linq.pdb
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\bin\Debug\Mono.Security.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\linksrc\Manager.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\linksrc\Mono.Android.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\linksrc\mscorlib.pdb

@@ -1,4 +1,7 @@
 Newtonsoft.Json
+Square.OkHttp
+Square.OkIO
+Square.Picasso
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

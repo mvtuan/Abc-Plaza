@@ -19,7 +19,7 @@ using Newtonsoft.Json;
 
 namespace Manager.Activities
 {
-    [Activity(Label = "EquipmentActivity")]
+    [Activity(Label = "Thông tin tài sản")]
     public class EquipmentActivity : AppCompatActivity
     {
         RecyclerView equipmentRecyclerView;
@@ -31,6 +31,10 @@ namespace Manager.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_equipment);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
             equipmentRecyclerView = FindViewById<RecyclerView>(Resource.Id.rc_equipment);
             mLayoutManager = new LinearLayoutManager(this);
             equipmentRecyclerView.SetLayoutManager(mLayoutManager);
@@ -42,13 +46,27 @@ namespace Manager.Activities
             // Create your application here
         }
 
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    {
+                        Finish();
+                        return true;
+                    }
+
+            }
+            return base.OnOptionsItemSelected(item);
+        }
+
         private void GetListEquipment()
         {
             try
             {
                 HttpClient client = new HttpClient();
                 string residentId = Intent.GetStringExtra("id");
-                string url = "http://192.168.1.233:45457/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
+                string url = "http://192.168.1.233:45455/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
                 var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
