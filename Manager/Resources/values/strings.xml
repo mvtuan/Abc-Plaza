@@ -17,6 +17,7 @@
   <string name="hintQuanHe">Quan hệ với chủ hộ</string>
 
   <string name="title_equipment">Tài sản cư dân</string>
+  <string name="menu_item_equipment_delete">Xoá</string>
 
 
 </resources>

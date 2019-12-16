@@ -2296,26 +2296,26 @@ namespace Manager
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02007a
-			public const int avd_hide_password_1 = 2130837626;
-			
 			// aapt resource value: 0x7f02007b
-			public const int avd_hide_password_2 = 2130837627;
+			public const int avd_hide_password_1 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int avd_hide_password_3 = 2130837628;
+			public const int avd_hide_password_2 = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int avd_hide_password_3 = 2130837629;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02007d
-			public const int avd_show_password_1 = 2130837629;
-			
 			// aapt resource value: 0x7f02007e
-			public const int avd_show_password_2 = 2130837630;
+			public const int avd_show_password_1 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int avd_show_password_3 = 2130837631;
+			public const int avd_show_password_2 = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int avd_show_password_3 = 2130837632;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2354,79 +2354,82 @@ namespace Manager
 			public const int ic_image = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_notification = 2130837601;
+			public const int ic_menu = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_notifications_black_18dp = 2130837602;
+			public const int ic_notification = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_owner = 2130837603;
+			public const int ic_notifications_black_18dp = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_pencil = 2130837604;
+			public const int ic_owner = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_photo_camera = 2130837605;
+			public const int ic_pencil = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_property = 2130837606;
+			public const int ic_photo_camera = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_resident = 2130837607;
+			public const int ic_property = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_resident_black_18dp = 2130837608;
+			public const int ic_resident = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_view = 2130837609;
+			public const int ic_resident_black_18dp = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int navigation_empty_icon = 2130837610;
+			public const int ic_view = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_action_background = 2130837611;
+			public const int navigation_empty_icon = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg = 2130837612;
+			public const int notification_action_background = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_low = 2130837613;
+			public const int notification_bg = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_low_normal = 2130837614;
+			public const int notification_bg_low = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_bg_low_pressed = 2130837615;
+			public const int notification_bg_low_normal = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_bg_normal = 2130837616;
+			public const int notification_bg_low_pressed = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_bg_normal_pressed = 2130837617;
+			public const int notification_bg_normal = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_icon_background = 2130837618;
-			
-			// aapt resource value: 0x7f020078
-			public const int notification_template_icon_bg = 2130837624;
-			
-			// aapt resource value: 0x7f020079
-			public const int notification_template_icon_low_bg = 2130837625;
+			public const int notification_bg_normal_pressed = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int notification_tile_bg = 2130837619;
+			public const int notification_icon_background = 2130837619;
+			
+			// aapt resource value: 0x7f020079
+			public const int notification_template_icon_bg = 2130837625;
+			
+			// aapt resource value: 0x7f02007a
+			public const int notification_template_icon_low_bg = 2130837626;
 			
 			// aapt resource value: 0x7f020074
-			public const int notify_panel_notification_icon_bg = 2130837620;
+			public const int notification_tile_bg = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int resident = 2130837621;
+			public const int notify_panel_notification_icon_bg = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int tooltip_frame_dark = 2130837622;
+			public const int resident = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int tooltip_frame_light = 2130837623;
+			public const int tooltip_frame_dark = 2130837623;
+			
+			// aapt resource value: 0x7f020078
+			public const int tooltip_frame_light = 2130837624;
 			
 			static Drawable()
 			{
@@ -3167,6 +3170,9 @@ namespace Manager
 			// aapt resource value: 0x7f080162
 			public const int media_actions = 2131231074;
 			
+			// aapt resource value: 0x7f080177
+			public const int menu_delete = 2131231095;
+			
 			// aapt resource value: 0x7f0800ad
 			public const int message = 2131230893;
 			
@@ -3857,6 +3863,9 @@ namespace Manager
 			// aapt resource value: 0x7f0e0000
 			public const int navigation = 2131623936;
 			
+			// aapt resource value: 0x7f0e0001
+			public const int popup_menu = 2131623937;
+			
 			static Menu()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -4026,6 +4035,9 @@ namespace Manager
 			
 			// aapt resource value: 0x7f0b0032
 			public const int hintToa = 2131427378;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int menu_item_equipment_delete = 2131427384;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int password_toggle_content_description = 2131427361;

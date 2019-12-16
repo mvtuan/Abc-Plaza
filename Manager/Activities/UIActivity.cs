@@ -27,13 +27,23 @@ namespace Manager.Activities
             SetContentView(Resource.Layout.activity_ui);
             toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
             SetSupportActionBar(toolbar);
-            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
             loadFragment(Resource.Id.navigation_apartments);
 
             // Create your application here
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popup_menu, menu);
+
+            return base.OnCreateOptionsMenu(menu);
         }
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
         {

@@ -46,6 +46,13 @@ namespace Manager.Activities
             // Create your application here
         }
 
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popup_menu, menu);
+
+            return base.OnCreateOptionsMenu(menu);
+        }
+
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
@@ -66,7 +73,7 @@ namespace Manager.Activities
             {
                 HttpClient client = new HttpClient();
                 string residentId = Intent.GetStringExtra("id");
-                string url = "http://192.168.1.233:45455/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
+                string url = "http://192.168.1.118:45457/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
                 var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)

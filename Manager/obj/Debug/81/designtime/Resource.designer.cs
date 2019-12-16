@@ -2336,31 +2336,34 @@ namespace Manager
 			public const int ic_image = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int ic_notification = 2130771976;
+			public const int ic_menu = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int ic_notifications_black_18dp = 2130771977;
+			public const int ic_notification = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int ic_owner = 2130771984;
+			public const int ic_notifications_black_18dp = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int ic_pencil = 2130771985;
+			public const int ic_owner = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int ic_photo_camera = 2130771986;
+			public const int ic_pencil = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int ic_property = 2130771987;
+			public const int ic_photo_camera = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int ic_resident = 2130771988;
+			public const int ic_property = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int ic_resident_black_18dp = 2130771989;
+			public const int ic_resident = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int ic_view = 2130771990;
+			public const int ic_resident_black_18dp = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int ic_view = 2130771991;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2401,8 +2404,8 @@ namespace Manager
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010017
-			public const int resident = 2130771991;
+			// aapt resource value: 0x7F010018
+			public const int resident = 2130771992;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3743,6 +3746,9 @@ namespace Manager
 			// aapt resource value: 0x7F040002
 			public const int Navigation = 2130968578;
 			
+			// aapt resource value: 0x7F040003
+			public const int popup_menu = 2130968579;
+			
 			static Menu()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3912,6 +3918,9 @@ namespace Manager
 			
 			// aapt resource value: 0x7F080013
 			public const int hintToa = 2131230739;
+			
+			// aapt resource value: 0x7F080019
+			public const int menu_item_equipment_delete = 2131230745;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;

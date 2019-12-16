@@ -59,7 +59,7 @@ namespace Manager.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://192.168.1.233:45455/Resident/");
+                var uri = new Uri("http://192.168.1.118:45457/Resident/");
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
