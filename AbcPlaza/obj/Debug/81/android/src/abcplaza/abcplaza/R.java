@@ -1655,6 +1655,159 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int menu=0x7f010135;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_alignLabels=0x7f010174;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_arrowColor=0x7f010178;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_arrowSize=0x7f010177;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_baseColor=0x7f010169;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_enableErrorLabel=0x7f01017a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_enableFloatingLabel=0x7f010179;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_error=0x7f01016c;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_errorColor=0x7f01016b;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_floatingLabelColor=0x7f010170;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_floatingLabelText=0x7f01016f;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_highlightColor=0x7f01016a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_hint=0x7f01016d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_hintColor=0x7f01016e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_multiline=0x7f010171;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_nbErrorLines=0x7f010172;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_thickness=0x7f010175;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_thickness_error=0x7f010176;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int ms_typeface=0x7f010173;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2715,36 +2868,37 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0c0004;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0051;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0052;
-        public static final int abc_btn_colored_borderless_text_material=0x7f0a0053;
-        public static final int abc_btn_colored_text_material=0x7f0a0054;
-        public static final int abc_color_highlight_material=0x7f0a0055;
-        public static final int abc_hint_foreground_material_dark=0x7f0a0056;
-        public static final int abc_hint_foreground_material_light=0x7f0a0057;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0054;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0055;
+        public static final int abc_btn_colored_borderless_text_material=0x7f0a0056;
+        public static final int abc_btn_colored_text_material=0x7f0a0057;
+        public static final int abc_color_highlight_material=0x7f0a0058;
+        public static final int abc_hint_foreground_material_dark=0x7f0a0059;
+        public static final int abc_hint_foreground_material_light=0x7f0a005a;
         public static final int abc_input_method_navigation_guard=0x7f0a0004;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0058;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a0059;
-        public static final int abc_primary_text_material_dark=0x7f0a005a;
-        public static final int abc_primary_text_material_light=0x7f0a005b;
-        public static final int abc_search_url_text=0x7f0a005c;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a005b;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a005c;
+        public static final int abc_primary_text_material_dark=0x7f0a005d;
+        public static final int abc_primary_text_material_light=0x7f0a005e;
+        public static final int abc_search_url_text=0x7f0a005f;
         public static final int abc_search_url_text_normal=0x7f0a0005;
         public static final int abc_search_url_text_pressed=0x7f0a0006;
         public static final int abc_search_url_text_selected=0x7f0a0007;
-        public static final int abc_secondary_text_material_dark=0x7f0a005d;
-        public static final int abc_secondary_text_material_light=0x7f0a005e;
-        public static final int abc_tint_btn_checkable=0x7f0a005f;
-        public static final int abc_tint_default=0x7f0a0060;
-        public static final int abc_tint_edittext=0x7f0a0061;
-        public static final int abc_tint_seek_thumb=0x7f0a0062;
-        public static final int abc_tint_spinner=0x7f0a0063;
-        public static final int abc_tint_switch_track=0x7f0a0064;
+        public static final int abc_secondary_text_material_dark=0x7f0a0060;
+        public static final int abc_secondary_text_material_light=0x7f0a0061;
+        public static final int abc_tint_btn_checkable=0x7f0a0062;
+        public static final int abc_tint_default=0x7f0a0063;
+        public static final int abc_tint_edittext=0x7f0a0064;
+        public static final int abc_tint_seek_thumb=0x7f0a0065;
+        public static final int abc_tint_spinner=0x7f0a0066;
+        public static final int abc_tint_switch_track=0x7f0a0067;
         public static final int accent_material_dark=0x7f0a0008;
         public static final int accent_material_light=0x7f0a0009;
         public static final int background_floating_material_dark=0x7f0a000a;
         public static final int background_floating_material_light=0x7f0a000b;
         public static final int background_material_dark=0x7f0a000c;
         public static final int background_material_light=0x7f0a000d;
+        public static final int base=0x7f0a0052;
         public static final int bright_foreground_disabled_material_dark=0x7f0a000e;
         public static final int bright_foreground_disabled_material_light=0x7f0a000f;
         public static final int bright_foreground_inverse_material_dark=0x7f0a0010;
@@ -2757,12 +2911,12 @@ containing a value of this type.
         public static final int cardview_light_background=0x7f0a0001;
         public static final int cardview_shadow_end_color=0x7f0a0002;
         public static final int cardview_shadow_start_color=0x7f0a0003;
-        public static final int colorAccent=0x7f0a004d;
-        public static final int colorBackground=0x7f0a004f;
-        public static final int colorPrimary=0x7f0a004b;
-        public static final int colorPrimaryDark=0x7f0a004c;
+        public static final int colorAccent=0x7f0a004f;
+        public static final int colorBackground=0x7f0a0051;
+        public static final int colorPrimary=0x7f0a004d;
+        public static final int colorPrimaryDark=0x7f0a004e;
         public static final int design_bottom_navigation_shadow_color=0x7f0a0040;
-        public static final int design_error=0x7f0a0065;
+        public static final int design_error=0x7f0a0068;
         public static final int design_fab_shadow_end_color=0x7f0a0041;
         public static final int design_fab_shadow_mid_color=0x7f0a0042;
         public static final int design_fab_shadow_start_color=0x7f0a0043;
@@ -2771,17 +2925,19 @@ containing a value of this type.
         public static final int design_fab_stroke_top_inner_color=0x7f0a0046;
         public static final int design_fab_stroke_top_outer_color=0x7f0a0047;
         public static final int design_snackbar_background_color=0x7f0a0048;
-        public static final int design_tint_password_toggle=0x7f0a0066;
+        public static final int design_tint_password_toggle=0x7f0a0069;
         public static final int dim_foreground_disabled_material_dark=0x7f0a0016;
         public static final int dim_foreground_disabled_material_light=0x7f0a0017;
         public static final int dim_foreground_material_dark=0x7f0a0018;
         public static final int dim_foreground_material_light=0x7f0a0019;
+        public static final int disabled_color=0x7f0a004b;
+        public static final int error_color=0x7f0a004c;
         public static final int error_color_material=0x7f0a001a;
         public static final int foreground_material_dark=0x7f0a001b;
         public static final int foreground_material_light=0x7f0a001c;
         public static final int highlighted_text_material_dark=0x7f0a001d;
         public static final int highlighted_text_material_light=0x7f0a001e;
-        public static final int ic_launcher_background=0x7f0a0050;
+        public static final int ic_launcher_background=0x7f0a0053;
         public static final int material_blue_grey_800=0x7f0a001f;
         public static final int material_blue_grey_900=0x7f0a0020;
         public static final int material_blue_grey_950=0x7f0a0021;
@@ -2813,13 +2969,13 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f0a0038;
         public static final int switch_thumb_disabled_material_dark=0x7f0a0039;
         public static final int switch_thumb_disabled_material_light=0x7f0a003a;
-        public static final int switch_thumb_material_dark=0x7f0a0067;
-        public static final int switch_thumb_material_light=0x7f0a0068;
+        public static final int switch_thumb_material_dark=0x7f0a006a;
+        public static final int switch_thumb_material_light=0x7f0a006b;
         public static final int switch_thumb_normal_material_dark=0x7f0a003b;
         public static final int switch_thumb_normal_material_light=0x7f0a003c;
         public static final int tooltip_background_dark=0x7f0a003d;
         public static final int tooltip_background_light=0x7f0a003e;
-        public static final int white=0x7f0a004e;
+        public static final int white=0x7f0a0050;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f070015;
@@ -2898,8 +3054,8 @@ containing a value of this type.
         public static final int abc_text_size_title_material_toolbar=0x7f07000d;
         /**  Default screen margins, per the Android Design guidelines. 
          */
-        public static final int activity_horizontal_margin=0x7f07009e;
-        public static final int activity_vertical_margin=0x7f07009f;
+        public static final int activity_horizontal_margin=0x7f0700a7;
+        public static final int activity_vertical_margin=0x7f0700a8;
         public static final int cardview_compat_inset_shadow=0x7f070006;
         public static final int cardview_default_elevation=0x7f070007;
         public static final int cardview_default_radius=0x7f070008;
@@ -2948,10 +3104,14 @@ containing a value of this type.
         public static final int design_tab_text_size_2line=0x7f070089;
         public static final int disabled_alpha_material_dark=0x7f070053;
         public static final int disabled_alpha_material_light=0x7f070054;
-        public static final int fab_margin=0x7f0700a2;
+        public static final int error_label_spacing=0x7f07009e;
+        public static final int fab_margin=0x7f0700ab;
         public static final int fastscroll_default_thickness=0x7f070000;
         public static final int fastscroll_margin=0x7f070001;
         public static final int fastscroll_minimum_range=0x7f070002;
+        public static final int floating_label_bottom_spacing=0x7f07009f;
+        public static final int floating_label_inside_spacing=0x7f0700a0;
+        public static final int floating_label_top_spacing=0x7f0700a1;
         public static final int highlight_alpha_material_colored=0x7f070055;
         public static final int highlight_alpha_material_dark=0x7f070056;
         public static final int highlight_alpha_material_light=0x7f070057;
@@ -2962,8 +3122,10 @@ containing a value of this type.
         public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f070003;
         public static final int item_touch_helper_swipe_escape_max_velocity=0x7f070004;
         public static final int item_touch_helper_swipe_escape_velocity=0x7f070005;
-        public static final int nav_header_height=0x7f0700a1;
-        public static final int nav_header_vertical_spacing=0x7f0700a0;
+        public static final int label_text_size=0x7f0700a2;
+        public static final int min_content_height=0x7f0700a3;
+        public static final int nav_header_height=0x7f0700aa;
+        public static final int nav_header_vertical_spacing=0x7f0700a9;
         public static final int notification_action_icon_size=0x7f070093;
         public static final int notification_action_text_size=0x7f070094;
         public static final int notification_big_circle_margin=0x7f070095;
@@ -2979,6 +3141,7 @@ containing a value of this type.
         public static final int notification_subtext_size=0x7f07009b;
         public static final int notification_top_pad=0x7f07009c;
         public static final int notification_top_pad_large_text=0x7f07009d;
+        public static final int right_left_spinner_padding=0x7f0700a4;
         public static final int tooltip_corner_radius=0x7f07005c;
         public static final int tooltip_horizontal_padding=0x7f07005d;
         public static final int tooltip_margin=0x7f07005e;
@@ -2987,6 +3150,8 @@ containing a value of this type.
         public static final int tooltip_vertical_padding=0x7f070061;
         public static final int tooltip_y_offset_non_touch=0x7f070062;
         public static final int tooltip_y_offset_touch=0x7f070063;
+        public static final int underline_bottom_spacing=0x7f0700a5;
+        public static final int underline_top_spacing=0x7f0700a6;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -3074,13 +3239,13 @@ containing a value of this type.
         public static final int abc_vector_test=0x7f020052;
         public static final int android=0x7f020053;
         public static final int avd_hide_password=0x7f020054;
-        public static final int avd_hide_password_1=0x7f020078;
-        public static final int avd_hide_password_2=0x7f020079;
-        public static final int avd_hide_password_3=0x7f02007a;
+        public static final int avd_hide_password_1=0x7f02007a;
+        public static final int avd_hide_password_2=0x7f02007b;
+        public static final int avd_hide_password_3=0x7f02007c;
         public static final int avd_show_password=0x7f020055;
-        public static final int avd_show_password_1=0x7f02007b;
-        public static final int avd_show_password_2=0x7f02007c;
-        public static final int avd_show_password_3=0x7f02007d;
+        public static final int avd_show_password_1=0x7f02007d;
+        public static final int avd_show_password_2=0x7f02007e;
+        public static final int avd_show_password_3=0x7f02007f;
         public static final int design_bottom_navigation_item_background=0x7f020056;
         public static final int design_fab_background=0x7f020057;
         public static final int design_ic_visibility=0x7f020058;
@@ -3093,28 +3258,30 @@ containing a value of this type.
         public static final int ic_bill_black_24dp=0x7f02005f;
         public static final int ic_dashboard_black_24dp=0x7f020060;
         public static final int ic_home_black_24dp=0x7f020061;
-        public static final int ic_notifications_black_24dp=0x7f020062;
-        public static final int ic_property_black_18dp=0x7f020063;
-        public static final int ic_service_black_24dp=0x7f020064;
-        public static final int ic_support_black_24dp=0x7f020065;
-        public static final int icon_add=0x7f020066;
-        public static final int navigation_empty_icon=0x7f020067;
-        public static final int notification_action_background=0x7f020068;
-        public static final int notification_bg=0x7f020069;
-        public static final int notification_bg_low=0x7f02006a;
-        public static final int notification_bg_low_normal=0x7f02006b;
-        public static final int notification_bg_low_pressed=0x7f02006c;
-        public static final int notification_bg_normal=0x7f02006d;
-        public static final int notification_bg_normal_pressed=0x7f02006e;
-        public static final int notification_icon_background=0x7f02006f;
-        public static final int notification_template_icon_bg=0x7f020076;
-        public static final int notification_template_icon_low_bg=0x7f020077;
-        public static final int notification_tile_bg=0x7f020070;
-        public static final int notify_panel_notification_icon_bg=0x7f020071;
-        public static final int shape_button_positive=0x7f020072;
-        public static final int shape_edit_text=0x7f020073;
-        public static final int tooltip_frame_dark=0x7f020074;
-        public static final int tooltip_frame_light=0x7f020075;
+        public static final int ic_menu=0x7f020062;
+        public static final int ic_notifications_black_24dp=0x7f020063;
+        public static final int ic_property_black_18dp=0x7f020064;
+        public static final int ic_service_black_24dp=0x7f020065;
+        public static final int ic_support_black_24dp=0x7f020066;
+        public static final int icon_add=0x7f020067;
+        public static final int my_background=0x7f020068;
+        public static final int navigation_empty_icon=0x7f020069;
+        public static final int notification_action_background=0x7f02006a;
+        public static final int notification_bg=0x7f02006b;
+        public static final int notification_bg_low=0x7f02006c;
+        public static final int notification_bg_low_normal=0x7f02006d;
+        public static final int notification_bg_low_pressed=0x7f02006e;
+        public static final int notification_bg_normal=0x7f02006f;
+        public static final int notification_bg_normal_pressed=0x7f020070;
+        public static final int notification_icon_background=0x7f020071;
+        public static final int notification_template_icon_bg=0x7f020078;
+        public static final int notification_template_icon_low_bg=0x7f020079;
+        public static final int notification_tile_bg=0x7f020072;
+        public static final int notify_panel_notification_icon_bg=0x7f020073;
+        public static final int shape_button_positive=0x7f020074;
+        public static final int shape_edit_text=0x7f020075;
+        public static final int tooltip_frame_dark=0x7f020076;
+        public static final int tooltip_frame_light=0x7f020077;
     }
     public static final class id {
         public static final int ALT=0x7f080032;
@@ -3188,12 +3355,8 @@ containing a value of this type.
         public static final int disableHome=0x7f080020;
         public static final int editText1=0x7f0800bf;
         public static final int edit_query=0x7f08007e;
-        public static final int edt_add_equipment_name=0x7f08008e;
         public static final int edt_add_purchase_date=0x7f08008f;
-        public static final int edt_add_warranty_period=0x7f080090;
-        public static final int edt_update_equipment_name=0x7f08009f;
         public static final int edt_update_purchase_date=0x7f0800a0;
-        public static final int edt_update_warranty_period=0x7f0800a1;
         public static final int end=0x7f080030;
         public static final int end_padder=0x7f0800d3;
         public static final int enterAlways=0x7f08003f;
@@ -3289,6 +3452,10 @@ containing a value of this type.
         public static final int snackbar_action=0x7f0800b3;
         public static final int snackbar_text=0x7f0800b2;
         public static final int snap=0x7f080043;
+        public static final int sp_add_equipment=0x7f08008e;
+        public static final int sp_add_warranty_period=0x7f080090;
+        public static final int sp_update_equipment=0x7f08009f;
+        public static final int sp_update_warranty_period=0x7f0800a1;
         public static final int spacer=0x7f080064;
         public static final int spinner=0x7f0800be;
         public static final int split_action_bar=0x7f080008;
@@ -8704,6 +8871,318 @@ containing a value of this type.
           @attr name android:dropDownVerticalOffset
         */
         public static final int ListPopupWindow_android_dropDownVerticalOffset = 1;
+        /** Attributes that can be used with a MaterialSpinner.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_alignLabels AbcPlaza.AbcPlaza:ms_alignLabels}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_arrowColor AbcPlaza.AbcPlaza:ms_arrowColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_arrowSize AbcPlaza.AbcPlaza:ms_arrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_baseColor AbcPlaza.AbcPlaza:ms_baseColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_enableErrorLabel AbcPlaza.AbcPlaza:ms_enableErrorLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_enableFloatingLabel AbcPlaza.AbcPlaza:ms_enableFloatingLabel}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_error AbcPlaza.AbcPlaza:ms_error}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_errorColor AbcPlaza.AbcPlaza:ms_errorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_floatingLabelColor AbcPlaza.AbcPlaza:ms_floatingLabelColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_floatingLabelText AbcPlaza.AbcPlaza:ms_floatingLabelText}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_highlightColor AbcPlaza.AbcPlaza:ms_highlightColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_hint AbcPlaza.AbcPlaza:ms_hint}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_hintColor AbcPlaza.AbcPlaza:ms_hintColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_multiline AbcPlaza.AbcPlaza:ms_multiline}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_nbErrorLines AbcPlaza.AbcPlaza:ms_nbErrorLines}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_thickness AbcPlaza.AbcPlaza:ms_thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_thickness_error AbcPlaza.AbcPlaza:ms_thickness_error}</code></td><td></td></tr>
+           <tr><td><code>{@link #MaterialSpinner_ms_typeface AbcPlaza.AbcPlaza:ms_typeface}</code></td><td></td></tr>
+           </table>
+           @see #MaterialSpinner_ms_alignLabels
+           @see #MaterialSpinner_ms_arrowColor
+           @see #MaterialSpinner_ms_arrowSize
+           @see #MaterialSpinner_ms_baseColor
+           @see #MaterialSpinner_ms_enableErrorLabel
+           @see #MaterialSpinner_ms_enableFloatingLabel
+           @see #MaterialSpinner_ms_error
+           @see #MaterialSpinner_ms_errorColor
+           @see #MaterialSpinner_ms_floatingLabelColor
+           @see #MaterialSpinner_ms_floatingLabelText
+           @see #MaterialSpinner_ms_highlightColor
+           @see #MaterialSpinner_ms_hint
+           @see #MaterialSpinner_ms_hintColor
+           @see #MaterialSpinner_ms_multiline
+           @see #MaterialSpinner_ms_nbErrorLines
+           @see #MaterialSpinner_ms_thickness
+           @see #MaterialSpinner_ms_thickness_error
+           @see #MaterialSpinner_ms_typeface
+         */
+        public static final int[] MaterialSpinner = {
+            0x7f010169, 0x7f01016a, 0x7f01016b, 0x7f01016c,
+            0x7f01016d, 0x7f01016e, 0x7f01016f, 0x7f010170,
+            0x7f010171, 0x7f010172, 0x7f010173, 0x7f010174,
+            0x7f010175, 0x7f010176, 0x7f010177, 0x7f010178,
+            0x7f010179, 0x7f01017a
+        };
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_alignLabels}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_alignLabels
+        */
+        public static final int MaterialSpinner_ms_alignLabels = 11;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_arrowColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_arrowColor
+        */
+        public static final int MaterialSpinner_ms_arrowColor = 15;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_arrowSize}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_arrowSize
+        */
+        public static final int MaterialSpinner_ms_arrowSize = 14;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_baseColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_baseColor
+        */
+        public static final int MaterialSpinner_ms_baseColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_enableErrorLabel}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_enableErrorLabel
+        */
+        public static final int MaterialSpinner_ms_enableErrorLabel = 17;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_enableFloatingLabel}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_enableFloatingLabel
+        */
+        public static final int MaterialSpinner_ms_enableFloatingLabel = 16;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_error}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_error
+        */
+        public static final int MaterialSpinner_ms_error = 3;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_errorColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_errorColor
+        */
+        public static final int MaterialSpinner_ms_errorColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_floatingLabelColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_floatingLabelColor
+        */
+        public static final int MaterialSpinner_ms_floatingLabelColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_floatingLabelText}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_floatingLabelText
+        */
+        public static final int MaterialSpinner_ms_floatingLabelText = 6;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_highlightColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_highlightColor
+        */
+        public static final int MaterialSpinner_ms_highlightColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_hint}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_hint
+        */
+        public static final int MaterialSpinner_ms_hint = 4;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_hintColor}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_hintColor
+        */
+        public static final int MaterialSpinner_ms_hintColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_multiline}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_multiline
+        */
+        public static final int MaterialSpinner_ms_multiline = 8;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_nbErrorLines}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_nbErrorLines
+        */
+        public static final int MaterialSpinner_ms_nbErrorLines = 9;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_thickness}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_thickness
+        */
+        public static final int MaterialSpinner_ms_thickness = 12;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_thickness_error}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_thickness_error
+        */
+        public static final int MaterialSpinner_ms_thickness_error = 13;
+        /**
+          <p>This symbol is the offset where the {@link AbcPlaza.AbcPlaza.R.attr#ms_typeface}
+          attribute's value can be found in the {@link #MaterialSpinner} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name AbcPlaza.AbcPlaza:ms_typeface
+        */
+        public static final int MaterialSpinner_ms_typeface = 10;
         /** Attributes that can be used with a MenuGroup.
            <p>Includes the following attributes:</p>
            <table>

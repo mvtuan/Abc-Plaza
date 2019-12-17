@@ -85,8 +85,9 @@ namespace AbcPlaza.Fragments
         {
             try
             {
-                HttpClient client = new HttpClient();
-                var uri = new Uri(Url.EQUIPMENT_URL);
+                HttpClient client = new HttpClient(); 
+                string url = "http://192.168.1.118:45457/GetEquipmentByResident(Id=3)";
+                var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 

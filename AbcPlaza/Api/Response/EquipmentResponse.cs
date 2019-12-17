@@ -24,5 +24,7 @@ namespace AbcPlaza.Api.Response
 
         public string EquipmentImage { get; set; }
 
+        public int ResidentId { get; set; }
+
     }
 }

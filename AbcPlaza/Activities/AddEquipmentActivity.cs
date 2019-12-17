@@ -20,6 +20,7 @@ using AbcPlaza.Adapter;
 using AbcPlaza.Constant;
 using Refractored.Controls;
 using Plugin.Media.Abstractions;
+using FR.Ganfra.Materialspinner;
 
 namespace AbcPlaza.Activities
 {
@@ -36,6 +37,22 @@ namespace AbcPlaza.Activities
         private ImageView imageAddEquipment;
         private Button addEquipmentImage;
         private MediaFile _mediFile;
+        private MaterialSpinner spEquipment;
+        private MaterialSpinner spWarrantyPeriod;
+        private ArrayAdapter equipmentAdapter;
+        private ArrayAdapter warrantyPeriodAdapter;
+        private List<int> listItem = new List<int>();
+        private string equipmentName;
+        private int warrantyPeriod;
+
+        private void InitItems()
+        {
+            for(int i = 1; i <= 48; i++)
+            {
+                listItem.Add(i);
+            }
+        }
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -44,12 +61,42 @@ namespace AbcPlaza.Activities
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowTitleEnabled(true);
-            addEquipmentName = (EditText)FindViewById(Resource.Id.edt_add_equipment_name);
             addPurchaseDate = (EditText)FindViewById(Resource.Id.edt_add_purchase_date);
-            addWarrantyPeriod = (EditText)FindViewById(Resource.Id.edt_add_warranty_period);
             addEquipment = (Button)FindViewById(Resource.Id.btn_add_equipment);
             addEquipmentImage = (Button)FindViewById(Resource.Id.btn_add_equipment_image);
             imageAddEquipment = (ImageView)FindViewById(Resource.Id.img_add_equipment_image);
+            spEquipment = (MaterialSpinner)FindViewById(Resource.Id.sp_add_equipment);
+            spWarrantyPeriod = (MaterialSpinner)FindViewById(Resource.Id.sp_add_warranty_period);
+
+            string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện" };
+            equipmentAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, equipments);
+            equipmentAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spEquipment.Adapter = equipmentAdapter;
+
+            spEquipment.ItemSelected += (s, e) =>
+            {
+                if (e.Position != -1)
+                {
+                    equipmentName = spEquipment.GetItemAtPosition(e.Position).ToString();
+                }
+            };
+
+            InitItems();
+            warrantyPeriodAdapter = new ArrayAdapter<int>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, listItem);
+            warrantyPeriodAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spWarrantyPeriod.Adapter = warrantyPeriodAdapter;
+
+            spWarrantyPeriod.ItemSelected += (s, e) =>
+            {
+                if (e.Position != -1)
+                {
+                    warrantyPeriod = int.Parse(spWarrantyPeriod.GetItemAtPosition(e.Position).ToString());
+                }
+              
+                Console.WriteLine(warrantyPeriod);
+            };
+
+
             addPurchaseDate.Click += (sender, e) =>
             {
                 Calendar cldr = Calendar.Instance;
@@ -60,8 +107,9 @@ namespace AbcPlaza.Activities
                 DatePickerDialog picker = new DatePickerDialog(this, OnDateSet, year, month, day);
                 picker.Show();
             };
-            addEquipmentImage.Click += (sender, e)=>
-            { 
+        
+            addEquipmentImage.Click += (sender, e) =>
+            {
                 Intent = new Intent();
                 Intent.SetType("image/*");
                 Intent.SetAction(Intent.ActionGetContent);
@@ -71,33 +119,31 @@ namespace AbcPlaza.Activities
              {
                  try
                  {
-                     //var content = new MultipartFormDataContent();
-                     //_mediFile = new MediaFile("sdsd");
-                     //content.Add(new StreamContent(_mediFile.GetStream()),
-                     //    "\"file\"",
-                     //    $"\"{_mediFile.Path}\"");
-                     //var uri = new Uri("http://192.168.1.233:45459/api/FileUploading/UploadFile");
-                     //using (var client = new HttpClient())
-                     //{
-                     //    Task<HttpResponseMessage> message = client.PostAsync(uri, content);
-                     //    if (message.Result.IsSuccessStatusCode)
-                     //    {
-                     //        Console.WriteLine("Thanh cong");
-                     //    }
+                         //var content = new MultipartFormDataContent();
+                         //_mediFile = new MediaFile("sdsd");
+                         //content.Add(new StreamContent(_mediFile.GetStream()),
+                         //    "\"file\"",
+                         //    $"\"{_mediFile.Path}\"");
+                         //var uri = new Uri("http://192.168.1.233:45459/api/FileUploading/UploadFile");
+                         //using (var client = new HttpClient())
+                         //{
+                         //    Task<HttpResponseMessage> message = client.PostAsync(uri, content);
+                         //    if (message.Result.IsSuccessStatusCode)
+                         //    {
+                         //        Console.WriteLine("Thanh cong");
+                         //    }
 
-                     //}
-
-
+                         //}
                      HttpClient client = new HttpClient();
                      var uri = new Uri(Url.EQUIPMENT_URL);
                      EquipmentResponse equipment = new EquipmentResponse();
                      equipment.Id = "1";
-                     equipment.EquipmentName = addEquipmentName.Text.ToString();
+                     equipment.EquipmentName = equipmentName;
                      string add = addPurchaseDate.Text.ToString();
                      DateTime dt = DateTime.ParseExact(add, "dd/MM/yyyy", null);
                      equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
-                     string warrantyPeriod = addWarrantyPeriod.Text.ToString();
-                     equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
+                     equipment.ResidentId = 3;
+                     equipment.WarrantyPeriod = warrantyPeriod;
                      var json = JsonConvert.SerializeObject(equipment);
                      var content = new StringContent(json, Encoding.UTF8, "application/json");
                      Task<HttpResponseMessage> message = client.PostAsync(uri, content);
@@ -122,6 +168,13 @@ namespace AbcPlaza.Activities
 
 
         }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popup_menu, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }
+
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {

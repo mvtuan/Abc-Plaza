@@ -774,6 +774,60 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f010135
 			public const int menu = 2130772277;
 			
+			// aapt resource value: 0x7f010174
+			public const int ms_alignLabels = 2130772340;
+			
+			// aapt resource value: 0x7f010178
+			public const int ms_arrowColor = 2130772344;
+			
+			// aapt resource value: 0x7f010177
+			public const int ms_arrowSize = 2130772343;
+			
+			// aapt resource value: 0x7f010169
+			public const int ms_baseColor = 2130772329;
+			
+			// aapt resource value: 0x7f01017a
+			public const int ms_enableErrorLabel = 2130772346;
+			
+			// aapt resource value: 0x7f010179
+			public const int ms_enableFloatingLabel = 2130772345;
+			
+			// aapt resource value: 0x7f01016c
+			public const int ms_error = 2130772332;
+			
+			// aapt resource value: 0x7f01016b
+			public const int ms_errorColor = 2130772331;
+			
+			// aapt resource value: 0x7f010170
+			public const int ms_floatingLabelColor = 2130772336;
+			
+			// aapt resource value: 0x7f01016f
+			public const int ms_floatingLabelText = 2130772335;
+			
+			// aapt resource value: 0x7f01016a
+			public const int ms_highlightColor = 2130772330;
+			
+			// aapt resource value: 0x7f01016d
+			public const int ms_hint = 2130772333;
+			
+			// aapt resource value: 0x7f01016e
+			public const int ms_hintColor = 2130772334;
+			
+			// aapt resource value: 0x7f010171
+			public const int ms_multiline = 2130772337;
+			
+			// aapt resource value: 0x7f010172
+			public const int ms_nbErrorLines = 2130772338;
+			
+			// aapt resource value: 0x7f010175
+			public const int ms_thickness = 2130772341;
+			
+			// aapt resource value: 0x7f010176
+			public const int ms_thickness_error = 2130772342;
+			
+			// aapt resource value: 0x7f010173
+			public const int ms_typeface = 2130772339;
+			
 			// aapt resource value: 0x7f010037
 			public const int multiChoiceItemLayout = 2130772023;
 			
@@ -1232,44 +1286,44 @@ namespace AbcPlaza
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a0051
-			public const int abc_background_cache_hint_selector_material_dark = 2131361873;
-			
-			// aapt resource value: 0x7f0a0052
-			public const int abc_background_cache_hint_selector_material_light = 2131361874;
-			
-			// aapt resource value: 0x7f0a0053
-			public const int abc_btn_colored_borderless_text_material = 2131361875;
-			
 			// aapt resource value: 0x7f0a0054
-			public const int abc_btn_colored_text_material = 2131361876;
+			public const int abc_background_cache_hint_selector_material_dark = 2131361876;
 			
 			// aapt resource value: 0x7f0a0055
-			public const int abc_color_highlight_material = 2131361877;
+			public const int abc_background_cache_hint_selector_material_light = 2131361877;
 			
 			// aapt resource value: 0x7f0a0056
-			public const int abc_hint_foreground_material_dark = 2131361878;
+			public const int abc_btn_colored_borderless_text_material = 2131361878;
 			
 			// aapt resource value: 0x7f0a0057
-			public const int abc_hint_foreground_material_light = 2131361879;
+			public const int abc_btn_colored_text_material = 2131361879;
+			
+			// aapt resource value: 0x7f0a0058
+			public const int abc_color_highlight_material = 2131361880;
+			
+			// aapt resource value: 0x7f0a0059
+			public const int abc_hint_foreground_material_dark = 2131361881;
+			
+			// aapt resource value: 0x7f0a005a
+			public const int abc_hint_foreground_material_light = 2131361882;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int abc_input_method_navigation_guard = 2131361796;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int abc_primary_text_disable_only_material_dark = 2131361880;
-			
-			// aapt resource value: 0x7f0a0059
-			public const int abc_primary_text_disable_only_material_light = 2131361881;
-			
-			// aapt resource value: 0x7f0a005a
-			public const int abc_primary_text_material_dark = 2131361882;
-			
 			// aapt resource value: 0x7f0a005b
-			public const int abc_primary_text_material_light = 2131361883;
+			public const int abc_primary_text_disable_only_material_dark = 2131361883;
 			
 			// aapt resource value: 0x7f0a005c
-			public const int abc_search_url_text = 2131361884;
+			public const int abc_primary_text_disable_only_material_light = 2131361884;
+			
+			// aapt resource value: 0x7f0a005d
+			public const int abc_primary_text_material_dark = 2131361885;
+			
+			// aapt resource value: 0x7f0a005e
+			public const int abc_primary_text_material_light = 2131361886;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int abc_search_url_text = 2131361887;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int abc_search_url_text_normal = 2131361797;
@@ -1280,29 +1334,29 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a0007
 			public const int abc_search_url_text_selected = 2131361799;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int abc_secondary_text_material_dark = 2131361885;
-			
-			// aapt resource value: 0x7f0a005e
-			public const int abc_secondary_text_material_light = 2131361886;
-			
-			// aapt resource value: 0x7f0a005f
-			public const int abc_tint_btn_checkable = 2131361887;
-			
 			// aapt resource value: 0x7f0a0060
-			public const int abc_tint_default = 2131361888;
+			public const int abc_secondary_text_material_dark = 2131361888;
 			
 			// aapt resource value: 0x7f0a0061
-			public const int abc_tint_edittext = 2131361889;
+			public const int abc_secondary_text_material_light = 2131361889;
 			
 			// aapt resource value: 0x7f0a0062
-			public const int abc_tint_seek_thumb = 2131361890;
+			public const int abc_tint_btn_checkable = 2131361890;
 			
 			// aapt resource value: 0x7f0a0063
-			public const int abc_tint_spinner = 2131361891;
+			public const int abc_tint_default = 2131361891;
 			
 			// aapt resource value: 0x7f0a0064
-			public const int abc_tint_switch_track = 2131361892;
+			public const int abc_tint_edittext = 2131361892;
+			
+			// aapt resource value: 0x7f0a0065
+			public const int abc_tint_seek_thumb = 2131361893;
+			
+			// aapt resource value: 0x7f0a0066
+			public const int abc_tint_spinner = 2131361894;
+			
+			// aapt resource value: 0x7f0a0067
+			public const int abc_tint_switch_track = 2131361895;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int accent_material_dark = 2131361800;
@@ -1321,6 +1375,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f0a000d
 			public const int background_material_light = 2131361805;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int @base = 2131361874;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int bright_foreground_disabled_material_dark = 2131361806;
@@ -1358,23 +1415,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a0003
 			public const int cardview_shadow_start_color = 2131361795;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int colorAccent = 2131361869;
-			
 			// aapt resource value: 0x7f0a004f
-			public const int colorBackground = 2131361871;
+			public const int colorAccent = 2131361871;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int colorPrimary = 2131361867;
+			// aapt resource value: 0x7f0a0051
+			public const int colorBackground = 2131361873;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int colorPrimaryDark = 2131361868;
+			// aapt resource value: 0x7f0a004d
+			public const int colorPrimary = 2131361869;
+			
+			// aapt resource value: 0x7f0a004e
+			public const int colorPrimaryDark = 2131361870;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int design_bottom_navigation_shadow_color = 2131361856;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int design_error = 2131361893;
+			// aapt resource value: 0x7f0a0068
+			public const int design_error = 2131361896;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int design_fab_shadow_end_color = 2131361857;
@@ -1400,8 +1457,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a0048
 			public const int design_snackbar_background_color = 2131361864;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int design_tint_password_toggle = 2131361894;
+			// aapt resource value: 0x7f0a0069
+			public const int design_tint_password_toggle = 2131361897;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int dim_foreground_disabled_material_dark = 2131361814;
@@ -1414,6 +1471,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f0a0019
 			public const int dim_foreground_material_light = 2131361817;
+			
+			// aapt resource value: 0x7f0a004b
+			public const int disabled_color = 2131361867;
+			
+			// aapt resource value: 0x7f0a004c
+			public const int error_color = 2131361868;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int error_color_material = 2131361818;
@@ -1430,8 +1493,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a001e
 			public const int highlighted_text_material_light = 2131361822;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int ic_launcher_background = 2131361872;
+			// aapt resource value: 0x7f0a0053
+			public const int ic_launcher_background = 2131361875;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int material_blue_grey_800 = 2131361823;
@@ -1526,11 +1589,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a003a
 			public const int switch_thumb_disabled_material_light = 2131361850;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int switch_thumb_material_dark = 2131361895;
+			// aapt resource value: 0x7f0a006a
+			public const int switch_thumb_material_dark = 2131361898;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int switch_thumb_material_light = 2131361896;
+			// aapt resource value: 0x7f0a006b
+			public const int switch_thumb_material_light = 2131361899;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int switch_thumb_normal_material_dark = 2131361851;
@@ -1544,8 +1607,8 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0a003e
 			public const int tooltip_background_light = 2131361854;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int white = 2131361870;
+			// aapt resource value: 0x7f0a0050
+			public const int white = 2131361872;
 			
 			static Color()
 			{
@@ -1782,11 +1845,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f07000d
 			public const int abc_text_size_title_material_toolbar = 2131165197;
 			
-			// aapt resource value: 0x7f07009e
-			public const int activity_horizontal_margin = 2131165342;
+			// aapt resource value: 0x7f0700a7
+			public const int activity_horizontal_margin = 2131165351;
 			
-			// aapt resource value: 0x7f07009f
-			public const int activity_vertical_margin = 2131165343;
+			// aapt resource value: 0x7f0700a8
+			public const int activity_vertical_margin = 2131165352;
 			
 			// aapt resource value: 0x7f070006
 			public const int cardview_compat_inset_shadow = 2131165190;
@@ -1932,8 +1995,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f070054
 			public const int disabled_alpha_material_light = 2131165268;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int fab_margin = 2131165346;
+			// aapt resource value: 0x7f07009e
+			public const int error_label_spacing = 2131165342;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int fab_margin = 2131165355;
 			
 			// aapt resource value: 0x7f070000
 			public const int fastscroll_default_thickness = 2131165184;
@@ -1943,6 +2009,15 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f070002
 			public const int fastscroll_minimum_range = 2131165186;
+			
+			// aapt resource value: 0x7f07009f
+			public const int floating_label_bottom_spacing = 2131165343;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int floating_label_inside_spacing = 2131165344;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int floating_label_top_spacing = 2131165345;
 			
 			// aapt resource value: 0x7f070055
 			public const int highlight_alpha_material_colored = 2131165269;
@@ -1974,11 +2049,17 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f070005
 			public const int item_touch_helper_swipe_escape_velocity = 2131165189;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int nav_header_height = 2131165345;
+			// aapt resource value: 0x7f0700a2
+			public const int label_text_size = 2131165346;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int nav_header_vertical_spacing = 2131165344;
+			// aapt resource value: 0x7f0700a3
+			public const int min_content_height = 2131165347;
+			
+			// aapt resource value: 0x7f0700aa
+			public const int nav_header_height = 2131165354;
+			
+			// aapt resource value: 0x7f0700a9
+			public const int nav_header_vertical_spacing = 2131165353;
 			
 			// aapt resource value: 0x7f070093
 			public const int notification_action_icon_size = 2131165331;
@@ -2025,6 +2106,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f07009d
 			public const int notification_top_pad_large_text = 2131165341;
 			
+			// aapt resource value: 0x7f0700a4
+			public const int right_left_spinner_padding = 2131165348;
+			
 			// aapt resource value: 0x7f07005c
 			public const int tooltip_corner_radius = 2131165276;
 			
@@ -2048,6 +2132,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f070063
 			public const int tooltip_y_offset_touch = 2131165283;
+			
+			// aapt resource value: 0x7f0700a5
+			public const int underline_bottom_spacing = 2131165349;
+			
+			// aapt resource value: 0x7f0700a6
+			public const int underline_top_spacing = 2131165350;
 			
 			static Dimension()
 			{
@@ -2317,26 +2407,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020078
-			public const int avd_hide_password_1 = 2130837624;
-			
-			// aapt resource value: 0x7f020079
-			public const int avd_hide_password_2 = 2130837625;
-			
 			// aapt resource value: 0x7f02007a
-			public const int avd_hide_password_3 = 2130837626;
+			public const int avd_hide_password_1 = 2130837626;
+			
+			// aapt resource value: 0x7f02007b
+			public const int avd_hide_password_2 = 2130837627;
+			
+			// aapt resource value: 0x7f02007c
+			public const int avd_hide_password_3 = 2130837628;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02007b
-			public const int avd_show_password_1 = 2130837627;
-			
-			// aapt resource value: 0x7f02007c
-			public const int avd_show_password_2 = 2130837628;
-			
 			// aapt resource value: 0x7f02007d
-			public const int avd_show_password_3 = 2130837629;
+			public const int avd_show_password_1 = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int avd_show_password_2 = 2130837630;
+			
+			// aapt resource value: 0x7f02007f
+			public const int avd_show_password_3 = 2130837631;
 			
 			// aapt resource value: 0x7f020056
 			public const int design_bottom_navigation_item_background = 2130837590;
@@ -2375,70 +2465,76 @@ namespace AbcPlaza
 			public const int ic_home_black_24dp = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_notifications_black_24dp = 2130837602;
+			public const int ic_menu = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_property_black_18dp = 2130837603;
+			public const int ic_notifications_black_24dp = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_service_black_24dp = 2130837604;
+			public const int ic_property_black_18dp = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_support_black_24dp = 2130837605;
+			public const int ic_service_black_24dp = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int icon_add = 2130837606;
+			public const int ic_support_black_24dp = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int navigation_empty_icon = 2130837607;
+			public const int icon_add = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int notification_action_background = 2130837608;
+			public const int my_background = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int notification_bg = 2130837609;
+			public const int navigation_empty_icon = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int notification_bg_low = 2130837610;
+			public const int notification_action_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int notification_bg_low_normal = 2130837611;
+			public const int notification_bg = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int notification_bg_low_pressed = 2130837612;
+			public const int notification_bg_low = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int notification_bg_normal = 2130837613;
+			public const int notification_bg_low_normal = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int notification_bg_normal_pressed = 2130837614;
+			public const int notification_bg_low_pressed = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int notification_icon_background = 2130837615;
-			
-			// aapt resource value: 0x7f020076
-			public const int notification_template_icon_bg = 2130837622;
-			
-			// aapt resource value: 0x7f020077
-			public const int notification_template_icon_low_bg = 2130837623;
+			public const int notification_bg_normal = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int notification_tile_bg = 2130837616;
+			public const int notification_bg_normal_pressed = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notify_panel_notification_icon_bg = 2130837617;
+			public const int notification_icon_background = 2130837617;
+			
+			// aapt resource value: 0x7f020078
+			public const int notification_template_icon_bg = 2130837624;
+			
+			// aapt resource value: 0x7f020079
+			public const int notification_template_icon_low_bg = 2130837625;
 			
 			// aapt resource value: 0x7f020072
-			public const int shape_button_positive = 2130837618;
+			public const int notification_tile_bg = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int shape_edit_text = 2130837619;
+			public const int notify_panel_notification_icon_bg = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int tooltip_frame_dark = 2130837620;
+			public const int shape_button_positive = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int tooltip_frame_light = 2130837621;
+			public const int shape_edit_text = 2130837621;
+			
+			// aapt resource value: 0x7f020076
+			public const int tooltip_frame_dark = 2130837622;
+			
+			// aapt resource value: 0x7f020077
+			public const int tooltip_frame_light = 2130837623;
 			
 			static Drawable()
 			{
@@ -2666,23 +2762,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
 			
-			// aapt resource value: 0x7f08008e
-			public const int edt_add_equipment_name = 2131230862;
-			
 			// aapt resource value: 0x7f08008f
 			public const int edt_add_purchase_date = 2131230863;
 			
-			// aapt resource value: 0x7f080090
-			public const int edt_add_warranty_period = 2131230864;
-			
-			// aapt resource value: 0x7f08009f
-			public const int edt_update_equipment_name = 2131230879;
-			
 			// aapt resource value: 0x7f0800a0
 			public const int edt_update_purchase_date = 2131230880;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int edt_update_warranty_period = 2131230881;
 			
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
@@ -2968,6 +3052,18 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
+			
+			// aapt resource value: 0x7f08008e
+			public const int sp_add_equipment = 2131230862;
+			
+			// aapt resource value: 0x7f080090
+			public const int sp_add_warranty_period = 2131230864;
+			
+			// aapt resource value: 0x7f08009f
+			public const int sp_update_equipment = 2131230879;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int sp_update_warranty_period = 2131230881;
 			
 			// aapt resource value: 0x7f080064
 			public const int spacer = 2131230820;
@@ -6110,6 +6206,80 @@ namespace AbcPlaza
 			
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] MaterialSpinner = new int[] {
+					2130772329,
+					2130772330,
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334,
+					2130772335,
+					2130772336,
+					2130772337,
+					2130772338,
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346};
+			
+			// aapt resource value: 11
+			public const int MaterialSpinner_ms_alignLabels = 11;
+			
+			// aapt resource value: 15
+			public const int MaterialSpinner_ms_arrowColor = 15;
+			
+			// aapt resource value: 14
+			public const int MaterialSpinner_ms_arrowSize = 14;
+			
+			// aapt resource value: 0
+			public const int MaterialSpinner_ms_baseColor = 0;
+			
+			// aapt resource value: 17
+			public const int MaterialSpinner_ms_enableErrorLabel = 17;
+			
+			// aapt resource value: 16
+			public const int MaterialSpinner_ms_enableFloatingLabel = 16;
+			
+			// aapt resource value: 3
+			public const int MaterialSpinner_ms_error = 3;
+			
+			// aapt resource value: 2
+			public const int MaterialSpinner_ms_errorColor = 2;
+			
+			// aapt resource value: 7
+			public const int MaterialSpinner_ms_floatingLabelColor = 7;
+			
+			// aapt resource value: 6
+			public const int MaterialSpinner_ms_floatingLabelText = 6;
+			
+			// aapt resource value: 1
+			public const int MaterialSpinner_ms_highlightColor = 1;
+			
+			// aapt resource value: 4
+			public const int MaterialSpinner_ms_hint = 4;
+			
+			// aapt resource value: 5
+			public const int MaterialSpinner_ms_hintColor = 5;
+			
+			// aapt resource value: 8
+			public const int MaterialSpinner_ms_multiline = 8;
+			
+			// aapt resource value: 9
+			public const int MaterialSpinner_ms_nbErrorLines = 9;
+			
+			// aapt resource value: 12
+			public const int MaterialSpinner_ms_thickness = 12;
+			
+			// aapt resource value: 13
+			public const int MaterialSpinner_ms_thickness_error = 13;
+			
+			// aapt resource value: 10
+			public const int MaterialSpinner_ms_typeface = 10;
 			
 			public static int[] MenuGroup = new int[] {
 					16842766,

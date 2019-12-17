@@ -6,6 +6,7 @@ using Android.Support.V7.App;
 using Android.Widget;
 using Android.App;
 using AbcPlaza.Fragments;
+using Android.Views;
 
 namespace AbcPlaza
 {
@@ -15,6 +16,8 @@ namespace AbcPlaza
         TextView textMessage;
         private Android.Support.V7.Widget.Toolbar toolbar = null;
 
+       
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,14 +26,22 @@ namespace AbcPlaza
 
             SetSupportActionBar(toolbar);
 
-            //SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-            SupportActionBar.SetDisplayShowTitleEnabled(true);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
 
             navigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
 
             loadFragment(Resource.Id.navigation_service);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popup_menu, menu);
+            return base.OnCreateOptionsMenu(menu);
         }
 
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)

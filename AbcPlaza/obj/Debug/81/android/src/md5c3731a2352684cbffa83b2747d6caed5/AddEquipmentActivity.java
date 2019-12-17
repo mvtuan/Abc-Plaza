@@ -11,6 +11,7 @@ public class AddEquipmentActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
 			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
 			"n_onOptionsItemSelected:(Landroid/view/MenuItem;)Z:GetOnOptionsItemSelected_Landroid_view_MenuItem_Handler\n" +
 			"";
@@ -32,6 +33,14 @@ public class AddEquipmentActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
+
+
+	public boolean onCreateOptionsMenu (android.view.Menu p0)
+	{
+		return n_onCreateOptionsMenu (p0);
+	}
+
+	private native boolean n_onCreateOptionsMenu (android.view.Menu p0);
 
 
 	public void onActivityResult (int p0, int p1, android.content.Intent p2)

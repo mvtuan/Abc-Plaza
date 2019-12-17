@@ -107,7 +107,9 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "AbcPlaza.dll" comes first in this list. */
 		"AbcPlaza.dll",
+		"MaterialSpinner.dll",
 		"Newtonsoft.Json.dll",
+		"NineOldAndroids.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.dll",

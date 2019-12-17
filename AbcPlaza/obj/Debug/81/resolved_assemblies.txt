@@ -1,8 +1,10 @@
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\AbcPlaza.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Java.Interop.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\MaterialSpinner.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Mono.Android.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\mscorlib.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\NineOldAndroids.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Plugin.Media.dll
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\android\assets\Plugin.Permissions.dll

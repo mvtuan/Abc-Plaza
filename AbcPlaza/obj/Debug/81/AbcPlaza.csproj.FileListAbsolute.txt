@@ -64,6 +64,7 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\demo.xm
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\drawable\fan.jpg
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\drawable\icon_add.png
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\layout\toolbar.xml
+D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\res\drawable\ic_menu.png
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\R.cs.flag
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\R.txt
 D:\code\C#\Reponsitory\Client\Abc-Plaza\AbcPlaza\obj\Debug\81\uploadflags.txt

@@ -18,6 +18,7 @@ using Android.Util;
 using AbcPlaza.Api.Response;
 using Java.Util;
 using AbcPlaza.Constant;
+using FR.Ganfra.Materialspinner;
 
 namespace AbcPlaza.Activities
 {
@@ -32,27 +33,65 @@ namespace AbcPlaza.Activities
         private EditText updatePurchaseDate;
         private EditText updateWarrantyPeriod;
         private Button updateEquipment;
+        private MaterialSpinner spEquipment;
+        private MaterialSpinner spWarrantyPeriod;
+        private ArrayAdapter equipmentAdapter;
+        private ArrayAdapter warrantyPeriodAdapter;
+        private List<int> listItem = new List<int>();
+        private string equipmentName;
+        private int warrantyPeriod;
+
+        private void InitItems()
+        {
+            for (int i = 1; i <= 48; i++)
+            {
+                listItem.Add(i);
+            }
+        }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_update_equipment);
 
-            //var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowTitleEnabled(true);
-
-
-            updateEquipmentName = FindViewById<EditText>(Resource.Id.edt_update_equipment_name);
             updatePurchaseDate = FindViewById<EditText>(Resource.Id.edt_update_purchase_date);
-            updateWarrantyPeriod = FindViewById<EditText>(Resource.Id.edt_update_warranty_period);
             updateEquipment = FindViewById<Button>(Resource.Id.btn_update_equipment);
-      
-
             //btnImage = (Button)FindViewById(Resource.Id.btn_update_agp_image);
 
             // Create your application here
+
+            spEquipment = (MaterialSpinner)FindViewById(Resource.Id.sp_update_equipment);
+            spWarrantyPeriod = (MaterialSpinner)FindViewById(Resource.Id.sp_update_warranty_period);
+            string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện","Máy giặt" };
+            equipmentAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, equipments);
+            equipmentAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spEquipment.Adapter = equipmentAdapter;
+
+            spEquipment.ItemSelected += (s, e) =>
+            {
+                if (e.Position != -1)
+                {
+                    equipmentName = spEquipment.GetItemAtPosition(e.Position).ToString();
+                }
+            };
+
+            InitItems();
+            warrantyPeriodAdapter = new ArrayAdapter<int>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, listItem);
+            warrantyPeriodAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spWarrantyPeriod.Adapter = warrantyPeriodAdapter;
+
+            spWarrantyPeriod.ItemSelected += (s, e) =>
+            {
+                if (e.Position != -1)
+                {
+                    warrantyPeriod = int.Parse(spWarrantyPeriod.GetItemAtPosition(e.Position).ToString());
+                }
+
+                Console.WriteLine(warrantyPeriod);
+            };
 
             updatePurchaseDate.Click += (sender, e) =>
             {
@@ -72,12 +111,12 @@ namespace AbcPlaza.Activities
                     
                     EquipmentResponse equipment = new EquipmentResponse();
                     equipment.Id = Intent.GetStringExtra("id");
-                    equipment.EquipmentName = updateEquipmentName.Text.ToString();
+                    equipment.EquipmentName = equipmentName;
                     string update = updatePurchaseDate.Text.ToString();
                     DateTime dt = DateTime.ParseExact(update, "dd/MM/yyyy", null);
                     equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
-                    string warrantyPeriod = updateWarrantyPeriod.Text.ToString();
-                    equipment.WarrantyPeriod = Int32.Parse(warrantyPeriod);
+                    equipment.WarrantyPeriod = warrantyPeriod;
+                    equipment.ResidentId = 3;
                     string url = Url.EQUIPMENT_URL + equipment.Id;
                     HttpClient client = new HttpClient();
                     var uri = new Uri(url);
@@ -102,6 +141,13 @@ namespace AbcPlaza.Activities
                 }
             };
         }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popup_menu, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }
+
         private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)
         {
             if (e.Date.Day.ToString().Length < 2 && e.Date.Month.ToString().Length < 2)

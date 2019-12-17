@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "MaterialSpinner-Xamarin/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v7.AppCompat": "22.1.1",
+          "Xamarin.NineOldAndroids": "0.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid/MaterialSpinner.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/MaterialSpinner.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -394,10 +407,31 @@
         "build": {
           "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
+      },
+      "Xamarin.NineOldAndroids/0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/NineOldAndroids.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/NineOldAndroids.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MaterialSpinner-Xamarin/1.1.1": {
+      "sha512": "SiYaHEPqsPJn8Vu8N6g9Vuoh3276JIS8DAXtane+fgD4vNs4ovLRjOl0a4aF1JVbTal2XMveUStrzpz+rlUgGQ==",
+      "type": "package",
+      "path": "materialspinner-xamarin/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/MaterialSpinner.dll",
+        "materialspinner-xamarin.1.1.1.nupkg.sha512",
+        "materialspinner-xamarin.nuspec"
+      ]
+    },
     "Microsoft.Bcl/1.1.10": {
       "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
       "type": "package",
@@ -1091,10 +1125,23 @@
         "xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.vector.drawable.nuspec"
       ]
+    },
+    "Xamarin.NineOldAndroids/0.0.1": {
+      "sha512": "7OALtKn4GmqNYLt/ZiOycGZqDL9lOhGZxo91camWKsD5gcVOxKgL/rcWh35NjAPiXoyJpCiGcNbVMOrrvuhvOg==",
+      "type": "package",
+      "path": "xamarin.nineoldandroids/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/NineOldAndroids.dll",
+        "xamarin.nineoldandroids.0.0.1.nupkg.sha512",
+        "xamarin.nineoldandroids.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "MaterialSpinner-Xamarin >= 1.1.1",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 12.0.3",
       "Refractored.Controls.CircleImageView >= 1.0.1",
@@ -1139,6 +1186,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "MaterialSpinner-Xamarin": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Microsoft.Net.Http": {
             "target": "Package",
             "version": "[2.2.29, )"
