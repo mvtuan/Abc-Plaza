@@ -13,22 +13,27 @@ namespace AbcPlaza.Fragments
 {
     public class SupportFragment : Fragment
     {
+        private EditText messageSupport;
+        private Button register;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
             var v = inflater.Inflate(Resource.Layout.fragment_support, container, false);
-            //Spinner spinner = v.FindViewById<Spinner>(Resource.Id.spnCategory);
+            messageSupport = v.FindViewById<EditText>(Resource.Id.edt_msg_support);
+            register = v.FindViewById<Button>(Resource.Id.btn_register);
 
-            //spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
-            //var adapter = ArrayAdapter.CreateFromResource(
-            //        Context, Resource.Array.language_array, Android.Resource.Layout.SimpleSpinnerItem);
+            register.Click += (sender, e) =>
+            {
 
-            //adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            //spinner.Adapter = adapter;
+            };
 
             return v;
+        }
+        public static SupportFragment NewInstance()
+        {
+            var frag = new SupportFragment { Arguments = new Bundle() };
+            return frag;
         }
         private void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {

@@ -73,6 +73,8 @@
     <Compile Include="C Sharp\ResidentFragment.cs" />
     <Compile Include="C Sharp\ServiceFragment.cs" />
     <Compile Include="Constant\Url.cs" />
+    <Compile Include="FCMClient\MyFirebaseIIDService .cs" />
+    <Compile Include="FCMClient\MyFirebaseMessagingService.cs" />
     <Compile Include="Fragments\EquipmentFragment.cs" />
     <Compile Include="Fragments\EquipmentSupportFragment.cs" />
     <Compile Include="Fragments\SupportFragment.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <GoogleServicesJson Include="google-services.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -148,6 +151,12 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
       <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Base">
+      <Version>60.1142.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

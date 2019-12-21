@@ -60,7 +60,7 @@ namespace AbcPlaza
                     toolbar.SetTitle(Resource.String.title_equipment);
                     break;
                 case Resource.Id.navigation_apartment:
-                    fragment = ApartmentFragment.NewInstance();
+                    fragment = SupportFragment.NewInstance();
                     break;
                 case Resource.Id.navigation_bills:
                     fragment = BillFragment.NewInstance();

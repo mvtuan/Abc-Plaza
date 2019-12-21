@@ -105,6 +105,25 @@ namespace AbcPlaza
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_default_control_buttons = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_default_control_buttons = 1;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -210,6 +229,15 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F01009B
 			public const int activityChooserViewStyle = 2130772123;
 			
+			// aapt resource value: 0x1
+			public const int adSize = 1;
+			
+			// aapt resource value: 0x1
+			public const int adSizes = 1;
+			
+			// aapt resource value: 0x1
+			public const int adUnitId = 1;
+			
 			// aapt resource value: 0x7F0100BE
 			public const int alertDialogButtonGroupStyle = 2130772158;
 			
@@ -222,6 +250,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0100C0
 			public const int alertDialogTheme = 2130772160;
 			
+			// aapt resource value: 0x1
+			public const int allowShortcuts = 1;
+			
 			// aapt resource value: 0x7F010025
 			public const int allowStacking = 2130772005;
 			
@@ -230,6 +261,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
+			
+			// aapt resource value: 0x1
+			public const int ambientEnabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int appTheme = 1;
 			
 			// aapt resource value: 0x7F01002C
 			public const int arrowHeadLength = 2130772012;
@@ -321,6 +358,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F01001F
 			public const int buttonPanelSideLayout = 2130771999;
 			
+			// aapt resource value: 0x7F110384
+			public const int buttonSize = 2131821444;
+			
 			// aapt resource value: 0x7F0100C6
 			public const int buttonStyle = 2130772166;
 			
@@ -332,6 +372,39 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010027
 			public const int buttonTintMode = 2130772007;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonHeight = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonText = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonWidth = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraBearing = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMaxZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMinZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLat = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLng = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTilt = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraZoom = 1;
 			
 			// aapt resource value: 0x7F040001
 			public const int cardBackgroundColor = 2130968577;
@@ -351,11 +424,104 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F040006
 			public const int cardUseCompatPadding = 2130968582;
 			
+			// aapt resource value: 0x1
+			public const int castBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int castBackgroundColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonBackgroundColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonText = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int castClosedCaptionsButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castControlButtons = 1;
+			
+			// aapt resource value: 0x1
+			public const int castExpandedControllerStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castExpandedControllerToolbarStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castFocusRadius = 1;
+			
+			// aapt resource value: 0x1
+			public const int castForward30ButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castIntroOverlayStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargePauseButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargePlayButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargeStopButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castMiniControllerStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castMuteToggleButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castPauseButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castPlayButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castProgressBarColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castRewind30ButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSeekBarProgressDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSeekBarThumbDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castShowImageThumbnail = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSkipNextButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSkipPreviousButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castStopButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSubtitleTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int castTitleTextAppearance = 1;
+			
 			// aapt resource value: 0x7F0100C8
 			public const int checkboxStyle = 2130772168;
 			
 			// aapt resource value: 0x7F0100C9
 			public const int checkedTextViewStyle = 2130772169;
+			
+			// aapt resource value: 0x7F110383
+			public const int circleCrop = 2131821443;
 			
 			// aapt resource value: 0x7F010001
 			public const int civ_border_color = 2130771969;
@@ -417,6 +583,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0100B5
 			public const int colorPrimaryDark = 2130772149;
 			
+			// aapt resource value: 0x7F110385
+			public const int colorScheme = 2131821445;
+			
 			// aapt resource value: 0x7F0100BB
 			public const int colorSwitchThumbNormal = 2130772155;
 			
@@ -459,11 +628,20 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F04000B
 			public const int contentPaddingTop = 2130968587;
 			
+			// aapt resource value: 0x1
+			public const int contentProviderUri = 1;
+			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
 			
 			// aapt resource value: 0x7F0100BC
 			public const int controlBackground = 2130772156;
+			
+			// aapt resource value: 0x1
+			public const int corpusId = 1;
+			
+			// aapt resource value: 0x1
+			public const int corpusVersion = 1;
 			
 			// aapt resource value: 0x7F040069
 			public const int counterEnabled = 2130968681;
@@ -479,6 +657,15 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F01000F
 			public const int customNavigationLayout = 2130771983;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentAction = 1;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentActivity = 1;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentData = 1;
 			
 			// aapt resource value: 0x7F010053
 			public const int defaultQueryHint = 2130772051;
@@ -504,6 +691,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F010099
 			public const int dividerVertical = 2130772121;
 			
+			// aapt resource value: 0x1
+			public const int documentMaxAgeSecs = 1;
+			
 			// aapt resource value: 0x7F01002A
 			public const int drawableSize = 2130772010;
 			
@@ -527,6 +717,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F01001A
 			public const int elevation = 2130771994;
+			
+			// aapt resource value: 0x1
+			public const int environment = 1;
 			
 			// aapt resource value: 0x7F04007E
 			public const int errorEnabled = 2130968702;
@@ -579,6 +772,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F04008E
 			public const int fastScrollVerticalTrackDrawable = 2130968718;
 			
+			// aapt resource value: 0x1
+			public const int featureType = 1;
+			
 			// aapt resource value: 0x7F040001
 			public const int font = 2130968577;
 			
@@ -611,6 +807,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F040099
 			public const int foregroundInsidePadding = 2130968729;
+			
+			// aapt resource value: 0x1
+			public const int fragmentMode = 1;
+			
+			// aapt resource value: 0x1
+			public const int fragmentStyle = 1;
 			
 			// aapt resource value: 0x7F01002B
 			public const int gapBetweenBars = 2130772011;
@@ -654,14 +856,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
+			// aapt resource value: 0x7F110382
+			public const int imageAspectRatio = 2131821442;
+			
+			// aapt resource value: 0x7F110381
+			public const int imageAspectRatioAdjust = 2131821441;
+			
 			// aapt resource value: 0x7F0100A2
 			public const int imageButtonStyle = 2130772130;
 			
 			// aapt resource value: 0x7F010012
 			public const int indeterminateProgressStyle = 2130771986;
 			
+			// aapt resource value: 0x1
+			public const int indexPrefixes = 1;
+			
 			// aapt resource value: 0x7F01001D
 			public const int initialActivityCount = 2130771997;
+			
+			// aapt resource value: 0x1
+			public const int inputEnabled = 1;
 			
 			// aapt resource value: 0x7F0400AB
 			public const int insetForeground = 2130968747;
@@ -686,6 +900,18 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0400B2
 			public const int keylines = 2130968754;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLongitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLongitude = 1;
 			
 			// aapt resource value: 0x7F010050
 			public const int layout = 2130772048;
@@ -756,11 +982,38 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0100AB
 			public const int listPreferredItemPaddingRight = 2130772139;
 			
+			// aapt resource value: 0x1
+			public const int liteMode = 1;
+			
 			// aapt resource value: 0x7F01000A
 			public const int logo = 2130771978;
 			
 			// aapt resource value: 0x7F0100DC
 			public const int logoDescription = 2130772188;
+			
+			// aapt resource value: 0x1
+			public const int mapType = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsButtonBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsHeaderTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsLogoImageType = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsLogoTextColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsTextAppearance = 1;
 			
 			// aapt resource value: 0x7F0400CC
 			public const int maxActionInlineWidth = 2130968780;
@@ -840,6 +1093,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F010004
 			public const int navigationMode = 2130771972;
 			
+			// aapt resource value: 0x1
+			public const int noIndex = 1;
+			
 			// aapt resource value: 0x7F0400D4
 			public const int numericModifiers = 2130968788;
 			
@@ -867,6 +1123,12 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0100B1
 			public const int panelMenuListWidth = 2130772145;
 			
+			// aapt resource value: 0x1
+			public const int paramName = 1;
+			
+			// aapt resource value: 0x1
+			public const int paramValue = 1;
+			
 			// aapt resource value: 0x7F0400DD
 			public const int passwordToggleContentDescription = 2130968797;
 			
@@ -881,6 +1143,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0400E1
 			public const int passwordToggleTintMode = 2130968801;
+			
+			// aapt resource value: 0x1
+			public const int perAccountTemplate = 1;
 			
 			// aapt resource value: 0x7F01009E
 			public const int popupMenuStyle = 2130772126;
@@ -927,11 +1192,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0400F0
 			public const int rippleColor = 2130968816;
 			
+			// aapt resource value: 0x1
+			public const int schemaOrgProperty = 1;
+			
+			// aapt resource value: 0x1
+			public const int schemaOrgType = 1;
+			
+			// aapt resource value: 0x7F110386
+			public const int scopeUris = 2131821446;
+			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
 			
 			// aapt resource value: 0x7F0400F2
 			public const int scrimVisibleHeightTrigger = 2130968818;
+			
+			// aapt resource value: 0x1
+			public const int searchEnabled = 1;
 			
 			// aapt resource value: 0x7F010057
 			public const int searchHintIcon = 2130772055;
@@ -939,8 +1216,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F010056
 			public const int searchIcon = 2130772054;
 			
+			// aapt resource value: 0x1
+			public const int searchLabel = 1;
+			
 			// aapt resource value: 0x7F0100A6
 			public const int searchViewStyle = 2130772134;
+			
+			// aapt resource value: 0x1
+			public const int sectionContent = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionFormat = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionId = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionType = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionWeight = 1;
 			
 			// aapt resource value: 0x7F0100CD
 			public const int seekBarStyle = 2130772173;
@@ -950,6 +1245,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010097
 			public const int selectableItemBackgroundBorderless = 2130772119;
+			
+			// aapt resource value: 0x1
+			public const int semanticallySearchable = 1;
+			
+			// aapt resource value: 0x1
+			public const int settingsDescription = 1;
 			
 			// aapt resource value: 0x7F010045
 			public const int showAsAction = 2130772037;
@@ -965,6 +1266,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010022
 			public const int singleChoiceItemLayout = 2130772002;
+			
+			// aapt resource value: 0x1
+			public const int sourceClass = 1;
 			
 			// aapt resource value: 0x7F01004D
 			public const int spanCount = 2130772045;
@@ -1007,6 +1311,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F01005C
 			public const int submitBackground = 2130772060;
+			
+			// aapt resource value: 0x1
+			public const int subsectionSeparator = 1;
 			
 			// aapt resource value: 0x7F010006
 			public const int subtitle = 2130771974;
@@ -1182,6 +1489,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F010007
 			public const int titleTextStyle = 2130771975;
 			
+			// aapt resource value: 0x1
+			public const int toAddressesSection = 1;
+			
 			// aapt resource value: 0x7F040146
 			public const int toolbarId = 2130968902;
 			
@@ -1190,6 +1500,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F01009C
 			public const int toolbarStyle = 2130772124;
+			
+			// aapt resource value: 0x1
+			public const int toolbarTextColorStyle = 1;
 			
 			// aapt resource value: 0x7F040149
 			public const int tooltipForegroundColor = 2130968905;
@@ -1209,8 +1522,44 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F04014E
 			public const int trackTintMode = 2130968910;
 			
+			// aapt resource value: 0x1
+			public const int trimmable = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiCompass = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiMapToolbar = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiRotateGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiTiltGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomControls = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomGestures = 1;
+			
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
+			
+			// aapt resource value: 0x1
+			public const int userInputSection = 1;
+			
+			// aapt resource value: 0x1
+			public const int userInputTag = 1;
+			
+			// aapt resource value: 0x1
+			public const int userInputValue = 1;
+			
+			// aapt resource value: 0x1
+			public const int useViewLifecycle = 1;
 			
 			// aapt resource value: 0x7F010058
 			public const int voiceIcon = 2130772056;
@@ -1244,6 +1593,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010065
 			public const int windowNoTitle = 2130772069;
+			
+			// aapt resource value: 0x1
+			public const int windowTransitionStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int zOrderOnTop = 1;
 			
 			static Attribute()
 			{
@@ -1424,6 +1779,39 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F060004
 			public const int cardview_shadow_start_color = 2131099652;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_container_white_stripe_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_label_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_progress_text_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seek_bar_progress_background_tint_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_text_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_outer_highlight_default_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_body_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
+			
 			// aapt resource value: 0x7F060004
 			public const int colorAccent = 2131099652;
 			
@@ -1435,6 +1823,39 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F060003
 			public const int colorPrimaryDark = 2131099651;
+			
+			// aapt resource value: 0x7F060112
+			public const int common_google_signin_btn_text_dark = 2131099922;
+			
+			// aapt resource value: 0x7F060115
+			public const int common_google_signin_btn_text_dark_default = 2131099925;
+			
+			// aapt resource value: 0x7F060116
+			public const int common_google_signin_btn_text_dark_disabled = 2131099926;
+			
+			// aapt resource value: 0x7F060117
+			public const int common_google_signin_btn_text_dark_focused = 2131099927;
+			
+			// aapt resource value: 0x7F060118
+			public const int common_google_signin_btn_text_dark_pressed = 2131099928;
+			
+			// aapt resource value: 0x7F060113
+			public const int common_google_signin_btn_text_light = 2131099923;
+			
+			// aapt resource value: 0x7F060119
+			public const int common_google_signin_btn_text_light_default = 2131099929;
+			
+			// aapt resource value: 0x7F060120
+			public const int common_google_signin_btn_text_light_disabled = 2131099936;
+			
+			// aapt resource value: 0x7F060121
+			public const int common_google_signin_btn_text_light_focused = 2131099937;
+			
+			// aapt resource value: 0x7F060122
+			public const int common_google_signin_btn_text_light_pressed = 2131099938;
+			
+			// aapt resource value: 0x7F060114
+			public const int common_google_signin_btn_tint = 2131099924;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -1556,6 +1977,24 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F060049
 			public const int notification_material_background_media_default_color = 2131099721;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text_highlight = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_hint = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator = 1;
+			
 			// aapt resource value: 0x7F06002A
 			public const int primary_dark_material_dark = 2131099690;
 			
@@ -1621,6 +2060,45 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F06005F
 			public const int tooltip_background_light = 2131099743;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_disabled_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_dim_foreground_disabled_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_dim_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_highlighted_text_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_highlighted_text_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_hint_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_hint_foreground_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_holo_blue_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_link_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_primary_text_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_secondary_text_holo_dark = 1;
 			
 			// aapt resource value: 0x7F060005
 			public const int white = 2131099653;
@@ -1881,6 +2359,93 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080003
 			public const int cardview_default_radius = 2131230723;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_background_layout_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_background_layout_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_layout_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_layout_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_control_button_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_control_toolbar_min_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_margin_between_seek_bar_and_control_buttons = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_margin_between_status_text_and_seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_disabled_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_margin_bottom = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_focus_radius = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_title_margin_top = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_center_horizontal_offset = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_center_threshold = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_inner_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_inner_radius = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_outer_padding = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_body_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_header_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_horizontal_offset = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_max_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_vertical_space = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_control_button_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_icon_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_icon_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_image_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_no_message_text_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_row_text_size = 1;
+			
 			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
 			
@@ -2126,6 +2691,36 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F080014
 			public const int notification_top_pad_large_text = 2131230740;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_button_padding = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google_start = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator_start = 1;
 			
 			// aapt resource value: 0x7F070052
 			public const int right_left_spinner_padding = 2131165266;
@@ -2464,6 +3059,225 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_to_pressed_mtrl_000 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_to_pressed_mtrl_005 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_primary_mtrl_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_album_art_placeholder = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_album_art_placeholder_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_actionbar_bg_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_bg_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_thumb = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_track = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_skip_previous = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_pause_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_play_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_stop_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_0 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_1 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_2 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_connecting = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_on = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_small_icon = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_stop_live_stream = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_stop_circle_filled_grey600 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_stop_circle_filled_white = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_progress_drawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_ad_label_border = 1;
+			
+			// aapt resource value: 0x7F010150
+			public const int common_full_open_on_phone = 2130772304;
+			
+			// aapt resource value: 0x7F010136
+			public const int common_google_signin_btn_icon_dark = 2130772278;
+			
+			// aapt resource value: 0x7F010137
+			public const int common_google_signin_btn_icon_dark_focused = 2130772279;
+			
+			// aapt resource value: 0x7F010138
+			public const int common_google_signin_btn_icon_dark_normal = 2130772280;
+			
+			// aapt resource value: 0x7F010151
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772305;
+			
+			// aapt resource value: 0x7F010139
+			public const int common_google_signin_btn_icon_disabled = 2130772281;
+			
+			// aapt resource value: 0x7F010140
+			public const int common_google_signin_btn_icon_light = 2130772288;
+			
+			// aapt resource value: 0x7F010141
+			public const int common_google_signin_btn_icon_light_focused = 2130772289;
+			
+			// aapt resource value: 0x7F010142
+			public const int common_google_signin_btn_icon_light_normal = 2130772290;
+			
+			// aapt resource value: 0x7F010152
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772306;
+			
+			// aapt resource value: 0x7F010143
+			public const int common_google_signin_btn_text_dark = 2130772291;
+			
+			// aapt resource value: 0x7F010144
+			public const int common_google_signin_btn_text_dark_focused = 2130772292;
+			
+			// aapt resource value: 0x7F010145
+			public const int common_google_signin_btn_text_dark_normal = 2130772293;
+			
+			// aapt resource value: 0x7F010153
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772307;
+			
+			// aapt resource value: 0x7F010146
+			public const int common_google_signin_btn_text_disabled = 2130772294;
+			
+			// aapt resource value: 0x7F010147
+			public const int common_google_signin_btn_text_light = 2130772295;
+			
+			// aapt resource value: 0x7F010148
+			public const int common_google_signin_btn_text_light_focused = 2130772296;
+			
+			// aapt resource value: 0x7F010149
+			public const int common_google_signin_btn_text_light_normal = 2130772297;
+			
+			// aapt resource value: 0x7F010154
+			public const int common_google_signin_btn_text_light_normal_background = 2130772308;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2484,6 +3298,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010003
 			public const int fan = 2130771971;
+			
+			// aapt resource value: 0x7F010155
+			public const int googleg_disabled_color_18 = 2130772309;
+			
+			// aapt resource value: 0x7F010156
+			public const int googleg_standard_color_18 = 2130772310;
 			
 			// aapt resource value: 0x7F010004
 			public const int icon_add = 2130771972;
@@ -2511,6 +3331,18 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F010012
 			public const int ic_notifications_black_24dp = 2130771986;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_medium_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_small_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_standard_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_tall_off_client = 1;
 			
 			// aapt resource value: 0x7F010013
 			public const int ic_property_black_18dp = 2130771987;
@@ -2562,6 +3394,141 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x1
+			public const int places_ic_clear = 1;
+			
+			// aapt resource value: 0x1
+			public const int places_ic_search = 1;
+			
+			// aapt resource value: 0x1
+			public const int powered_by_google_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int powered_by_google_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_art_track_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_bigtop_updates_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_cast_connected_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_cast_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_clear_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_closed_caption_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_closed_caption_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_10_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_keyboard_arrow_down_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_circle_filled_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_circle_filled_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_circle_filled_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_circle_filled_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_refresh_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_10_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_off_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_off_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_up_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_up_white_36 = 1;
 			
 			// aapt resource value: 0x7F010016
 			public const int shape_button_positive = 2130771990;
@@ -2654,26 +3621,77 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
+			// aapt resource value: 0x7F020205
+			public const int adjust_height = 2130838021;
+			
+			// aapt resource value: 0x7F020204
+			public const int adjust_width = 2130838020;
+			
+			// aapt resource value: 0x1
+			public const int ad_container = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_in_progress_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_label = 1;
+			
 			// aapt resource value: 0x7F080031
 			public const int alertTitle = 2131230769;
 			
 			// aapt resource value: 0x7F08001C
 			public const int always = 2131230748;
 			
+			// aapt resource value: 0x1
+			public const int android_pay = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_light_with_border = 1;
+			
 			// aapt resource value: 0x7F020014
 			public const int appbar = 2130837524;
+			
+			// aapt resource value: 0x7F020203
+			public const int app_name = 2130838019;
+			
+			// aapt resource value: 0x7F020211
+			public const int APP_NAME = 2130838033;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
+			// aapt resource value: 0x1
+			public const int audio_list_view = 1;
+			
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
+			
+			// aapt resource value: 0x1
+			public const int background_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int background_place_holder_image_view = 1;
 			
 			// aapt resource value: 0x7F080019
 			public const int beginning = 2131230745;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
+			
+			// aapt resource value: 0x1
+			public const int blurred_background_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int book_now = 1;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
@@ -2687,14 +3705,17 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020034
 			public const int btn_demo = 2130837556;
 			
+			// aapt resource value: 0x7F020040
+			public const int btn_register = 2130837568;
+			
 			// aapt resource value: 0x7F020020
 			public const int btn_update_agp_image = 2130837536;
 			
 			// aapt resource value: 0x7F020024
 			public const int btn_update_equipment = 2130837540;
 			
-			// aapt resource value: 0x7F020041
-			public const int button = 2130837569;
+			// aapt resource value: 0x1
+			public const int button = 1;
 			
 			// aapt resource value: 0x7F020033
 			public const int buttonOptions = 2130837555;
@@ -2702,8 +3723,74 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F08002C
 			public const int buttonPanel = 2131230764;
 			
+			// aapt resource value: 0x1
+			public const int button_0 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_1 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_2 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_3 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_play_pause_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButton = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_now = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_with = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_with_google = 1;
+			
 			// aapt resource value: 0x7F080052
 			public const int cancel_action = 2131230802;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_custom = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_empty = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_forward_30_seconds = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_mute_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_play_pause_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_rewind_30_seconds = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_skip_previous = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_help_text_body_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_help_text_header_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_id = 1;
 			
 			// aapt resource value: 0x7F0C001D
 			public const int center = 2131492893;
@@ -2714,11 +3801,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080058
 			public const int chronometer = 2131230808;
 			
+			// aapt resource value: 0x1
+			public const int classic = 1;
+			
 			// aapt resource value: 0x7F08001D
 			public const int collapseActionView = 2131230749;
 			
+			// aapt resource value: 0x1
+			public const int contact = 1;
+			
 			// aapt resource value: 0x7F020009
 			public const int container = 2130837513;
+			
+			// aapt resource value: 0x1
+			public const int container_all = 1;
+			
+			// aapt resource value: 0x1
+			public const int container_current = 1;
 			
 			// aapt resource value: 0x7F080032
 			public const int contentPanel = 2131230770;
@@ -2726,8 +3825,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020010
 			public const int content_frame = 2130837520;
 			
+			// aapt resource value: 0x1
+			public const int controllers = 1;
+			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
+			
+			// aapt resource value: 0x1
+			public const int crash_reporting_present = 1;
 			
 			// aapt resource value: 0x7F080038
 			public const int custom = 2131230776;
@@ -2738,11 +3843,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020025
 			public const int cv = 2130837541;
 			
+			// aapt resource value: 0x7F020209
+			public const int dark = 2130838025;
+			
+			// aapt resource value: 0x1
+			public const int date = 1;
+			
 			// aapt resource value: 0x7F080040
 			public const int decor_content_parent = 2131230784;
 			
 			// aapt resource value: 0x7F080028
 			public const int default_activity_button = 2131230760;
+			
+			// aapt resource value: 0x1
+			public const int demote_common_words = 1;
+			
+			// aapt resource value: 0x1
+			public const int demote_rfc822_hostnames = 1;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2762,8 +3879,11 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F08000D
 			public const int disableHome = 2131230733;
 			
-			// aapt resource value: 0x7F020040
-			public const int editText1 = 2130837568;
+			// aapt resource value: 0x1
+			public const int donate_with = 1;
+			
+			// aapt resource value: 0x1
+			public const int donate_with_google = 1;
 			
 			// aapt resource value: 0x7F080044
 			public const int edit_query = 2131230788;
@@ -2771,14 +3891,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020006
 			public const int edt_add_purchase_date = 2130837510;
 			
+			// aapt resource value: 0x7F020039
+			public const int edt_msg_support = 2130837561;
+			
 			// aapt resource value: 0x7F020022
 			public const int edt_update_purchase_date = 2130837538;
+			
+			// aapt resource value: 0x1
+			public const int email = 1;
 			
 			// aapt resource value: 0x7F08001A
 			public const int end = 2131230746;
 			
 			// aapt resource value: 0x7F08005D
 			public const int end_padder = 2131230813;
+			
+			// aapt resource value: 0x1
+			public const int end_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int expanded_controller_layout = 1;
 			
 			// aapt resource value: 0x7F080039
 			public const int expanded_menu = 2131230777;
@@ -2801,17 +3933,50 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
+			// aapt resource value: 0x1
+			public const int google_wallet_classic = 1;
+			
+			// aapt resource value: 0x1
+			public const int google_wallet_grayscale = 1;
+			
+			// aapt resource value: 0x1
+			public const int google_wallet_monochrome = 1;
+			
+			// aapt resource value: 0x1
+			public const int grayscale = 1;
+			
+			// aapt resource value: 0x1
+			public const int holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int holo_light = 1;
+			
 			// aapt resource value: 0x7F080004
 			public const int home = 2131230724;
 			
 			// aapt resource value: 0x7F08000E
 			public const int homeAsUp = 2131230734;
 			
+			// aapt resource value: 0x1
+			public const int html = 1;
+			
+			// aapt resource value: 0x1
+			public const int hybrid = 1;
+			
 			// aapt resource value: 0x7F08002A
 			public const int icon = 2131230762;
 			
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
+			
+			// aapt resource value: 0x7F020208
+			public const int icon_only = 2130838024;
+			
+			// aapt resource value: 0x1
+			public const int icon_uri = 1;
+			
+			// aapt resource value: 0x1
+			public const int icon_view = 1;
 			
 			// aapt resource value: 0x7F08001E
 			public const int ifRoom = 2131230750;
@@ -2828,8 +3993,29 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020019
 			public const int img_update_agp_image = 2130837529;
 			
+			// aapt resource value: 0x1
+			public const int index_entity_types = 1;
+			
 			// aapt resource value: 0x7F08005C
 			public const int info = 2131230812;
+			
+			// aapt resource value: 0x1
+			public const int instant_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_action = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_data = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_data_id = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_extra_data = 1;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -2840,8 +4026,26 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C003C
 			public const int largeLabel = 2131492924;
 			
+			// aapt resource value: 0x1
+			public const int large_icon_uri = 1;
+			
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
+			
+			// aapt resource value: 0x1
+			public const int license = 1;
+			
+			// aapt resource value: 0x1
+			public const int license_activity_scrollview = 1;
+			
+			// aapt resource value: 0x1
+			public const int license_activity_textview = 1;
+			
+			// aapt resource value: 0x1
+			public const int license_list = 1;
+			
+			// aapt resource value: 0x7F020210
+			public const int light = 2130838032;
 			
 			// aapt resource value: 0x7F080056
 			public const int line1 = 2131230806;
@@ -2855,11 +4059,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080029
 			public const int list_item = 2131230761;
 			
+			// aapt resource value: 0x1
+			public const int live_stream_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int live_stream_seek_bar = 1;
+			
 			// aapt resource value: 0x7F020002
 			public const int ll_add = 2130837506;
 			
 			// aapt resource value: 0x7F020018
 			public const int ll_update = 2130837528;
+			
+			// aapt resource value: 0x1
+			public const int loading_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int logo_only = 1;
 			
 			// aapt resource value: 0x7F020013
 			public const int main_content = 2130837523;
@@ -2867,11 +4083,17 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
 			
+			// aapt resource value: 0x1
+			public const int match_global_nicknames = 1;
+			
+			// aapt resource value: 0x1
+			public const int match_parent = 1;
+			
 			// aapt resource value: 0x7F080054
 			public const int media_actions = 2131230804;
 			
-			// aapt resource value: 0x7F020048
-			public const int menu_delete = 2130837576;
+			// aapt resource value: 0x7F020047
+			public const int menu_delete = 2130837575;
 			
 			// aapt resource value: 0x7F020011
 			public const int message = 2130837521;
@@ -2882,29 +4104,32 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
+			// aapt resource value: 0x1
+			public const int monochrome = 1;
+			
 			// aapt resource value: 0x7F080014
 			public const int multiply = 2131230740;
 			
 			// aapt resource value: 0x7F020012
 			public const int navigation = 2130837522;
 			
-			// aapt resource value: 0x7F020047
-			public const int navigation_account = 2130837575;
+			// aapt resource value: 0x7F020046
+			public const int navigation_account = 2130837574;
+			
+			// aapt resource value: 0x7F020043
+			public const int navigation_apartment = 2130837571;
 			
 			// aapt resource value: 0x7F020044
-			public const int navigation_apartment = 2130837572;
-			
-			// aapt resource value: 0x7F020045
-			public const int navigation_bills = 2130837573;
+			public const int navigation_bills = 2130837572;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020046
-			public const int navigation_notifications = 2130837574;
+			// aapt resource value: 0x7F020045
+			public const int navigation_notifications = 2130837573;
 			
-			// aapt resource value: 0x7F020043
-			public const int navigation_service = 2130837571;
+			// aapt resource value: 0x7F020042
+			public const int navigation_service = 2130837570;
 			
 			// aapt resource value: 0x7F08001F
 			public const int never = 2131230751;
@@ -2924,6 +4149,15 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x1
+			public const int no_licenses_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int omnibox_title_section = 1;
+			
+			// aapt resource value: 0x1
+			public const int omnibox_url_section = 1;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -2935,6 +4169,39 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_clear_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_input = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator = 1;
+			
+			// aapt resource value: 0x1
+			public const int plain = 1;
+			
+			// aapt resource value: 0x1
+			public const int production = 1;
+			
+			// aapt resource value: 0x1
+			public const int progressBar = 1;
 			
 			// aapt resource value: 0x7F080006
 			public const int progress_circular = 2131230726;
@@ -2948,6 +4215,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F020036
 			public const int recyclerView = 2130837558;
 			
+			// aapt resource value: 0x1
+			public const int rfc822 = 1;
+			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
@@ -2956,6 +4226,12 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
+			
+			// aapt resource value: 0x1
+			public const int sandbox = 1;
+			
+			// aapt resource value: 0x1
+			public const int satellite = 1;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -3011,6 +4287,15 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F08004F
 			public const int search_voice_btn = 2131230799;
 			
+			// aapt resource value: 0x1
+			public const int seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int seek_bar_controls = 1;
+			
+			// aapt resource value: 0x1
+			public const int selectionDetails = 1;
+			
 			// aapt resource value: 0x7F080050
 			public const int select_dialog_listview = 2131230800;
 			
@@ -3026,6 +4311,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080012
 			public const int showTitle = 2131230738;
 			
+			// aapt resource value: 0x1
+			public const int slide = 1;
+			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
 			
@@ -3037,9 +4325,6 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F08002D
 			public const int spacer = 2131230765;
-			
-			// aapt resource value: 0x7F020039
-			public const int spinner = 2130837561;
 			
 			// aapt resource value: 0x7F080008
 			public const int split_action_bar = 2131230728;
@@ -3065,11 +4350,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080018
 			public const int src_over = 2131230744;
 			
+			// aapt resource value: 0x7F020206
+			public const int standard = 2130838022;
+			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
+			// aapt resource value: 0x1
+			public const int start_text = 1;
+			
 			// aapt resource value: 0x7F080053
 			public const int status_bar_latest_event_content = 2131230803;
+			
+			// aapt resource value: 0x1
+			public const int status_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int strict_sandbox = 1;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -3077,17 +4374,32 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F08004D
 			public const int submit_area = 2131230797;
 			
+			// aapt resource value: 0x1
+			public const int subtitle_view = 1;
+			
 			// aapt resource value: 0x7F08000C
 			public const int tabMode = 2131230732;
 			
 			// aapt resource value: 0x7F020016
 			public const int tabs = 2130837526;
 			
+			// aapt resource value: 0x1
+			public const int tab_host = 1;
+			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
+			// aapt resource value: 0x1
+			public const int terrain = 1;
+			
+			// aapt resource value: 0x1
+			public const int test = 1;
+			
 			// aapt resource value: 0x7F08005B
 			public const int text = 2131230811;
+			
+			// aapt resource value: 0x1
+			public const int text1 = 1;
 			
 			// aapt resource value: 0x7F080059
 			public const int text2 = 2131230809;
@@ -3104,11 +4416,20 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
+			// aapt resource value: 0x1
+			public const int textTitle = 1;
+			
 			// aapt resource value: 0x7F020038
 			public const int textView1 = 2130837560;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
+			
+			// aapt resource value: 0x1
+			public const int text_list_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int thing_proto = 1;
 			
 			// aapt resource value: 0x7F080057
 			public const int time = 2131230807;
@@ -3122,11 +4443,14 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080030
 			public const int title_template = 2131230768;
 			
+			// aapt resource value: 0x1
+			public const int title_view = 1;
+			
 			// aapt resource value: 0x7F020015
 			public const int toolbar = 2130837525;
 			
-			// aapt resource value: 0x7F020042
-			public const int toolbar_main = 2130837570;
+			// aapt resource value: 0x7F020041
+			public const int toolbar_main = 2130837569;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -3176,6 +4500,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080009
 			public const int up = 2131230729;
 			
+			// aapt resource value: 0x1
+			public const int url = 1;
+			
 			// aapt resource value: 0x7F080013
 			public const int useLogo = 2131230739;
 			
@@ -3187,6 +4514,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
+			
+			// aapt resource value: 0x7F020207
+			public const int wide = 2130838023;
 			
 			// aapt resource value: 0x7F080020
 			public const int withText = 2131230752;
@@ -3225,11 +4555,17 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F090003
 			public const int cancel_button_image_alpha = 2131296259;
 			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_pulse_base_alpha = 1;
+			
 			// aapt resource value: 0x7F0D0006
 			public const int config_tooltipAnimTime = 2131558406;
 			
 			// aapt resource value: 0x7F0D0007
 			public const int design_snackbar_text_max_lines = 2131558407;
+			
+			// aapt resource value: 0x1
+			public const int google_play_services_version = 1;
 			
 			// aapt resource value: 0x7F0D0008
 			public const int hide_password_duration = 2131558408;
@@ -3349,6 +4685,24 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F030006
 			public const int adapter_equipment = 2130903046;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_help_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_layout = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_row_layout = 1;
+			
 			// aapt resource value: 0x7F030007
 			public const int demo = 2130903047;
 			
@@ -3421,6 +4775,18 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F030016
 			public const int fragment_support = 2130903062;
 			
+			// aapt resource value: 0x1
+			public const int libraries_social_licenses_license = 1;
+			
+			// aapt resource value: 0x1
+			public const int libraries_social_licenses_license_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int libraries_social_licenses_license_menu_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int license_menu_activity_no_licenses = 1;
+			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
 			
@@ -3469,6 +4835,18 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F030020
 			public const int notification_template_part_time = 2130903072;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_fragment = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_item_powered_by_google = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_item_prediction = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress = 1;
+			
 			// aapt resource value: 0x7F030021
 			public const int select_dialog_item_material = 2130903073;
 			
@@ -3486,6 +4864,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
+			
+			// aapt resource value: 0x1
+			public const int wallet_test_layout = 1;
 			
 			static Layout()
 			{
@@ -3540,6 +4921,22 @@ namespace AbcPlaza
 			}
 			
 			private Mipmap()
+			{
+			}
+		}
+		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x1
+			public const int keep_third_party_licenses = 1;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
 			{
 			}
 		}
@@ -3658,11 +5055,197 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F080015
 			public const int btn_send = 2131230741;
 			
+			// aapt resource value: 0x1
+			public const int cast_ad_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_casting_to_device = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_closed_captions = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_closed_captions_unavailable = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_connecting_to_device = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_image_description = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_in_progress = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_background_image = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_live_stream_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_loading = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_skip_ad_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward_10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward_30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_invalid_stream_duration_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_invalid_stream_position_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_connected_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_connecting_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind_10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind_30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_stop_live_stream = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_audio = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_cancel = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_closed_captions = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_default_track_name = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_none = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_ok = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_subtitles = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_unmute = 1;
+			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
+			// aapt resource value: 0x7F080059
+			public const int common_google_play_services_enable_button = 2131230809;
+			
+			// aapt resource value: 0x7F080060
+			public const int common_google_play_services_enable_text = 2131230816;
+			
+			// aapt resource value: 0x7F080061
+			public const int common_google_play_services_enable_title = 2131230817;
+			
+			// aapt resource value: 0x7F080062
+			public const int common_google_play_services_install_button = 2131230818;
+			
+			// aapt resource value: 0x7F080063
+			public const int common_google_play_services_install_text = 2131230819;
+			
+			// aapt resource value: 0x7F080064
+			public const int common_google_play_services_install_title = 2131230820;
+			
+			// aapt resource value: 0x7F080065
+			public const int common_google_play_services_notification_ticker = 2131230821;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unknown_issue = 1;
+			
+			// aapt resource value: 0x7F080066
+			public const int common_google_play_services_unsupported_text = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int common_google_play_services_update_button = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int common_google_play_services_update_text = 2131230824;
+			
+			// aapt resource value: 0x7F080069
+			public const int common_google_play_services_update_title = 2131230825;
+			
+			// aapt resource value: 0x7F080070
+			public const int common_google_play_services_updating_text = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int common_google_play_services_wear_update_text = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int common_open_on_phone = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int common_signin_button_text = 2131230835;
+			
+			// aapt resource value: 0x7F080074
+			public const int common_signin_button_text_long = 2131230836;
+			
+			// aapt resource value: 0x7F080058
+			public const int fcm_fallback_notification_channel_label = 2131230808;
+			
+			// aapt resource value: 0x1
+			public const int gcm_fallback_notification_channel_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int license_content_error = 1;
+			
 			// aapt resource value: 0x7F080016
 			public const int menu_item_equipment_delete = 2131230742;
+			
+			// aapt resource value: 0x1
+			public const int no_licenses_available = 1;
+			
+			// aapt resource value: 0x1
+			public const int oss_license_title = 1;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;
@@ -3679,11 +5262,47 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F150025
 			public const int path_password_strike_through = 2132082725;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_clear_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_hint = 1;
+			
+			// aapt resource value: 0x1
+			public const int preferences_license_summary = 1;
+			
+			// aapt resource value: 0x1
+			public const int s1 = 1;
+			
+			// aapt resource value: 0x1
+			public const int s2 = 1;
+			
+			// aapt resource value: 0x1
+			public const int s3 = 1;
+			
+			// aapt resource value: 0x1
+			public const int s4 = 1;
+			
+			// aapt resource value: 0x1
+			public const int s5 = 1;
+			
+			// aapt resource value: 0x1
+			public const int s6 = 1;
+			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
 			
 			// aapt resource value: 0x7F0A0013
 			public const int status_bar_notification_info_overflow = 2131361811;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_title = 1;
 			
 			// aapt resource value: 0x7F080008
 			public const int title_accounts = 2131230728;
@@ -3714,6 +5333,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F080013
 			public const int txt_agp_add_detect_temperature = 2131230739;
+			
+			// aapt resource value: 0x1
+			public const int wallet_buy_button_place_holder = 1;
 			
 			static String()
 			{
@@ -4250,6 +5872,18 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
+			// aapt resource value: 0x1
+			public const int CastExpandedController = 1;
+			
+			// aapt resource value: 0x1
+			public const int CastIntroOverlay = 1;
+			
+			// aapt resource value: 0x1
+			public const int CastMiniController = 1;
+			
+			// aapt resource value: 0x1
+			public const int CustomCastTheme = 1;
+			
 			// aapt resource value: 0x7F090003
 			public const int MyCustomTabLayout = 2131296259;
 			
@@ -4481,6 +6115,18 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0B00C3
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427523;
 			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastIntroOverlay_Button = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastIntroOverlay_Title = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastMiniController_Subtitle = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastMiniController_Title = 1;
+			
 			// aapt resource value: 0x7F160001
 			public const int TextAppearance_Compat_Notification = 2132148225;
 			
@@ -4640,6 +6286,12 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F0B00D9
 			public const int Theme_AppCompat_NoActionBar = 2131427545;
 			
+			// aapt resource value: 0x1
+			public const int Theme_AppInvite_Preview = 1;
+			
+			// aapt resource value: 0x1
+			public const int Theme_AppInvite_Preview_Base = 1;
+			
 			// aapt resource value: 0x7F160126
 			public const int Theme_Design = 2132148518;
 			
@@ -4658,8 +6310,23 @@ namespace AbcPlaza
 			// aapt resource value: 0x7F16012B
 			public const int Theme_Design_NoActionBar = 2132148523;
 			
+			// aapt resource value: 0x1
+			public const int Theme_IAPTheme = 1;
+			
 			// aapt resource value: 0x7F090004
 			public const int Toolbar_TitleText = 2131296260;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultDetailsHeaderTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultDetailsTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultStyle = 1;
 			
 			// aapt resource value: 0x7F0B00DF
 			public const int Widget_AppCompat_ActionBar = 2131427551;
@@ -5095,6 +6762,20 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7F100044
 			public const int ActivityChooserView_initialActivityCount = 2131755076;
+			
+			public static int[] AdsAttrs = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F100699
+			public const int AdsAttrs_adSize = 2131756697;
+			
+			// aapt resource value: 0x1
+			public const int AdsAttrs_adSizes = 1;
+			
+			// aapt resource value: 0x2
+			public const int AdsAttrs_adUnitId = 2;
 			
 			public static int[] AlertDialog = new int[] {
 					16842994,
@@ -5739,6 +7420,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x118
 			public const int AppCompatTheme_windowNoTitle = 280;
 			
+			public static int[] AppDataSearch = new int[] {
+					0};
+			
 			public static int[] BottomNavigationView = new int[] {
 					2130968701,
 					2130968749,
@@ -5834,6 +7518,164 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x12
 			public const int CardView_contentPaddingTop = 18;
+			
+			public static int[] CastExpandedController = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x3
+			public const int CastExpandedController_castButtonColor = 3;
+			
+			// aapt resource value: 0x12
+			public const int CastExpandedController_castClosedCaptionsButtonDrawable = 18;
+			
+			// aapt resource value: 0x2
+			public const int CastExpandedController_castControlButtons = 2;
+			
+			// aapt resource value: 0x10
+			public const int CastExpandedController_castForward30ButtonDrawable = 16;
+			
+			// aapt resource value: 0x11
+			public const int CastExpandedController_castMuteToggleButtonDrawable = 17;
+			
+			// aapt resource value: 0x5
+			public const int CastExpandedController_castPauseButtonDrawable = 5;
+			
+			// aapt resource value: 0x4
+			public const int CastExpandedController_castPlayButtonDrawable = 4;
+			
+			// aapt resource value: 0x9
+			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
+			
+			// aapt resource value: 0x7F100712
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131756818;
+			
+			// aapt resource value: 0x1
+			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
+			
+			// aapt resource value: 0x8
+			public const int CastExpandedController_castSkipNextButtonDrawable = 8;
+			
+			// aapt resource value: 0x7
+			public const int CastExpandedController_castSkipPreviousButtonDrawable = 7;
+			
+			// aapt resource value: 0x6
+			public const int CastExpandedController_castStopButtonDrawable = 6;
+			
+			public static int[] CastIntroOverlay = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F100718
+			public const int CastIntroOverlay_castBackgroundColor = 2131756824;
+			
+			// aapt resource value: 0x1
+			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
+			
+			// aapt resource value: 0x3
+			public const int CastIntroOverlay_castButtonText = 3;
+			
+			// aapt resource value: 0x2
+			public const int CastIntroOverlay_castButtonTextAppearance = 2;
+			
+			// aapt resource value: 0x5
+			public const int CastIntroOverlay_castFocusRadius = 5;
+			
+			// aapt resource value: 0x4
+			public const int CastIntroOverlay_castTitleTextAppearance = 4;
+			
+			public static int[] CastMiniController = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x4
+			public const int CastMiniController_castBackground = 4;
+			
+			// aapt resource value: 0x6
+			public const int CastMiniController_castButtonColor = 6;
+			
+			// aapt resource value: 0x18
+			public const int CastMiniController_castClosedCaptionsButtonDrawable = 24;
+			
+			// aapt resource value: 0x3
+			public const int CastMiniController_castControlButtons = 3;
+			
+			// aapt resource value: 0x16
+			public const int CastMiniController_castForward30ButtonDrawable = 22;
+			
+			// aapt resource value: 0x11
+			public const int CastMiniController_castLargePauseButtonDrawable = 17;
+			
+			// aapt resource value: 0x10
+			public const int CastMiniController_castLargePlayButtonDrawable = 16;
+			
+			// aapt resource value: 0x12
+			public const int CastMiniController_castLargeStopButtonDrawable = 18;
+			
+			// aapt resource value: 0x17
+			public const int CastMiniController_castMuteToggleButtonDrawable = 23;
+			
+			// aapt resource value: 0x8
+			public const int CastMiniController_castPauseButtonDrawable = 8;
+			
+			// aapt resource value: 0x7
+			public const int CastMiniController_castPlayButtonDrawable = 7;
+			
+			// aapt resource value: 0x5
+			public const int CastMiniController_castProgressBarColor = 5;
+			
+			// aapt resource value: 0x15
+			public const int CastMiniController_castRewind30ButtonDrawable = 21;
+			
+			// aapt resource value: 0x1
+			public const int CastMiniController_castShowImageThumbnail = 1;
+			
+			// aapt resource value: 0x14
+			public const int CastMiniController_castSkipNextButtonDrawable = 20;
+			
+			// aapt resource value: 0x13
+			public const int CastMiniController_castSkipPreviousButtonDrawable = 19;
+			
+			// aapt resource value: 0x9
+			public const int CastMiniController_castStopButtonDrawable = 9;
+			
+			// aapt resource value: 0x2
+			public const int CastMiniController_castSubtitleTextAppearance = 2;
+			
+			// aapt resource value: 0x7F100743
+			public const int CastMiniController_castTitleTextAppearance = 2131756867;
 			
 			public static int[] CircleImageView = new int[] {
 					2130771968,
@@ -5997,6 +7839,64 @@ namespace AbcPlaza
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
+			public static int[] Corpus = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int Corpus_contentProviderUri = 2;
+			
+			// aapt resource value: 0x7F100746
+			public const int Corpus_corpusId = 2131756870;
+			
+			// aapt resource value: 0x1
+			public const int Corpus_corpusVersion = 1;
+			
+			// aapt resource value: 0x6
+			public const int Corpus_documentMaxAgeSecs = 6;
+			
+			// aapt resource value: 0x7
+			public const int Corpus_perAccountTemplate = 7;
+			
+			// aapt resource value: 0x4
+			public const int Corpus_schemaOrgType = 4;
+			
+			// aapt resource value: 0x5
+			public const int Corpus_semanticallySearchable = 5;
+			
+			// aapt resource value: 0x3
+			public const int Corpus_trimmable = 3;
+			
+			public static int[] CustomCastTheme = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int CustomCastTheme_castExpandedControllerStyle = 2;
+			
+			// aapt resource value: 0x7F100755
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131756885;
+			
+			// aapt resource value: 0x1
+			public const int CustomCastTheme_castMiniControllerStyle = 1;
+			
+			public static int[] CustomWalletTheme = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x1
+			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
+			
+			// aapt resource value: 0x7F100759
+			public const int CustomWalletTheme_windowTransitionStyle = 2131756889;
+			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
 					2130968640,
@@ -6044,6 +7944,16 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] FeatureParam = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x7F100761
+			public const int FeatureParam_paramName = 2131756897;
+			
+			// aapt resource value: 0x1
+			public const int FeatureParam_paramValue = 1;
 			
 			public static int[] FloatingActionButton = new int[] {
 					2130968629,
@@ -6151,6 +8061,74 @@ namespace AbcPlaza
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] GlobalSearch = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			public static int[] GlobalSearchCorpus = new int[] {
+					1};
+			
+			// aapt resource value: 0x7F100771
+			public const int GlobalSearchCorpus_allowShortcuts = 2131756913;
+			
+			public static int[] GlobalSearchSection = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x1
+			public const int GlobalSearchSection_sectionContent = 1;
+			
+			// aapt resource value: 0x7F100774
+			public const int GlobalSearchSection_sectionType = 2131756916;
+			
+			// aapt resource value: 0x3
+			public const int GlobalSearch_defaultIntentAction = 3;
+			
+			// aapt resource value: 0x5
+			public const int GlobalSearch_defaultIntentActivity = 5;
+			
+			// aapt resource value: 0x4
+			public const int GlobalSearch_defaultIntentData = 4;
+			
+			// aapt resource value: 0x7F100767
+			public const int GlobalSearch_searchEnabled = 2131756903;
+			
+			// aapt resource value: 0x1
+			public const int GlobalSearch_searchLabel = 1;
+			
+			// aapt resource value: 0x2
+			public const int GlobalSearch_settingsDescription = 2;
+			
+			public static int[] IMECorpus = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F100776
+			public const int IMECorpus_inputEnabled = 2131756918;
+			
+			// aapt resource value: 0x1
+			public const int IMECorpus_sourceClass = 1;
+			
+			// aapt resource value: 0x5
+			public const int IMECorpus_toAddressesSection = 5;
+			
+			// aapt resource value: 0x3
+			public const int IMECorpus_userInputSection = 3;
+			
+			// aapt resource value: 0x2
+			public const int IMECorpus_userInputTag = 2;
+			
+			// aapt resource value: 0x4
+			public const int IMECorpus_userInputValue = 4;
+			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -6216,6 +8194,114 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] LoadingImageView = new int[] {
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F100692
+			public const int LoadingImageView_circleCrop = 2131756690;
+			
+			// aapt resource value: 0x7F100691
+			public const int LoadingImageView_imageAspectRatio = 2131756689;
+			
+			// aapt resource value: 0x7F100690
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131756688;
+			
+			public static int[] MapAttrs = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x16
+			public const int MapAttrs_ambientEnabled = 22;
+			
+			// aapt resource value: 0x1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 0x18
+			public const int MapAttrs_cameraMaxZoomPreference = 24;
+			
+			// aapt resource value: 0x17
+			public const int MapAttrs_cameraMinZoomPreference = 23;
+			
+			// aapt resource value: 0x2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 0x3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 0x4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 0x5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 0x21
+			public const int MapAttrs_latLngBoundsNorthEastLatitude = 33;
+			
+			// aapt resource value: 0x22
+			public const int MapAttrs_latLngBoundsNorthEastLongitude = 34;
+			
+			// aapt resource value: 0x19
+			public const int MapAttrs_latLngBoundsSouthWestLatitude = 25;
+			
+			// aapt resource value: 0x20
+			public const int MapAttrs_latLngBoundsSouthWestLongitude = 32;
+			
+			// aapt resource value: 0x6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0x7F100796
+			public const int MapAttrs_mapType = 2131756950;
+			
+			// aapt resource value: 0x7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 0x15
+			public const int MapAttrs_uiMapToolbar = 21;
+			
+			// aapt resource value: 0x8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 0x9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 0x10
+			public const int MapAttrs_uiTiltGestures = 16;
+			
+			// aapt resource value: 0x11
+			public const int MapAttrs_uiZoomControls = 17;
+			
+			// aapt resource value: 0x12
+			public const int MapAttrs_uiZoomGestures = 18;
+			
+			// aapt resource value: 0x13
+			public const int MapAttrs_useViewLifecycle = 19;
+			
+			// aapt resource value: 0x14
+			public const int MapAttrs_zOrderOnTop = 20;
 			
 			public static int[] MaterialSpinner = new int[] {
 					2130772019,
@@ -6634,6 +8720,56 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x12
 			public const int SearchView_voiceIcon = 18;
+			
+			public static int[] Section = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			public static int[] SectionFeature = new int[] {
+					1};
+			
+			// aapt resource value: 0x7F100815
+			public const int SectionFeature_featureType = 2131757077;
+			
+			// aapt resource value: 0x4
+			public const int Section_indexPrefixes = 4;
+			
+			// aapt resource value: 0x2
+			public const int Section_noIndex = 2;
+			
+			// aapt resource value: 0x6
+			public const int Section_schemaOrgProperty = 6;
+			
+			// aapt resource value: 0x1
+			public const int Section_sectionFormat = 1;
+			
+			// aapt resource value: 0x7F100811
+			public const int Section_sectionId = 2131757073;
+			
+			// aapt resource value: 0x3
+			public const int Section_sectionWeight = 3;
+			
+			// aapt resource value: 0x5
+			public const int Section_subsectionSeparator = 5;
+			
+			public static int[] SignInButton = new int[] {
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F100694
+			public const int SignInButton_buttonSize = 2131756692;
+			
+			// aapt resource value: 0x7F100695
+			public const int SignInButton_colorScheme = 2131756693;
+			
+			// aapt resource value: 0x7F100696
+			public const int SignInButton_scopeUris = 2131756694;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
@@ -7525,6 +9661,70 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x4
 			public const int View_theme = 4;
+			
+			public static int[] WalletFragmentOptions = new int[] {
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F100817
+			public const int WalletFragmentOptions_appTheme = 2131757079;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentOptions_environment = 1;
+			
+			// aapt resource value: 0x3
+			public const int WalletFragmentOptions_fragmentMode = 3;
+			
+			// aapt resource value: 0x2
+			public const int WalletFragmentOptions_fragmentStyle = 2;
+			
+			public static int[] WalletFragmentStyle = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x3
+			public const int WalletFragmentStyle_buyButtonAppearance = 3;
+			
+			// aapt resource value: 0x7F100823
+			public const int WalletFragmentStyle_buyButtonHeight = 2131757091;
+			
+			// aapt resource value: 0x2
+			public const int WalletFragmentStyle_buyButtonText = 2;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentStyle_buyButtonWidth = 1;
+			
+			// aapt resource value: 0x6
+			public const int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
+			
+			// aapt resource value: 0x8
+			public const int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
+			
+			// aapt resource value: 0x7
+			public const int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
+			
+			// aapt resource value: 0x5
+			public const int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
+			
+			// aapt resource value: 0x10
+			public const int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 16;
+			
+			// aapt resource value: 0x9
+			public const int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
+			
+			// aapt resource value: 0x4
+			public const int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
 			
 			static Styleable()
 			{

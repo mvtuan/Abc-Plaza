@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcPlaza", "AbcPlaza\AbcPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staff", "Staff\Staff.csproj", "{7F68466B-FB97-4996-9E04-D760929A9213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Manager\Manager.csproj", "{D6864214-7CED-41E4-9911-49532EB84ED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{7F68466B-FB97-4996-9E04-D760929A9213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F68466B-FB97-4996-9E04-D760929A9213}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F68466B-FB97-4996-9E04-D760929A9213}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6864214-7CED-41E4-9911-49532EB84ED2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

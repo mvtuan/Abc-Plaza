@@ -44,6 +44,7 @@ namespace AbcPlaza.Activities
         private List<int> listItem = new List<int>();
         private string equipmentName;
         private int warrantyPeriod;
+        //private ImageView addImage;
 
         private void InitItems()
         {
@@ -67,6 +68,8 @@ namespace AbcPlaza.Activities
             imageAddEquipment = (ImageView)FindViewById(Resource.Id.img_add_equipment_image);
             spEquipment = (MaterialSpinner)FindViewById(Resource.Id.sp_add_equipment);
             spWarrantyPeriod = (MaterialSpinner)FindViewById(Resource.Id.sp_add_warranty_period);
+            //addImage = (ImageView)FindViewById(Resource.Id.img_add_equipment_image);
+            //addImage.SetImageResource(Resource.Drawable.fan);
 
             string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện" };
             equipmentAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, equipments);

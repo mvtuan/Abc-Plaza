@@ -27,4 +27,10 @@ Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.CardView
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.Firebase.Common
+Xamarin.Firebase.Iid
+Xamarin.Firebase.Messaging
+Xamarin.GooglePlayServices.Base
+Xamarin.GooglePlayServices.Basement
+Xamarin.GooglePlayServices.Tasks
 netstandard

@@ -17,6 +17,12 @@
     <ManifestDocument>obj\Debug\81\lp\26\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\27\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\28\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\29\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\30\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\31\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\32\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\33\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\34\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\6\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\6\jl\aapt\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
@@ -40,6 +46,12 @@
     <Jar>obj\Debug\81\lp\26\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\27\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\29\jl\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\30\jl\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\31\jl\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\32\jl\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\33\jl\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\34\jl\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\6\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\7\jl\okhttp-2.4.0.jar</Jar>
     <Jar>obj\Debug\81\lp\8\jl\okio-1.5.0.jar</Jar>
