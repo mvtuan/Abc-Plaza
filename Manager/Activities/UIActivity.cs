@@ -56,12 +56,14 @@ namespace Manager.Activities
             switch (id)
             {
                 case Resource.Id.navigation_apartments:
+                    fragment = SupportFragmment.NewInstance();
+                    break;
+                   
+                case Resource.Id.navigation_residents:
                     fragment = ResidentFragment.NewInstance();
                     toolbar.SetTitle(Resource.String.title_equipment);
                     break;
-                    //case Resource.Id.navigation_apartment:
-                    //    fragment = ApartmentFragment.NewInstance();
-                    //    break;
+
                     //case Resource.Id.navigation_bills:
                     //    fragment = BillFragment.NewInstance();
                     //    break;

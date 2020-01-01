@@ -56,16 +56,22 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ConfirmationActivity.cs" />
     <Compile Include="Activities\EquipmentActivity.cs" />
     <Compile Include="Activities\UIActivity.cs" />
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Adapter\ResidentAdapter.cs" />
+    <Compile Include="Adapter\SupportAdapter.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
     <Compile Include="Api\Response\ResidentResponse.cs" />
+    <Compile Include="Api\Response\SupportResponse.cs" />
     <Compile Include="C Sharp\MainActivity.cs" />
     <Compile Include="C Sharp\Resident.cs" />
     <Compile Include="Constant\Url.cs" />
+    <Compile Include="FCMClient\MyFirebaseIIDService .cs" />
+    <Compile Include="FCMClient\MyFirebaseMessagingService.cs" />
     <Compile Include="Fragments\ResidentFragment.cs" />
+    <Compile Include="Fragments\SupportFragmment.cs" />
     <Compile Include="Listener\IItemClickListener.cs" />
     <Compile Include="Listener\IRecycleViewOnItemClickListener.cs" />
     <Compile Include="Resources\CustomAdapter.cs" />
@@ -73,6 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <GoogleServicesJson Include="google-services.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
@@ -196,6 +203,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client">
+      <Version>1.1.0</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
@@ -216,6 +226,12 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView">
       <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>60.1142.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Base">
+      <Version>60.1142.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -246,6 +262,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\popup_menu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\custom_support.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fragment_support.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_confirmation.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
