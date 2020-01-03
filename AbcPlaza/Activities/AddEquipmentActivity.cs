@@ -36,7 +36,7 @@ namespace AbcPlaza.Activities
         private Button addEquipment;
         private ImageView imageAddEquipment;
         private Button addEquipmentImage;
-        private MediaFile _mediFile;
+        private MediaFile _mediaFile;
         private MaterialSpinner spEquipment;
         private MaterialSpinner spWarrantyPeriod;
         private ArrayAdapter equipmentAdapter;
@@ -69,7 +69,7 @@ namespace AbcPlaza.Activities
             spEquipment = (MaterialSpinner)FindViewById(Resource.Id.sp_add_equipment);
             spWarrantyPeriod = (MaterialSpinner)FindViewById(Resource.Id.sp_add_warranty_period);
             //addImage = (ImageView)FindViewById(Resource.Id.img_add_equipment_image);
-            //addImage.SetImageResource(Resource.Drawable.fan);
+            imageAddEquipment.SetImageResource(Resource.Drawable.fan);
 
             string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện" };
             equipmentAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, equipments);
@@ -113,10 +113,25 @@ namespace AbcPlaza.Activities
         
             addEquipmentImage.Click += (sender, e) =>
             {
-                Intent = new Intent();
-                Intent.SetType("image/*");
-                Intent.SetAction(Intent.ActionGetContent);
-                StartActivityForResult(Intent.CreateChooser(Intent, "Select Picture"), PickImageId);
+                //var uri = new Uri(string.Format(Constants.UsersRestUrl + "/Files/Upload/", string.Empty));
+                //var content = new MultipartFormDataContent();
+                //_mediaFile = CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+                //{
+                //    Directory = "Sample",
+                //    Name = "myImage.jpg"
+                //});
+
+                ////_mediaFile = new MediaFile("cdccc",);
+                //content.Add(new StreamContent(_mediaFile.GetStream()),
+                //    "\"file\"",
+                //    $"\"{_mediaFile.Path}\"");
+
+                //var httpClient = new HttpClient();
+                //var httpResponseMessage = await httpClient.PostAsync(uri, content);
+                //Intent = new Intent();
+                //Intent.SetType("image/*");
+                //Intent.SetAction(Intent.ActionGetContent);
+                //StartActivityForResult(Intent.CreateChooser(Intent, "Select Picture"), PickImageId);
             };
             addEquipment.Click += (sender, e) =>
              {

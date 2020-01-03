@@ -884,10 +884,10 @@ int id auto 0x7f0b0023
 int id beginning 0x7f0b0037
 int id blocking 0x7f0b005e
 int id bottom 0x7f0b0045
+int id btn_confirm 0x7f0b0092
 int id btn_equipment_handler 0x7f0b0123
 int id btn_resident_handler 0x7f0b012a
 int id btn_support 0x7f0b0131
-int id button1 0x7f0b0092
 int id button4 0x7f0b00fb
 int id buttonPanel 0x7f0b006a
 int id cancel_action 0x7f0b0170

@@ -3419,9 +3419,9 @@ containing a value of this type.
         public static final int btn_add_equipment=0x7f0b0098;
         public static final int btn_add_equipment_image=0x7f0b0094;
         public static final int btn_demo=0x7f0b00b3;
+        public static final int btn_register=0x7f0b00c6;
         public static final int btn_update_agp_image=0x7f0b00a5;
         public static final int btn_update_equipment=0x7f0b00a9;
-        public static final int button=0x7f0b00c7;
         public static final int buttonOptions=0x7f0b00b2;
         public static final int buttonPanel=0x7f0b006a;
         public static final int cancel_action=0x7f0b00cc;
@@ -3449,9 +3449,10 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0b00bd;
         public static final int design_navigation_view=0x7f0b00bc;
         public static final int disableHome=0x7f0b0029;
-        public static final int editText1=0x7f0b00c6;
+        public static final int editText1=0x7f0b00c7;
         public static final int edit_query=0x7f0b0085;
         public static final int edt_add_purchase_date=0x7f0b0096;
+        public static final int edt_msg_support=0x7f0b00c5;
         public static final int edt_update_purchase_date=0x7f0b00a7;
         public static final int end=0x7f0b0038;
         public static final int end_padder=0x7f0b00da;
@@ -3555,7 +3556,6 @@ containing a value of this type.
         public static final int sp_update_equipment=0x7f0b00a6;
         public static final int sp_update_warranty_period=0x7f0b00a8;
         public static final int spacer=0x7f0b006b;
-        public static final int spinner=0x7f0b00c5;
         public static final int split_action_bar=0x7f0b0008;
         public static final int src_atop=0x7f0b0032;
         public static final int src_in=0x7f0b0033;

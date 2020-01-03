@@ -50,7 +50,7 @@ namespace Manager.Fragments
             residentAdapter = new ResidentAdapter(residents, Context);
             mRecycleView.SetAdapter(residentAdapter);
             residentAdapter.SetRecycleViewOnItemClickListener(this);
-            GetListResident();
+            //GetListResident();
             return v;
 
         }

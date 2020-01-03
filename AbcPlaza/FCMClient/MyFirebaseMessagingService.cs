@@ -11,6 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Firebase.Messaging;
+using Android.Support.V4.App;
 
 namespace AbcPlaza.FCMClient
 {
@@ -21,14 +22,36 @@ namespace AbcPlaza.FCMClient
         const string TAG = "MyFirebaseMsgService";
         public override void OnMessageReceived(RemoteMessage message)
         {
-            IDictionary<string,string>abc= message.Data;
-            foreach (KeyValuePair<string, string> item in abc)
-            {
-                Console.WriteLine("Key: {0}, Value: {1}", item.Key, item.Value);
-            }
-            Log.Debug(TAG, message.Data.ToString());
-            //Log.Debug(TAG, "From: " + message.From);
-            //Log.Debug(TAG, "Notification Message Body: " + message.GetNotification().Body);
+            Log.Debug(TAG, "From: " + message.From);
+
+            var body = message.GetNotification().Body;
+            Log.Debug(TAG, "Notification Message Body: " + body);
+            SendNotification(body, message.Data);
+        }
+
+        void SendNotification(string messageBody, IDictionary<string, string> data)
+        {
+            var intent = new Intent(this, typeof(MainActivity));
+            //intent.AddFlags(ActivityFlags.ClearTop);
+            //foreach (var key in data.Keys)
+            //{
+            //    intent.PutExtra(key, data[key]);
+            //}
+
+            //var pendingIntent = PendingIntent.GetActivity(this,
+            //                                              MainActivity.NOTIFICATION_ID,
+            //                                              intent,
+            //                                              PendingIntentFlags.OneShot);
+
+            var notificationBuilder = new NotificationCompat.Builder(this, MainActivity.CHANNEL_ID)
+                                      .SetSmallIcon(Resource.Drawable.fan)
+                                      .SetContentTitle("FCM Message")
+                                      .SetContentText(messageBody)
+                                      .SetAutoCancel(true);
+                                      //.SetContentIntent(pendingIntent);
+
+            var notificationManager = NotificationManagerCompat.From(this);
+            notificationManager.Notify(MainActivity.NOTIFICATION_ID, notificationBuilder.Build());
         }
     }
 }

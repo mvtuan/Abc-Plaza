@@ -7,23 +7,69 @@ using Android.Widget;
 using Android.App;
 using AbcPlaza.Fragments;
 using Android.Views;
+using Android.Gms.Common;
 
 namespace AbcPlaza
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        internal static readonly string CHANNEL_ID = "my_notification_channel";
+        internal static readonly int NOTIFICATION_ID = 100;
         TextView textMessage;
         private Android.Support.V7.Widget.Toolbar toolbar = null;
 
-       
+        public bool IsPlayServicesAvailable()
+        {
+            int resultCode = GoogleApiAvailability.Instance.IsGooglePlayServicesAvailable(this);
+            if (resultCode != ConnectionResult.Success)
+            {
+                if (GoogleApiAvailability.Instance.IsUserResolvableError(resultCode))
+                {
+                    //msgText.Text = GoogleApiAvailability.Instance.GetErrorString(resultCode);
+                }
+                else
+                {
+                    //msgText.Text = "This device is not supported";
+                    Finish();
+                }
+                return false;
+            }
+            else
+            {
+                //msgText.Text = "Google Play Services is available.";
+                return true;
+            }
+        }
+
+        void CreateNotificationChannel()
+        {
+            if (Build.VERSION.SdkInt < BuildVersionCodes.O)
+            {
+                // Notification channels are new in API 26 (and not a part of the
+                // support library). There is no need to create a notification
+                // channel on older versions of Android.
+                return;
+            }
+            var channel = new NotificationChannel(CHANNEL_ID,
+                                                  "FCM Notifications",
+                                                  NotificationImportance.Default)
+            {
+                Description = "Firebase Cloud Messages appear in this channel"
+            };
+            var notificationManager = (NotificationManager)GetSystemService(Android.Content.Context.NotificationService);
+            notificationManager.CreateNotificationChannel(channel);
+        }
+
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+            IsPlayServicesAvailable();
+            CreateNotificationChannel();
             toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_main);
-
             SetSupportActionBar(toolbar);
 
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
@@ -32,9 +78,7 @@ namespace AbcPlaza
             SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
-
             navigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
-
             loadFragment(Resource.Id.navigation_service);
         }
 

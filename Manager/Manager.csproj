@@ -62,6 +62,7 @@
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Adapter\ResidentAdapter.cs" />
     <Compile Include="Adapter\SupportAdapter.cs" />
+    <Compile Include="Api\Request\ConfirmationRequest.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
     <Compile Include="Api\Response\ResidentResponse.cs" />
     <Compile Include="Api\Response\SupportResponse.cs" />
@@ -239,9 +240,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Api\Request\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_equipment.axml">
       <SubType>Designer</SubType>

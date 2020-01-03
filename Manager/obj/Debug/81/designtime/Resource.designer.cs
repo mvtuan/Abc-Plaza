@@ -3525,6 +3525,9 @@ namespace Manager
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F020002
+			public const int btn_confirm = 2130837506;
+			
 			// aapt resource value: 0x7F020147
 			public const int btn_equipment_handler = 2130837831;
 			
@@ -3536,9 +3539,6 @@ namespace Manager
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
-			
-			// aapt resource value: 0x7F020002
-			public const int button1 = 2130837506;
 			
 			// aapt resource value: 0x7F020107
 			public const int button4 = 2130837767;

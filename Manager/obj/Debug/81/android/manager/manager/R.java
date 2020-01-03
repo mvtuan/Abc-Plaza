@@ -3249,10 +3249,10 @@ containing a value of this type.
         public static final int beginning=0x7f0b0037;
         public static final int blocking=0x7f0b005e;
         public static final int bottom=0x7f0b0045;
+        public static final int btn_confirm=0x7f0b0092;
         public static final int btn_equipment_handler=0x7f0b0123;
         public static final int btn_resident_handler=0x7f0b012a;
         public static final int btn_support=0x7f0b0131;
-        public static final int button1=0x7f0b0092;
         public static final int button4=0x7f0b00fb;
         public static final int buttonPanel=0x7f0b006a;
         public static final int cancel_action=0x7f0b0170;

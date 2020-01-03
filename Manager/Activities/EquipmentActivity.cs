@@ -41,7 +41,7 @@ namespace Manager.Activities
             equipmentAdapter = new EquipmentAdapter(equipments, this);
             equipmentRecyclerView.SetAdapter(equipmentAdapter);
             //equipmentAdapter.SetRecycleViewOnItemClickListener(this);
-            GetListEquipment();
+            //GetListEquipment();
 
             // Create your application here
         }
