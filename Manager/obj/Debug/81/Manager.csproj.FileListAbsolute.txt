@@ -142,3 +142,4 @@ D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\Syst
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.Web.Services.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\android\assets\System.Xml.pdb
+D:\code\C#\Reponsitory\Client\Abc-Plaza\Manager\obj\Debug\81\Manager.csprojAssemblyReference.cache

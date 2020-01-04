@@ -28,7 +28,7 @@ namespace AbcPlaza.Activities
         //private Button btnImage;
         //private CircleImageView imgAGP;
 
-       
+
         private EditText updateEquipmentName;
         private EditText updatePurchaseDate;
         private EditText updateWarrantyPeriod;
@@ -65,7 +65,7 @@ namespace AbcPlaza.Activities
 
             spEquipment = (MaterialSpinner)FindViewById(Resource.Id.sp_update_equipment);
             spWarrantyPeriod = (MaterialSpinner)FindViewById(Resource.Id.sp_update_warranty_period);
-            string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện","Máy giặt" };
+            string[] equipments = { "Máy quạt", "Lò vi sóng", "Điều hòa", "Tủ lạnh", "Bếp điện", "Nồi cơm điện", "Máy giặt" };
             equipmentAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, equipments);
             equipmentAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spEquipment.Adapter = equipmentAdapter;
@@ -108,7 +108,7 @@ namespace AbcPlaza.Activities
             {
                 try
                 {
-                    
+
                     EquipmentResponse equipment = new EquipmentResponse();
                     equipment.Id = Intent.GetStringExtra("id");
                     equipment.EquipmentName = equipmentName;
@@ -117,7 +117,7 @@ namespace AbcPlaza.Activities
                     equipment.PurchaseDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
                     equipment.WarrantyPeriod = warrantyPeriod;
                     equipment.ResidentId = 3;
-                    string url = Url.EQUIPMENT_URL + equipment.Id;
+                    string url = Url.BASE_URL + "Equipment/" + equipment.Id;
                     HttpClient client = new HttpClient();
                     var uri = new Uri(url);
                     var json = JsonConvert.SerializeObject(equipment);

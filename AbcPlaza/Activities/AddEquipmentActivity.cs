@@ -153,7 +153,8 @@ namespace AbcPlaza.Activities
 
                          //}
                      HttpClient client = new HttpClient();
-                     var uri = new Uri(Url.EQUIPMENT_URL);
+                     string url = Url.BASE_URL + "Equipment";
+                     var uri = new Uri(url);
                      EquipmentResponse equipment = new EquipmentResponse();
                      equipment.Id = "1";
                      equipment.EquipmentName = equipmentName;

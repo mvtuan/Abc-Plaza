@@ -50,7 +50,7 @@ namespace Manager.Fragments
             residentAdapter = new ResidentAdapter(residents, Context);
             mRecycleView.SetAdapter(residentAdapter);
             residentAdapter.SetRecycleViewOnItemClickListener(this);
-            //GetListResident();
+            GetListResident();
             return v;
 
         }
@@ -59,7 +59,8 @@ namespace Manager.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://10.10.162.163:45459/Resident/");
+                string url = Url.BASE_URL + "Resident";
+                var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
 
@@ -100,7 +101,7 @@ namespace Manager.Fragments
 
         public void OnLongClick(View view, int position)
         {
-            
+
         }
     }
 }

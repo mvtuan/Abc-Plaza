@@ -14,6 +14,6 @@ namespace AbcPlaza.Constant
 {
     public class Url
     {
-        public static string EQUIPMENT_URL = "http://10.10.162.163:45459/Equipment/";
+        public static string BASE_URL = "http://172.16.0.139:45455/";
     }
 }

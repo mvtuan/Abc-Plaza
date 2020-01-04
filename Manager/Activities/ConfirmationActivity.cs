@@ -13,6 +13,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Manager.Api.Request;
+using Manager.Constant;
 using Newtonsoft.Json;
 
 namespace Manager.Activities
@@ -31,7 +32,8 @@ namespace Manager.Activities
                 try
                 {
                     HttpClient client = new HttpClient();
-                    var uri = new Uri("http://172.16.0.139:45455/api/Confirmation");
+                    string url = Url.BASE_URL + "api/Confirmation";
+                    var uri = new Uri(url);
                     ConfirmationRequest request = new ConfirmationRequest();
                     request.titile = "1";
                     request.body = "2";

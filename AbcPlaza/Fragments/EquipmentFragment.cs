@@ -63,7 +63,7 @@ namespace AbcPlaza.Fragments
         {
             View v = inflater.Inflate(Resource.Layout.fragment_equipment, container, false);
             mRecycleView = v.FindViewById<RecyclerView>(Resource.Id.recyclerView);
-            
+
 
             fabAddEquipment = v.FindViewById<FloatingActionButton>(Resource.Id.fab_add_equipment);
             fabAddEquipment.Click += (sender, e) =>
@@ -85,8 +85,8 @@ namespace AbcPlaza.Fragments
         {
             try
             {
-                HttpClient client = new HttpClient(); 
-                string url = "http://10.10.162.163:45459/GetEquipmentByResident(Id=3)";
+                HttpClient client = new HttpClient();
+                string url = Url.BASE_URL + "GetEquipmentByResident(Id=3)";
                 var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)

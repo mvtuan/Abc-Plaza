@@ -31,6 +31,7 @@ namespace Manager.Fragments
         {
             base.OnCreate(savedInstanceState);
 
+
             // Create your fragment here
         }
 

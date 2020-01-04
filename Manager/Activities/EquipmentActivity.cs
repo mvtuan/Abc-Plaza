@@ -15,6 +15,7 @@ using Android.Views;
 using Android.Widget;
 using Manager.Adapter;
 using Manager.Api.Response;
+using Manager.Constant;
 using Newtonsoft.Json;
 
 namespace Manager.Activities
@@ -41,7 +42,7 @@ namespace Manager.Activities
             equipmentAdapter = new EquipmentAdapter(equipments, this);
             equipmentRecyclerView.SetAdapter(equipmentAdapter);
             //equipmentAdapter.SetRecycleViewOnItemClickListener(this);
-            //GetListEquipment();
+            GetListEquipment();
 
             // Create your application here
         }
@@ -73,7 +74,7 @@ namespace Manager.Activities
             {
                 HttpClient client = new HttpClient();
                 string residentId = Intent.GetStringExtra("id");
-                string url = "http://10.10.162.163:45459/GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
+                string url = Url.BASE_URL + "GetEquipmentByResident" + "(" + "Id=" + residentId + ")";
                 var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)

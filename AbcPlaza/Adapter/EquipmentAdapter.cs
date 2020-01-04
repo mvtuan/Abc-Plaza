@@ -110,7 +110,7 @@ namespace AbcPlaza.Adapter
                         {
                             string id = adapter.data.ElementAt(position).Id;
                             HttpClient client = new HttpClient();
-                            string url = Url.EQUIPMENT_URL + id;
+                            string url = Url.BASE_URL + "Equipment/" + id;                         
                             var uri = new Uri(url);
                             Task<HttpResponseMessage> message = client.DeleteAsync(uri);
                             if (message.Result.IsSuccessStatusCode)

@@ -3465,11 +3465,11 @@ namespace Manager
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020358
-			public const int adjust_height = 2130838360;
+			// aapt resource value: 0x7F020353
+			public const int adjust_height = 2130838355;
 			
-			// aapt resource value: 0x7F020357
-			public const int adjust_width = 2130838359;
+			// aapt resource value: 0x7F020352
+			public const int adjust_width = 2130838354;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -3498,14 +3498,14 @@ namespace Manager
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F020209
-			public const int appbar = 2130838025;
+			// aapt resource value: 0x7F020204
+			public const int appbar = 2130838020;
 			
-			// aapt resource value: 0x7F020364
-			public const int APP_NAME = 2130838372;
+			// aapt resource value: 0x7F020359
+			public const int APP_NAME = 2130838361;
 			
-			// aapt resource value: 0x7F020356
-			public const int app_name = 2130838358;
+			// aapt resource value: 0x7F020351
+			public const int app_name = 2130838353;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -3542,9 +3542,6 @@ namespace Manager
 			
 			// aapt resource value: 0x7F020155
 			public const int btn_resident_handler = 2130837845;
-			
-			// aapt resource value: 0x7F020162
-			public const int btn_support = 2130837858;
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
@@ -3630,11 +3627,11 @@ namespace Manager
 			// aapt resource value: 0x7F0C001E
 			public const int checkbox = 2131492894;
 			
-			// aapt resource value: 0x7F020182
-			public const int checkBox_nam = 2130837890;
+			// aapt resource value: 0x7F020177
+			public const int checkBox_nam = 2130837879;
 			
-			// aapt resource value: 0x7F020183
-			public const int checkBox_nu = 2130837891;
+			// aapt resource value: 0x7F020178
+			public const int checkBox_nu = 2130837880;
 			
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
@@ -3678,8 +3675,8 @@ namespace Manager
 			// aapt resource value: 0x7F020140
 			public const int cv = 2130837824;
 			
-			// aapt resource value: 0x7F020362
-			public const int dark = 2130838370;
+			// aapt resource value: 0x7F020357
+			public const int dark = 2130838359;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -3741,8 +3738,8 @@ namespace Manager
 			// aapt resource value: 0x7F020139
 			public const int edt_cd_quanhe_ch = 2130837817;
 			
-			// aapt resource value: 0x7F020179
-			public const int edt_cd_tuoi = 2130837881;
+			// aapt resource value: 0x7F020174
+			public const int edt_cd_tuoi = 2130837876;
 			
 			// aapt resource value: 0x7F020051
 			public const int edt_cmnd = 2130837585;
@@ -3774,20 +3771,20 @@ namespace Manager
 			// aapt resource value: 0x7F020082
 			public const int edt_tang = 2130837634;
 			
-			// aapt resource value: 0x7F020191
-			public const int edt_tim_day = 2130837905;
+			// aapt resource value: 0x7F020186
+			public const int edt_tim_day = 2130837894;
 			
-			// aapt resource value: 0x7F020175
-			public const int edt_tim_hoten = 2130837877;
+			// aapt resource value: 0x7F020170
+			public const int edt_tim_hoten = 2130837872;
 			
-			// aapt resource value: 0x7F020199
-			public const int edt_tim_phong = 2130837913;
+			// aapt resource value: 0x7F020194
+			public const int edt_tim_phong = 2130837908;
 			
-			// aapt resource value: 0x7F020195
-			public const int edt_tim_tang = 2130837909;
+			// aapt resource value: 0x7F020190
+			public const int edt_tim_tang = 2130837904;
 			
-			// aapt resource value: 0x7F020187
-			public const int edt_tim_toa = 2130837895;
+			// aapt resource value: 0x7F020182
+			public const int edt_tim_toa = 2130837890;
 			
 			// aapt resource value: 0x7F020074
 			public const int edt_toa = 2130837620;
@@ -3867,8 +3864,8 @@ namespace Manager
 			// aapt resource value: 0x7F020136
 			public const int GridLayout_cd_quanhe_ch = 2130837814;
 			
-			// aapt resource value: 0x7F020176
-			public const int GridLayout_cd_tuoi = 2130837878;
+			// aapt resource value: 0x7F020171
+			public const int GridLayout_cd_tuoi = 2130837873;
 			
 			// aapt resource value: 0x7F020048
 			public const int GridLayout_cmnd = 2130837576;
@@ -3945,23 +3942,23 @@ namespace Manager
 			// aapt resource value: 0x7F020079
 			public const int GridLayout_tang = 2130837625;
 			
-			// aapt resource value: 0x7F020188
-			public const int GridLayout_tim_day = 2130837896;
+			// aapt resource value: 0x7F020183
+			public const int GridLayout_tim_day = 2130837891;
 			
-			// aapt resource value: 0x7F020180
-			public const int GridLayout_tim_gioitinh = 2130837888;
+			// aapt resource value: 0x7F020175
+			public const int GridLayout_tim_gioitinh = 2130837877;
 			
-			// aapt resource value: 0x7F020172
-			public const int GridLayout_tim_hoten = 2130837874;
+			// aapt resource value: 0x7F020167
+			public const int GridLayout_tim_hoten = 2130837863;
 			
-			// aapt resource value: 0x7F020196
-			public const int GridLayout_tim_phong = 2130837910;
+			// aapt resource value: 0x7F020191
+			public const int GridLayout_tim_phong = 2130837905;
 			
-			// aapt resource value: 0x7F020192
-			public const int GridLayout_tim_tang = 2130837906;
+			// aapt resource value: 0x7F020187
+			public const int GridLayout_tim_tang = 2130837895;
 			
-			// aapt resource value: 0x7F020184
-			public const int GridLayout_tim_toa = 2130837892;
+			// aapt resource value: 0x7F020179
+			public const int GridLayout_tim_toa = 2130837881;
 			
 			// aapt resource value: 0x7F020071
 			public const int GridLayout_toa = 2130837617;
@@ -3993,8 +3990,8 @@ namespace Manager
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F020361
-			public const int icon_only = 2130838369;
+			// aapt resource value: 0x7F020356
+			public const int icon_only = 2130838358;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -4035,23 +4032,23 @@ namespace Manager
 			// aapt resource value: 0x7F020088
 			public const int image_document_infor = 2130837640;
 			
-			// aapt resource value: 0x7F020164
-			public const int image_edit_cmnd = 2130837860;
+			// aapt resource value: 0x7F020159
+			public const int image_edit_cmnd = 2130837849;
 			
-			// aapt resource value: 0x7F020166
-			public const int image_edit_diachi = 2130837862;
+			// aapt resource value: 0x7F020161
+			public const int image_edit_diachi = 2130837857;
 			
-			// aapt resource value: 0x7F020167
-			public const int image_edit_dienthoai = 2130837863;
-			
-			// aapt resource value: 0x7F020168
-			public const int image_edit_email = 2130837864;
+			// aapt resource value: 0x7F020162
+			public const int image_edit_dienthoai = 2130837858;
 			
 			// aapt resource value: 0x7F020163
-			public const int image_edit_hoten = 2130837859;
+			public const int image_edit_email = 2130837859;
 			
-			// aapt resource value: 0x7F020165
-			public const int image_edit_ngaysinh = 2130837861;
+			// aapt resource value: 0x7F020158
+			public const int image_edit_hoten = 2130837848;
+			
+			// aapt resource value: 0x7F020160
+			public const int image_edit_ngaysinh = 2130837856;
 			
 			// aapt resource value: 0x7F020020
 			public const int image_find_owner = 2130837536;
@@ -4116,8 +4113,8 @@ namespace Manager
 			// aapt resource value: 0x7F020138
 			public const int input_cd_quanhe_ch = 2130837816;
 			
-			// aapt resource value: 0x7F020178
-			public const int input_cd_tuoi = 2130837880;
+			// aapt resource value: 0x7F020173
+			public const int input_cd_tuoi = 2130837875;
 			
 			// aapt resource value: 0x7F020050
 			public const int input_cmnd = 2130837584;
@@ -4143,20 +4140,20 @@ namespace Manager
 			// aapt resource value: 0x7F020081
 			public const int input_tang = 2130837633;
 			
-			// aapt resource value: 0x7F020190
-			public const int input_tim_day = 2130837904;
+			// aapt resource value: 0x7F020185
+			public const int input_tim_day = 2130837893;
 			
-			// aapt resource value: 0x7F020174
-			public const int input_tim_hoten = 2130837876;
+			// aapt resource value: 0x7F020169
+			public const int input_tim_hoten = 2130837865;
 			
-			// aapt resource value: 0x7F020198
-			public const int input_tim_phong = 2130837912;
+			// aapt resource value: 0x7F020193
+			public const int input_tim_phong = 2130837907;
 			
-			// aapt resource value: 0x7F020194
-			public const int input_tim_tang = 2130837908;
+			// aapt resource value: 0x7F020189
+			public const int input_tim_tang = 2130837897;
 			
-			// aapt resource value: 0x7F020186
-			public const int input_tim_toa = 2130837894;
+			// aapt resource value: 0x7F020181
+			public const int input_tim_toa = 2130837889;
 			
 			// aapt resource value: 0x7F020073
 			public const int input_toa = 2130837619;
@@ -4212,8 +4209,8 @@ namespace Manager
 			// aapt resource value: 0x7F020129
 			public const int lb_cd_sodienthoai = 2130837801;
 			
-			// aapt resource value: 0x7F020177
-			public const int lb_cd_tuoi = 2130837879;
+			// aapt resource value: 0x7F020172
+			public const int lb_cd_tuoi = 2130837874;
 			
 			// aapt resource value: 0x7F020049
 			public const int lb_cmnd = 2130837577;
@@ -4242,23 +4239,23 @@ namespace Manager
 			// aapt resource value: 0x7F020080
 			public const int lb_tang = 2130837632;
 			
-			// aapt resource value: 0x7F020189
-			public const int lb_tim_day = 2130837897;
+			// aapt resource value: 0x7F020184
+			public const int lb_tim_day = 2130837892;
 			
-			// aapt resource value: 0x7F020181
-			public const int lb_tim_gioitinh = 2130837889;
+			// aapt resource value: 0x7F020176
+			public const int lb_tim_gioitinh = 2130837878;
 			
-			// aapt resource value: 0x7F020173
-			public const int lb_tim_hoten = 2130837875;
+			// aapt resource value: 0x7F020168
+			public const int lb_tim_hoten = 2130837864;
 			
-			// aapt resource value: 0x7F020197
-			public const int lb_tim_phong = 2130837911;
+			// aapt resource value: 0x7F020192
+			public const int lb_tim_phong = 2130837906;
 			
-			// aapt resource value: 0x7F020193
-			public const int lb_tim_tang = 2130837907;
+			// aapt resource value: 0x7F020188
+			public const int lb_tim_tang = 2130837896;
 			
-			// aapt resource value: 0x7F020185
-			public const int lb_tim_toa = 2130837893;
+			// aapt resource value: 0x7F020180
+			public const int lb_tim_toa = 2130837888;
 			
 			// aapt resource value: 0x7F020072
 			public const int lb_toa = 2130837618;
@@ -4278,8 +4275,8 @@ namespace Manager
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F020363
-			public const int light = 2130838371;
+			// aapt resource value: 0x7F020358
+			public const int light = 2130838360;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -4290,8 +4287,8 @@ namespace Manager
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
-			// aapt resource value: 0x7F020207
-			public const int listView_resident = 2130838023;
+			// aapt resource value: 0x7F020202
+			public const int listView_resident = 2130838018;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
@@ -4311,8 +4308,8 @@ namespace Manager
 			// aapt resource value: 0x1
 			public const int logo_only = 1;
 			
-			// aapt resource value: 0x7F020208
-			public const int main_content = 2130838024;
+			// aapt resource value: 0x7F020203
+			public const int main_content = 2130838019;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -4326,8 +4323,8 @@ namespace Manager
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020214
-			public const int menu_delete = 2130838036;
+			// aapt resource value: 0x7F020209
+			public const int menu_delete = 2130838025;
 			
 			// aapt resource value: 0x7F020038
 			public const int message = 2130837560;
@@ -4344,17 +4341,17 @@ namespace Manager
 			// aapt resource value: 0x7F020039
 			public const int navigation = 2130837561;
 			
-			// aapt resource value: 0x7F020212
-			public const int navigation_apartments = 2130838034;
+			// aapt resource value: 0x7F020207
+			public const int navigation_apartments = 2130838023;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020213
-			public const int navigation_notifications = 2130838035;
+			// aapt resource value: 0x7F020208
+			public const int navigation_notifications = 2130838024;
 			
-			// aapt resource value: 0x7F020211
-			public const int navigation_residents = 2130838033;
+			// aapt resource value: 0x7F020206
+			public const int navigation_residents = 2130838022;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -4437,14 +4434,14 @@ namespace Manager
 			// aapt resource value: 0x7F020006
 			public const int rc_equipment = 2130837510;
 			
-			// aapt resource value: 0x7F020169
-			public const int rc_resident = 2130837865;
+			// aapt resource value: 0x7F020164
+			public const int rc_resident = 2130837860;
 			
-			// aapt resource value: 0x7F020170
-			public const int rc_support = 2130837872;
+			// aapt resource value: 0x7F020165
+			public const int rc_support = 2130837861;
 			
-			// aapt resource value: 0x7F020206
-			public const int relativeLayout1 = 2130838022;
+			// aapt resource value: 0x7F020201
+			public const int relativeLayout1 = 2130838017;
 			
 			// aapt resource value: 0x1
 			public const int rfc822 = 1;
@@ -4560,8 +4557,8 @@ namespace Manager
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F020359
-			public const int standard = 2130838361;
+			// aapt resource value: 0x7F020354
+			public const int standard = 2130838356;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -4629,23 +4626,23 @@ namespace Manager
 			// aapt resource value: 0x7F020002
 			public const int textView1 = 2130837506;
 			
+			// aapt resource value: 0x7F020195
+			public const int textView2 = 2130837909;
+			
+			// aapt resource value: 0x7F020196
+			public const int textView3 = 2130837910;
+			
+			// aapt resource value: 0x7F020197
+			public const int textView4 = 2130837911;
+			
+			// aapt resource value: 0x7F020198
+			public const int textView5 = 2130837912;
+			
+			// aapt resource value: 0x7F020199
+			public const int textView6 = 2130837913;
+			
 			// aapt resource value: 0x7F020200
-			public const int textView2 = 2130838016;
-			
-			// aapt resource value: 0x7F020201
-			public const int textView3 = 2130838017;
-			
-			// aapt resource value: 0x7F020202
-			public const int textView4 = 2130838018;
-			
-			// aapt resource value: 0x7F020203
-			public const int textView5 = 2130838019;
-			
-			// aapt resource value: 0x7F020204
-			public const int textView6 = 2130838020;
-			
-			// aapt resource value: 0x7F020205
-			public const int textView7 = 2130838021;
+			public const int textView7 = 2130838016;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -4653,8 +4650,8 @@ namespace Manager
 			// aapt resource value: 0x1
 			public const int text_list_view = 1;
 			
-			// aapt resource value: 0x7F020171
-			public const int text_title = 2130837873;
+			// aapt resource value: 0x7F020166
+			public const int text_title = 2130837862;
 			
 			// aapt resource value: 0x1
 			public const int thing_proto = 1;
@@ -4680,8 +4677,8 @@ namespace Manager
 			// aapt resource value: 0x1
 			public const int toolbar = 1;
 			
-			// aapt resource value: 0x7F020210
-			public const int toolbar_main = 2130838032;
+			// aapt resource value: 0x7F020205
+			public const int toolbar_main = 2130838021;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -4707,9 +4704,6 @@ namespace Manager
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F020159
-			public const int tv_date_support = 2130837849;
-			
 			// aapt resource value: 0x7F020142
 			public const int tv_equipment_name = 2130837826;
 			
@@ -4731,9 +4725,6 @@ namespace Manager
 			// aapt resource value: 0x7F020157
 			public const int tv_support_name = 2130837847;
 			
-			// aapt resource value: 0x7F020161
-			public const int tv_type_support = 2130837857;
-			
 			// aapt resource value: 0x7F020015
 			public const int txt_add_owner = 2130837525;
 			
@@ -4745,9 +4736,6 @@ namespace Manager
 			
 			// aapt resource value: 0x7F020098
 			public const int txt_cmnd_sau = 2130837656;
-			
-			// aapt resource value: 0x7F020158
-			public const int txt_date_support = 2130837848;
 			
 			// aapt resource value: 0x7F020030
 			public const int txt_delete_resident = 2130837552;
@@ -4803,9 +4791,6 @@ namespace Manager
 			// aapt resource value: 0x7F020151
 			public const int txt_room = 2130837841;
 			
-			// aapt resource value: 0x7F020160
-			public const int txt_type_support = 2130837856;
-			
 			// aapt resource value: 0x7F020027
 			public const int txt_update_owner = 2130837543;
 			
@@ -4827,8 +4812,8 @@ namespace Manager
 			// aapt resource value: 0x7F0C008F
 			public const int visible = 2131493007;
 			
-			// aapt resource value: 0x7F020360
-			public const int wide = 2130838368;
+			// aapt resource value: 0x7F020355
+			public const int wide = 2130838357;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
