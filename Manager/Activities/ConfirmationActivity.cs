@@ -31,7 +31,7 @@ namespace Manager.Activities
                 try
                 {
                     HttpClient client = new HttpClient();
-                    var uri = new Uri("http://localhost:56881/api/Confirmation");
+                    var uri = new Uri("http://172.16.0.139:45455/api/Confirmation");
                     ConfirmationRequest request = new ConfirmationRequest();
                     request.titile = "1";
                     request.body = "2";
@@ -40,6 +40,7 @@ namespace Manager.Activities
                     Task<HttpResponseMessage> message = client.PostAsync(uri, content);
                     if (message.Result.IsSuccessStatusCode)
                     {
+                        Console.WriteLine("0123456789");
                         //Intent data = new Intent();
                         //data.PutExtra(EXTRA_DATA, "Some interesting data!");
                         //SetResult(Result.Ok, data);

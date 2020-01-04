@@ -18,6 +18,7 @@
 
   <string name="title_equipment">Tài sản cư dân</string>
   <string name="menu_item_equipment_delete">Xoá</string>
+  <string name="btn_confirm">Xác nhận</string>
 
 
 </resources>

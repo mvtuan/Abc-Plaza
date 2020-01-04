@@ -60,6 +60,7 @@
     <Compile Include="Activities\UpdateEquipmentActivity.cs" />
     <Compile Include="Adapter\EquipmentAdapter.cs" />
     <Compile Include="Api\Request\DemoRequest.cs" />
+    <Compile Include="Api\Request\SupportRequest.cs" />
     <Compile Include="Api\Response\DemoResponse.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
     <Compile Include="Api\Response\ValueResponse.cs" />

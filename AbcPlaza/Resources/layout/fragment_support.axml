@@ -14,8 +14,6 @@
 		android:text="Đăng kí hỗ trợ"
 		android:textSize="24dp" />
 
-
-
 	<EditText
 		android:id="@+id/edt_msg_support"
 		android:layout_width="match_parent"
@@ -39,7 +37,7 @@
 		android:background="@drawable/shape_button_positive"
 		android:layout_centerVertical="true"
 		android:textAllCaps="true"
-		android:layout_below="@+id/editText1"
+		android:layout_below="@+id/edt_msg_support"
 		android:layout_centerHorizontal="true"
 		android:textSize="14sp"/>
 
