@@ -47,15 +47,15 @@ namespace Manager.Fragments
             mRecycleView = v.FindViewById<RecyclerView>(Resource.Id.rc_support);
             mLayoutManager = new LinearLayoutManager(Context);
             mRecycleView.SetLayoutManager(mLayoutManager);
-            SupportResponse support = new SupportResponse();
-            support.TypeSupport = "123";
-            SupportResponse support1 = new SupportResponse();
-            support1.TypeSupport = "456";
-            SupportResponse support2 = new SupportResponse();
-            support2.TypeSupport = "789";
-            supports.Add(support);
-            supports.Add(support1);
-            supports.Add(support2);
+            //SupportResponse support = new SupportResponse();
+            //support.TypeSupport = "123";
+            //SupportResponse support1 = new SupportResponse();
+            //support1.TypeSupport = "456";
+            //SupportResponse support2 = new SupportResponse();
+            //support2.TypeSupport = "789";
+            //supports.Add(support);
+            //supports.Add(support1);
+            //supports.Add(support2);
 
             supportAdapter = new SupportAdapter(supports, Context);
             mRecycleView.SetAdapter(supportAdapter);
@@ -67,7 +67,7 @@ namespace Manager.Fragments
         public void OnClick(View view, int position)
         {
             Intent updateIntent = new Intent(Context, typeof(ConfirmationActivity));
-            updateIntent.PutExtra("type", supports[position].TypeSupport);
+            updateIntent.PutExtra("type", supports[position].ResidentName);
             StartActivityForResult(updateIntent, 100);
         }
 
@@ -81,7 +81,7 @@ namespace Manager.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://172.16.0.139:45455/Support/");
+                var uri = new Uri("http://172.16.0.139:45455/Support");
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
                 {
@@ -90,14 +90,12 @@ namespace Manager.Fragments
                     int count = response.value.Count();
                     for (int i = 0; i < count; i++)
                     {
-                        //ResidentResponse resident = new ResidentResponse();
-                        //resident.Id = response.value.ElementAt(i).Id;
-                        //resident.ResidentName = response.value.ElementAt(i).ResidentName;
-                        //resident.Room = response.value.ElementAt(i).Room;
-                        //resident.Floor = response.value.ElementAt(i).Floor;
-                        //resident.ResidentImage = response.value.ElementAt(i).ResidentImage;
-                        //residents.Add(resident);
-                        //residentAdapter.NotifyDataSetChanged();
+                        SupportResponse supportResidentResponse = new SupportResponse();
+                        //supportResidentResponse.Number = (i + 1).ToString();
+                        supportResidentResponse.ResidentName = response.value.ElementAt(i).ResidentName;
+                        supportResidentResponse.ResidentImage = response.value.ElementAt(i).ResidentImage;
+                        supports.Add(supportResidentResponse);
+                        supportAdapter.NotifyDataSetChanged();
                     }
                 }
                 else

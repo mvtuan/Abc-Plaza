@@ -12,15 +12,21 @@ using Android.Widget;
 
 namespace Manager.Api.Response
 {
+    public class SupportResidentResponse
+    {
+        public string Number { get; set; }
+
+        public string ResidentName { get; set; }
+
+        public string ResidentImage { get; set; }
+    }
+
+
     public class SupportResponse
     {
-        public string TypeSupport { get; set; }
+        public string ResidentName { get; set; }
 
-        public string SupportDate { get; set; }
-
-        public string SupportImage { get; set; }
-
-        public int ResidentId { get; set; }
+        public string ResidentImage { get; set; }
     }
 
     public class Supports

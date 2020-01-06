@@ -13,6 +13,7 @@ using Android.Widget;
 using Manager.Api.Response;
 using Manager.Fragments;
 using Manager.Listener;
+using Square.Picasso;
 
 namespace Manager.Adapter
 {
@@ -44,14 +45,12 @@ namespace Manager.Adapter
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             SupportViewHolder viewHolder = holder as SupportViewHolder;
-            viewHolder.typeSupport.Text = data[position].TypeSupport;
-            //viewHolder.residentName.Text = data[position].ResidentName;
-           // viewHolder.room.Text = data[position].Room;
-           // viewHolder.floor.Text = data[position].Floor;
-           // Picasso.With(context)
-           //.Load(data[position].ResidentImage)
-           //.Resize(90, 90)
-           //.Into(viewHolder.residentImage);
+            viewHolder.supportNumber.Text = position.ToString();
+            viewHolder.supportResident.Text = data[position].ResidentName;
+            Picasso.With(context)
+           .Load(data[position].ResidentImage)
+           .Resize(90, 90)
+           .Into(viewHolder.residentSupportImage);
 
             viewHolder.SetItemClickListener(this);
         }
@@ -85,20 +84,16 @@ namespace Manager.Adapter
         private IItemClickListener itemClickListener;
 
 
-        public TextView typeSupport { get; set; }
-        //public TextView room { get; set; }
-        //public TextView floor { get; set; }
-        //public ImageView residentImage { get; set; }
-        //public Button residentHandler { get; set; }
+        public TextView supportNumber { get; set; }
+        public TextView supportResident { get; set; }
+        public ImageView residentSupportImage { get; set; }
 
 
         public SupportViewHolder(View itemView) : base(itemView)
         {
-            typeSupport = (TextView)itemView.FindViewById(Resource.Id.tv_type_support);
-            //room = (TextView)itemView.FindViewById(Resource.Id.tv_room);
-            //floor = (TextView)itemView.FindViewById(Resource.Id.tv_floor);
-            //residentImage = (ImageView)itemView.FindViewById(Resource.Id.img_resident);
-            //residentHandler = (Button)itemView.FindViewById(Resource.Id.btn_resident_handler);
+            supportNumber = (TextView)itemView.FindViewById(Resource.Id.tv_support_number);
+            supportResident = (TextView)itemView.FindViewById(Resource.Id.tv_support_resident);
+            residentSupportImage = (ImageView)itemView.FindViewById(Resource.Id.img_resident_support);
             itemView.SetOnClickListener(this);
             itemView.SetOnLongClickListener(this);
 
