@@ -15,6 +15,7 @@ using Android.Widget;
 using Manager.Activities;
 using Manager.Adapter;
 using Manager.Api.Response;
+using Manager.Constant;
 using Manager.Listener;
 using Newtonsoft.Json;
 
@@ -47,16 +48,6 @@ namespace Manager.Fragments
             mRecycleView = v.FindViewById<RecyclerView>(Resource.Id.rc_support);
             mLayoutManager = new LinearLayoutManager(Context);
             mRecycleView.SetLayoutManager(mLayoutManager);
-            //SupportResponse support = new SupportResponse();
-            //support.TypeSupport = "123";
-            //SupportResponse support1 = new SupportResponse();
-            //support1.TypeSupport = "456";
-            //SupportResponse support2 = new SupportResponse();
-            //support2.TypeSupport = "789";
-            //supports.Add(support);
-            //supports.Add(support1);
-            //supports.Add(support2);
-
             supportAdapter = new SupportAdapter(supports, Context);
             mRecycleView.SetAdapter(supportAdapter);
             supportAdapter.SetRecycleViewOnItemClickListener(this);
@@ -81,7 +72,8 @@ namespace Manager.Fragments
             try
             {
                 HttpClient client = new HttpClient();
-                var uri = new Uri("http://172.16.0.139:45455/Support");
+                string url = Url.BASE_URL + "FindResidentBySupport";
+                var uri = new Uri(url);
                 Task<HttpResponseMessage> message = client.GetAsync(uri);
                 if (message.Result.IsSuccessStatusCode)
                 {
@@ -91,7 +83,6 @@ namespace Manager.Fragments
                     for (int i = 0; i < count; i++)
                     {
                         SupportResponse supportResidentResponse = new SupportResponse();
-                        //supportResidentResponse.Number = (i + 1).ToString();
                         supportResidentResponse.ResidentName = response.value.ElementAt(i).ResidentName;
                         supportResidentResponse.ResidentImage = response.value.ElementAt(i).ResidentImage;
                         supports.Add(supportResidentResponse);

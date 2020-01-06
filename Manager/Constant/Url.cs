@@ -14,6 +14,6 @@ namespace Manager.Constant
 {
     public class Url
     {
-        public static string BASE_URL = "http://172.16.0.149:45455/";
+        public static string BASE_URL = "http://172.19.200.163:45455/";
     }
 }

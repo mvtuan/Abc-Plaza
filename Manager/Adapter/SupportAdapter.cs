@@ -45,7 +45,7 @@ namespace Manager.Adapter
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             SupportViewHolder viewHolder = holder as SupportViewHolder;
-            viewHolder.supportNumber.Text = position.ToString();
+            viewHolder.supportNumber.Text = (position + 1).ToString();
             viewHolder.supportResident.Text = data[position].ResidentName;
             Picasso.With(context)
            .Load(data[position].ResidentImage)

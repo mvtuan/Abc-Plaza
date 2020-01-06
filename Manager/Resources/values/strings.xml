@@ -18,7 +18,10 @@
 
   <string name="title_equipment">Tài sản cư dân</string>
   <string name="menu_item_equipment_delete">Xoá</string>
-  <string name="btn_confirm">Xác nhận</string>
+  
+   <string name = "btn_confirm" > Gửi thông báo</string>
+  <string name = "txt_agp_add_detect_temperature" > Xác nhận</string>
+   <string name = "txt_support_information" > Thông tin</string>
 
 
 </resources>
