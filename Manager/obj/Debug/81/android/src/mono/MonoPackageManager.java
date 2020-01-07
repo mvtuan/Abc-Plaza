@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Manager.dll" comes first in this list. */
 		"Manager.dll",
+		"MaterialSpinner.dll",
 		"Microsoft.AspNetCore.Connections.Abstractions.dll",
 		"Microsoft.AspNetCore.Http.Connections.Client.dll",
 		"Microsoft.AspNetCore.Http.Connections.Common.dll",
@@ -125,6 +126,7 @@ class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
 		"Newtonsoft.Json.dll",
+		"NineOldAndroids.dll",
 		"Square.OkHttp.dll",
 		"Square.OkIO.dll",
 		"Square.Picasso.dll",

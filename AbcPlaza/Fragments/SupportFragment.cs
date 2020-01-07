@@ -13,6 +13,8 @@ using AbcPlaza.Api.Request;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Android.Util;
+using FR.Ganfra.Materialspinner;
+using AbcPlaza.Constant;
 
 namespace AbcPlaza.Fragments
 {
@@ -20,22 +22,38 @@ namespace AbcPlaza.Fragments
     {
         private EditText messageSupport;
         private Button register;
+        private MaterialSpinner spTypeSupport;
+        private ArrayAdapter supportAdapter;
+        private string type;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             var v = inflater.Inflate(Resource.Layout.fragment_support, container, false);
-            messageSupport = v.FindViewById<EditText>(Resource.Id.edt_msg_support);
+            //messageSupport = v.FindViewById<EditText>(Resource.Id.edt_msg_support);
             register = v.FindViewById<Button>(Resource.Id.btn_register);
+            spTypeSupport = v.FindViewById<MaterialSpinner>(Resource.Id.sp_type_support);
+            string[] supports = { "Lắp đặt", "Vận chuyển", "Sửa chữa" } ;
+            supportAdapter = new ArrayAdapter<string>(Context, Android.Resource.Layout.SimpleSpinnerDropDownItem, supports);
+            supportAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spTypeSupport.Adapter = supportAdapter;
 
+            spTypeSupport.ItemSelected += (s, e) =>
+            {
+                if (e.Position != -1)
+                {
+                    type = spTypeSupport.GetItemAtPosition(e.Position).ToString();
+                }
+            };
             register.Click += (sender, e) =>
             {
                 try
                 {
                     HttpClient client = new HttpClient();
-                    var uri = new Uri("http://172.16.0.139:45455/Support");
+                    string url = Url.BASE_URL + "Support";
+                    var uri = new Uri(url);
                     SupportRequest supportRequest = new SupportRequest();
-                    supportRequest.SupportType = "lap rap";
+                    supportRequest.SupportType = type;
                     supportRequest.SupportDate = "2020-02-02";
                     supportRequest.SupportImage = "http://192.168.1.118:45457/Static/Equipment/washing_machine.png";
                     supportRequest.ResidentId = 3;

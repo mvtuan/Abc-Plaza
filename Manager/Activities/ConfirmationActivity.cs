@@ -9,9 +9,12 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
+using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Manager.Api.Response;
 using Manager.Constant;
+using Newtonsoft.Json;
 
 namespace Manager.Activities
 {
@@ -30,6 +33,34 @@ namespace Manager.Activities
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             SupportActionBar.SetDisplayShowTitleEnabled(true);
+            try
+            {
+                HttpClient client = new HttpClient();
+                string supportId = Intent.GetStringExtra("id");
+                string url = Url.BASE_URL + "FindSupportById" + "(" + "Id=" + supportId + ")";
+                var uri = new Uri(url);
+                Task<HttpResponseMessage> message = client.GetAsync(uri);
+                if (message.Result.IsSuccessStatusCode)
+                {
+                    var content = message.Result.Content.ReadAsStringAsync();
+                    var response = JsonConvert.DeserializeObject<Confirms>(content.Result);
+                    int count = response.value.Count();
+                    for (int i = 0; i < count; i++)
+                    {
+                        ConfirmResponse confirmResponse = new ConfirmResponse();
+                        typeSupport.Text = response.value.ElementAt(0).SupportType;
+                        dateSupport.Text = response.value.ElementAt(0).SupportDate;
+                    }
+                }
+                else
+                {
+                    Log.Error("Some errors", " errors");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
 
 

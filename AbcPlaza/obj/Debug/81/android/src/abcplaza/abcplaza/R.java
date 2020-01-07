@@ -3451,7 +3451,6 @@ containing a value of this type.
         public static final int disableHome=0x7f0b0029;
         public static final int edit_query=0x7f0b0085;
         public static final int edt_add_purchase_date=0x7f0b0096;
-        public static final int edt_msg_support=0x7f0b00c5;
         public static final int edt_update_purchase_date=0x7f0b00a7;
         public static final int end=0x7f0b0038;
         public static final int end_padder=0x7f0b00d9;
@@ -3552,6 +3551,7 @@ containing a value of this type.
         public static final int snap=0x7f0b004b;
         public static final int sp_add_equipment=0x7f0b0095;
         public static final int sp_add_warranty_period=0x7f0b0097;
+        public static final int sp_type_support=0x7f0b00c4;
         public static final int sp_update_equipment=0x7f0b00a6;
         public static final int sp_update_warranty_period=0x7f0b00a8;
         public static final int spacer=0x7f0b006b;
@@ -3564,6 +3564,7 @@ containing a value of this type.
         public static final int status_bar_latest_event_content=0x7f0b00cc;
         public static final int submenuarrow=0x7f0b007d;
         public static final int submit_area=0x7f0b008e;
+        public static final int support_date=0x7f0b00c5;
         public static final int tabMode=0x7f0b0028;
         public static final int tabs=0x7f0b00a1;
         public static final int tag_transition_group=0x7f0b0019;
@@ -3571,7 +3572,6 @@ containing a value of this type.
         public static final int text2=0x7f0b001b;
         public static final int textSpacerNoButtons=0x7f0b0071;
         public static final int textSpacerNoTitle=0x7f0b0070;
-        public static final int textView1=0x7f0b00c4;
         public static final int text_input_password_toggle=0x7f0b00c0;
         public static final int textinput_counter=0x7f0b0014;
         public static final int textinput_error=0x7f0b0015;
@@ -3741,6 +3741,7 @@ containing a value of this type.
         public static final int btn_agp_add=0x7f07004a;
         public static final int btn_agp_update=0x7f07004c;
         public static final int btn_send=0x7f07004d;
+        public static final int btn_support=0x7f07004f;
         public static final int character_counter_pattern=0x7f070039;
         public static final int common_google_play_services_enable_button=0x7f070008;
         public static final int common_google_play_services_enable_text=0x7f070009;

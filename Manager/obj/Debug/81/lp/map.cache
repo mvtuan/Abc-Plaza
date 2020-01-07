@@ -1,3 +1,4 @@
+MaterialSpinner
 Microsoft.AspNetCore.Connections.Abstractions
 Microsoft.AspNetCore.Http.Connections.Client
 Microsoft.AspNetCore.Http.Connections.Common
@@ -16,6 +17,7 @@ Microsoft.Extensions.Logging
 Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
 Newtonsoft.Json
+NineOldAndroids
 Square.OkHttp
 Square.OkIO
 Square.Picasso

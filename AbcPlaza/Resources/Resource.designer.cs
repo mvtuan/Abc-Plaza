@@ -2885,9 +2885,6 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0b0096
 			public const int edt_add_purchase_date = 2131427478;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int edt_msg_support = 2131427525;
-			
 			// aapt resource value: 0x7f0b00a7
 			public const int edt_update_purchase_date = 2131427495;
 			
@@ -3188,6 +3185,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0b0097
 			public const int sp_add_warranty_period = 2131427479;
 			
+			// aapt resource value: 0x7f0b00c4
+			public const int sp_type_support = 2131427524;
+			
 			// aapt resource value: 0x7f0b00a6
 			public const int sp_update_equipment = 2131427494;
 			
@@ -3224,6 +3224,9 @@ namespace AbcPlaza
 			// aapt resource value: 0x7f0b008e
 			public const int submit_area = 2131427470;
 			
+			// aapt resource value: 0x7f0b00c5
+			public const int support_date = 2131427525;
+			
 			// aapt resource value: 0x7f0b0028
 			public const int tabMode = 2131427368;
 			
@@ -3244,9 +3247,6 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f0b0070
 			public const int textSpacerNoTitle = 2131427440;
-			
-			// aapt resource value: 0x7f0b00c4
-			public const int textView1 = 2131427524;
 			
 			// aapt resource value: 0x7f0b00c0
 			public const int text_input_password_toggle = 2131427520;
@@ -3789,6 +3789,9 @@ namespace AbcPlaza
 			
 			// aapt resource value: 0x7f07004d
 			public const int btn_send = 2131165261;
+			
+			// aapt resource value: 0x7f07004f
+			public const int btn_support = 2131165263;
 			
 			// aapt resource value: 0x7f070039
 			public const int character_counter_pattern = 2131165241;

@@ -15,5 +15,6 @@
   <string name="btn_agp_update">Cập nhật</string>
   <string name="btn_send">Đăng kí</string>
   <string name="menu_item_equipment_delete">Xóa</string>
-  
+  <string name="btn_support">Đăng kí</string>
+
 </resources>

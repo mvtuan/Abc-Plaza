@@ -58,7 +58,7 @@ namespace Manager.Fragments
         public void OnClick(View view, int position)
         {
             Intent updateIntent = new Intent(Context, typeof(ConfirmationActivity));
-            updateIntent.PutExtra("type", supports[position].ResidentName);
+            updateIntent.PutExtra("id", (position+1).ToString());
             StartActivityForResult(updateIntent, 100);
         }
 

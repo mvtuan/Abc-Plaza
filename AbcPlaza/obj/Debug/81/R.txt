@@ -919,7 +919,6 @@ int id design_navigation_view 0x7f0b00bc
 int id disableHome 0x7f0b0029
 int id edit_query 0x7f0b0085
 int id edt_add_purchase_date 0x7f0b0096
-int id edt_msg_support 0x7f0b00c5
 int id edt_update_purchase_date 0x7f0b00a7
 int id end 0x7f0b0038
 int id end_padder 0x7f0b00d9
@@ -1020,6 +1019,7 @@ int id snackbar_text 0x7f0b00b9
 int id snap 0x7f0b004b
 int id sp_add_equipment 0x7f0b0095
 int id sp_add_warranty_period 0x7f0b0097
+int id sp_type_support 0x7f0b00c4
 int id sp_update_equipment 0x7f0b00a6
 int id sp_update_warranty_period 0x7f0b00a8
 int id spacer 0x7f0b006b
@@ -1032,6 +1032,7 @@ int id start 0x7f0b0052
 int id status_bar_latest_event_content 0x7f0b00cc
 int id submenuarrow 0x7f0b007d
 int id submit_area 0x7f0b008e
+int id support_date 0x7f0b00c5
 int id tabMode 0x7f0b0028
 int id tabs 0x7f0b00a1
 int id tag_transition_group 0x7f0b0019
@@ -1039,7 +1040,6 @@ int id text 0x7f0b001a
 int id text2 0x7f0b001b
 int id textSpacerNoButtons 0x7f0b0071
 int id textSpacerNoTitle 0x7f0b0070
-int id textView1 0x7f0b00c4
 int id text_input_password_toggle 0x7f0b00c0
 int id textinput_counter 0x7f0b0014
 int id textinput_error 0x7f0b0015
@@ -1199,6 +1199,7 @@ int string bottom_sheet_behavior 0x7f070038
 int string btn_agp_add 0x7f07004a
 int string btn_agp_update 0x7f07004c
 int string btn_send 0x7f07004d
+int string btn_support 0x7f07004f
 int string character_counter_pattern 0x7f070039
 int string common_google_play_services_enable_button 0x7f070008
 int string common_google_play_services_enable_text 0x7f070009

@@ -63,6 +63,7 @@
     <Compile Include="Adapter\ResidentAdapter.cs" />
     <Compile Include="Adapter\SupportAdapter.cs" />
     <Compile Include="Api\Request\ConfirmationRequest.cs" />
+    <Compile Include="Api\Response\ConfirmResponse.cs" />
     <Compile Include="Api\Response\EquipmentResponse.cs" />
     <Compile Include="Api\Response\ResidentResponse.cs" />
     <Compile Include="Api\Response\SupportResponse.cs" />
@@ -204,6 +205,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MaterialSpinner-Xamarin">
+      <Version>1.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client">
       <Version>1.1.0</Version>
     </PackageReference>
