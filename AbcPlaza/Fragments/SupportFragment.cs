@@ -15,25 +15,31 @@ using System.Threading.Tasks;
 using Android.Util;
 using FR.Ganfra.Materialspinner;
 using AbcPlaza.Constant;
+using Android.Icu.Util;
+using Android.App;
 
 namespace AbcPlaza.Fragments
 {
-    public class SupportFragment : Fragment
+    public class SupportFragment:Android.Support.V4.App.Fragment
     {
-        private EditText messageSupport;
+
         private Button register;
         private MaterialSpinner spTypeSupport;
+        private EditText dateSupport;
+        private EditText timeSupport;
+        private EditText addressSupport;
         private ArrayAdapter supportAdapter;
         private string type;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
-            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
+
             var v = inflater.Inflate(Resource.Layout.fragment_support, container, false);
-            //messageSupport = v.FindViewById<EditText>(Resource.Id.edt_msg_support);
             register = v.FindViewById<Button>(Resource.Id.btn_register);
             spTypeSupport = v.FindViewById<MaterialSpinner>(Resource.Id.sp_type_support);
-            string[] supports = { "Lắp đặt", "Vận chuyển", "Sửa chữa" } ;
+            dateSupport = v.FindViewById<EditText>(Resource.Id.support_date);
+            timeSupport = v.FindViewById<EditText>(Resource.Id.support_time);
+            addressSupport = v.FindViewById<EditText>(Resource.Id.support_address);
+            string[] supports = { "Lắp đặt", "Vận chuyển", "Sửa chữa" };
             supportAdapter = new ArrayAdapter<string>(Context, Android.Resource.Layout.SimpleSpinnerDropDownItem, supports);
             supportAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spTypeSupport.Adapter = supportAdapter;
@@ -45,6 +51,30 @@ namespace AbcPlaza.Fragments
                     type = spTypeSupport.GetItemAtPosition(e.Position).ToString();
                 }
             };
+
+            dateSupport.Click += (sender, e) =>
+            {
+                Calendar cldr = Calendar.Instance;
+                int day = cldr.Get(CalendarField.DayOfMonth);
+                int month = cldr.Get(CalendarField.Month);
+                int year = cldr.Get(CalendarField.Year);
+                // date picker dialog
+                DatePickerDialog picker = new DatePickerDialog(Context, OnDateSet, year, month, day);
+                picker.Show();
+            };
+
+            timeSupport.Click += (sender, e) =>
+            {
+                Calendar cldr = Calendar.Instance;
+                int hour = cldr.Get(CalendarField.HourOfDay);
+                int minute = cldr.Get(CalendarField.Minute);
+                int year = cldr.Get(CalendarField.Year);
+                // date picker dialog
+                TimePickerDialog picker = new TimePickerDialog(Context, OnTimeSet, hour, minute, true);
+                picker.Show();
+            };
+
+
             register.Click += (sender, e) =>
             {
                 try
@@ -54,7 +84,10 @@ namespace AbcPlaza.Fragments
                     var uri = new Uri(url);
                     SupportRequest supportRequest = new SupportRequest();
                     supportRequest.SupportType = type;
-                    supportRequest.SupportDate = "2020-02-02";
+                    string add = dateSupport.Text.ToString();
+                    DateTime dt = DateTime.ParseExact(add, "dd/MM/yyyy", null);
+                    supportRequest.SupportDate = dt.Year.ToString() + "-" + dt.Month.ToString() + "-" + dt.Day.ToString();
+                    supportRequest.SupportAddress = addressSupport.Text.ToString();
                     supportRequest.SupportImage = "http://192.168.1.118:45457/Static/Equipment/washing_machine.png";
                     supportRequest.ResidentId = 3;
                     var json = JsonConvert.SerializeObject(supportRequest);
@@ -81,6 +114,35 @@ namespace AbcPlaza.Fragments
             };
             return v;
         }
+
+        private void OnTimeSet(object sender, TimePickerDialog.TimeSetEventArgs e)
+        {
+            timeSupport.Text = e.HourOfDay.ToString() + ":" + e.Minute.ToString();
+        }
+
+        private void OnDateSet(object sender, DatePickerDialog.DateSetEventArgs e)
+        {
+            if (e.Date.Day.ToString().Length < 2 && e.Date.Month.ToString().Length < 2)
+            {
+                dateSupport.Text = "0" + e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+            }
+            else
+            {
+                if (e.Date.Day.ToString().Length < 2)
+                {
+                    dateSupport.Text = "0" + e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else if (e.Date.Month.ToString().Length < 2)
+                {
+                    dateSupport.Text = e.Date.Day.ToString() + "/" + "0" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+                else
+                {
+                    dateSupport.Text = e.Date.Day.ToString() + "/" + e.Date.Month.ToString() + "/" + e.Date.Year.ToString();
+                }
+            }
+        }
+
         public static SupportFragment NewInstance()
         {
             var frag = new SupportFragment { Arguments = new Bundle() };

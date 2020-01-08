@@ -18,6 +18,12 @@ namespace Manager.Api.Response
         public string SupportType { get; set; }
 
         public string SupportDate { get; set; }
+
+        public string SupportAddress { get; set; }
+
+        public string SupportImage { get; set; }
+
+
     }
 
     public class Confirms

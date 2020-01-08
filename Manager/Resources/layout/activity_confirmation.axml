@@ -65,7 +65,7 @@
                         android:id="@+id/txt_type_support"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
+                        android:layout_margin="5dp"
                         android:text="Loại hỗ trợ : "
                         android:textAlignment="textStart"                  
                         android:textColor="@color/colorPrimary"
@@ -75,8 +75,9 @@
                         android:id="@+id/tv_type_support"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
+                        android:layout_margin="5dp"
 						android:layout_toRightOf="@+id/txt_type_support"
+						android:layout_marginLeft="2dp"
                         android:text="Lắp đặt"
                         android:textColor="@color/colorPrimary"
                         android:textSize="10sp"/>
@@ -86,8 +87,8 @@
                         android:id="@+id/txt_date_support"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
-                        android:text="Thời gian hỗ trợ :"
+                        android:layout_margin="5dp"
+                        android:text="Ngày hỗ trợ :"
 						android:layout_below="@+id/txt_type_support"
                         android:textColor="@color/colorPrimary"
                         android:textSize="10sp"/>
@@ -96,30 +97,78 @@
                         android:id="@+id/tv_date_support"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"
+                        android:layout_margin="5dp"
                         android:text="01-01-2020"
 						android:layout_marginLeft="5dp"
 				        android:layout_below="@+id/tv_type_support"
 						android:layout_toRightOf="@+id/txt_date_support"
                         android:textColor="@color/colorPrimary"
-                        android:textSize="10sp" />					
+                        android:textSize="10sp" />
+						
+						 <TextView
+                        android:id="@+id/txt_time_support"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Giờ hỗ trợ :"
+						android:layout_below="@+id/txt_date_support"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"/>
 
+						<TextView
+                        android:id="@+id/tv_time_support"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="14:15"
+						android:layout_marginLeft="5dp"
+				        android:layout_below="@+id/tv_date_support"
+						android:layout_toRightOf="@+id/txt_date_support"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />	
+
+							<TextView
+                        android:id="@+id/txt_address_support"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Địa điểm hỗ trợ : "
+						android:layout_below="@+id/txt_time_support"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"/>
+
+						
+						  <TextView
+                        android:id="@+id/tv_address_support"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Lầu 5"
+						android:layout_marginLeft="5dp"
+				        android:layout_below="@+id/tv_time_support"
+						android:layout_toRightOf="@+id/txt_address_support"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp" />	
+
+
+						
 						  <TextView
                         android:id="@+id/txt_bill_support"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="20dp"              
+                        android:layout_margin="5dp"              
                         android:text="Hóa đơn"
-						android:layout_below="@+id/tv_date_support"
+						android:layout_below="@+id/txt_address_support"
                         android:textColor="@color/colorPrimary"
                         android:textSize="10sp" />
 
 							
 			            <ImageView
                         android:id="@+id/img_bill_support"
-				        android:layout_width="wrap_content"
-				        android:layout_height="wrap_content"
-						android:layout_toRightOf="@+id/txt_bill_support"/>	
+				        android:layout_width="250dp"
+				        android:layout_height="100dp"
+					    android:layout_below="@+id/tv_address_support"
+						android:layout_toRightOf="@+id/txt_bill_support"/>		
 
                     </RelativeLayout>
 				

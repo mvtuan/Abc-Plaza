@@ -17,7 +17,9 @@ namespace AbcPlaza.Api.Request
         public string SupportType { get; set; }
 
         public string SupportDate { get; set; }
-        
+
+        public string SupportAddress { get; set; }
+
         public string SupportImage { get; set; }
 
         public int ResidentId { get; set; }
