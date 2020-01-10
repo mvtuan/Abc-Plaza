@@ -24,11 +24,11 @@ public class MyOnMenuItemClickListener
 			mono.android.TypeManager.Activate ("AbcPlaza.Adapter.MyOnMenuItemClickListener, AbcPlaza", "", this, new java.lang.Object[] {  });
 	}
 
-	public MyOnMenuItemClickListener (md591bf92fddba20c03cc30232c04ed37a4.EquipmentAdapter p0, int p1)
+	public MyOnMenuItemClickListener (md591bf92fddba20c03cc30232c04ed37a4.EquipmentAdapter p0, int p1, android.content.Context p2)
 	{
 		super ();
 		if (getClass () == MyOnMenuItemClickListener.class)
-			mono.android.TypeManager.Activate ("AbcPlaza.Adapter.MyOnMenuItemClickListener, AbcPlaza", "AbcPlaza.Adapter.EquipmentAdapter, AbcPlaza:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("AbcPlaza.Adapter.MyOnMenuItemClickListener, AbcPlaza", "AbcPlaza.Adapter.EquipmentAdapter, AbcPlaza:System.Int32, mscorlib:Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

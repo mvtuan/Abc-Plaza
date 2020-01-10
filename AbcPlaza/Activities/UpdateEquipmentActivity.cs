@@ -132,12 +132,30 @@ namespace AbcPlaza.Activities
                     }
                     else
                     {
-                        Log.Error("Some errors", " errors");
+                        Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(this);
+                        Android.App.AlertDialog alert = dialog.Create();
+                        alert.SetTitle("Thông báo");
+                        alert.SetMessage("Update thiết bị thất bại");
+                        alert.SetButton("OK", (c, ev) =>
+                        {
+                            // Ok button click task  
+                        });
+                        alert.SetButton2("CANCEL", (c, ev) => { });
+                        alert.Show();
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(this);
+                    Android.App.AlertDialog alert = dialog.Create();
+                    alert.SetTitle("Thông báo");
+                    alert.SetMessage("Update thiết bị thất bại");
+                    alert.SetButton("OK", (c, ev) =>
+                    {
+                        // Ok button click task  
+                    });
+                    alert.SetButton2("CANCEL", (c, ev) => { });
+                    alert.Show();
                 }
             };
         }

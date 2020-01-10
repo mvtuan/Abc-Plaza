@@ -59,7 +59,7 @@ namespace AbcPlaza.Adapter
             {
                 Android.Support.V7.Widget.PopupMenu popup = new Android.Support.V7.Widget.PopupMenu(mCtx, viewHolder.buttonOptions_abc);
                 popup.Inflate(Resource.Menu.popup_menu);
-                popup.SetOnMenuItemClickListener(new MyOnMenuItemClickListener(this, position));
+                popup.SetOnMenuItemClickListener(new MyOnMenuItemClickListener(this, position, mCtx));
                 popup.Show();
             };
             viewHolder.SetItemClickListener(this);
@@ -93,11 +93,13 @@ namespace AbcPlaza.Adapter
     {
         readonly EquipmentAdapter adapter;
         private int position;
+        private Context _mCtx;
 
-        public MyOnMenuItemClickListener(EquipmentAdapter adapter, int position)
+        public MyOnMenuItemClickListener(EquipmentAdapter adapter, int position, Context mCtx)
         {
             this.adapter = adapter;
             this.position = position;
+            _mCtx = mCtx;
         }
 
         public bool OnMenuItemClick(IMenuItem item)
@@ -121,12 +123,30 @@ namespace AbcPlaza.Adapter
                             }
                             else
                             {
-                                Log.Error("Some errors", " errors");
+                                Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(_mCtx);
+                                Android.App.AlertDialog alert = dialog.Create();
+                                alert.SetTitle("Thông báo");
+                                alert.SetMessage("Xóa thiết bị thất bại");
+                                alert.SetButton("OK", (c, ev) =>
+                                {
+                                    // Ok button click task  
+                                });
+                                alert.SetButton2("CANCEL", (c, ev) => { });
+                                alert.Show();
                             }
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine(ex.ToString());
+                            Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(_mCtx);
+                            Android.App.AlertDialog alert = dialog.Create();
+                            alert.SetTitle("Thông báo");
+                            alert.SetMessage("Xóa thiết bị thất bại");
+                            alert.SetButton("OK", (c, ev) =>
+                            {
+                                // Ok button click task  
+                            });
+                            alert.SetButton2("CANCEL", (c, ev) => { });
+                            alert.Show();
                         }
                         break;
                     }

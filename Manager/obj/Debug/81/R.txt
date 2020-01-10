@@ -953,7 +953,6 @@ int id design_menu_item_text 0x7f0b0146
 int id design_navigation_view 0x7f0b0145
 int id disableHome 0x7f0b0029
 int id edit_query 0x7f0b0085
-int id edt_add_purchase_date 0x7f0b009d
 int id edt_cd_cmnd 0x7f0b0112
 int id edt_cd_diachi 0x7f0b011a
 int id edt_cd_dienthoai 0x7f0b011e
@@ -963,6 +962,7 @@ int id edt_cd_ngaysinh 0x7f0b0116
 int id edt_cd_quanhe_ch 0x7f0b0126
 int id edt_cd_tuoi 0x7f0b015a
 int id edt_cmnd 0x7f0b00ce
+int id edt_confirmation 0x7f0b009d
 int id edt_day 0x7f0b00e9
 int id edt_diachi 0x7f0b00d6
 int id edt_dienthoai 0x7f0b00da

@@ -2987,9 +2987,6 @@ namespace Manager
 			// aapt resource value: 0x7f0b0085
 			public const int edit_query = 2131427461;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int edt_add_purchase_date = 2131427485;
-			
 			// aapt resource value: 0x7f0b0112
 			public const int edt_cd_cmnd = 2131427602;
 			
@@ -3016,6 +3013,9 @@ namespace Manager
 			
 			// aapt resource value: 0x7f0b00ce
 			public const int edt_cmnd = 2131427534;
+			
+			// aapt resource value: 0x7f0b009d
+			public const int edt_confirmation = 2131427485;
 			
 			// aapt resource value: 0x7f0b00e9
 			public const int edt_day = 2131427561;

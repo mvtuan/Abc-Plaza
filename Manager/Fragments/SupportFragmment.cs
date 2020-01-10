@@ -91,12 +91,30 @@ namespace Manager.Fragments
                 }
                 else
                 {
-                    Log.Error("Some errors", " errors");
+                    Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(Context);
+                    Android.App.AlertDialog alert = dialog.Create();
+                    alert.SetTitle("Thông báo");
+                    alert.SetMessage("Something went wrong ");
+                    alert.SetButton("OK", (c, ev) =>
+                    {
+                        // Ok button click task  
+                    });
+                    alert.SetButton2("CANCEL", (c, ev) => { });
+                    alert.Show(); ;
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(Context);
+                Android.App.AlertDialog alert = dialog.Create();
+                alert.SetTitle("Thông báo");
+                alert.SetMessage("Something went wrong ");
+                alert.SetButton("OK", (c, ev) =>
+                {
+                    // Ok button click task  
+                });
+                alert.SetButton2("CANCEL", (c, ev) => { });
+                alert.Show();
             }
 
         }

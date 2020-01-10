@@ -16,6 +16,6 @@ namespace Manager.Api.Request
     {
         public string body { get; set; }
 
-        public string titile { get; set; }
+        public string title { get; set; }
     }
 }

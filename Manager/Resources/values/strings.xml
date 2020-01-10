@@ -21,7 +21,7 @@
   
    <string name = "btn_confirm" > Gửi thông báo</string>
   <string name = "txt_agp_add_detect_temperature" > Xác nhận</string>
-   <string name = "txt_support_information" > Thông tin</string>
+   <string name = "txt_support_information" > Thông tin hỗ trợ</string>
 
 
 </resources>

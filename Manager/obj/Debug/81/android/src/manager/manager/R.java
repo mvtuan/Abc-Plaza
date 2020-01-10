@@ -3453,7 +3453,6 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0b0145;
         public static final int disableHome=0x7f0b0029;
         public static final int edit_query=0x7f0b0085;
-        public static final int edt_add_purchase_date=0x7f0b009d;
         public static final int edt_cd_cmnd=0x7f0b0112;
         public static final int edt_cd_diachi=0x7f0b011a;
         public static final int edt_cd_dienthoai=0x7f0b011e;
@@ -3463,6 +3462,7 @@ containing a value of this type.
         public static final int edt_cd_quanhe_ch=0x7f0b0126;
         public static final int edt_cd_tuoi=0x7f0b015a;
         public static final int edt_cmnd=0x7f0b00ce;
+        public static final int edt_confirmation=0x7f0b009d;
         public static final int edt_day=0x7f0b00e9;
         public static final int edt_diachi=0x7f0b00d6;
         public static final int edt_dienthoai=0x7f0b00da;

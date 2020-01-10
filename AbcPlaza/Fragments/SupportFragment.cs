@@ -95,20 +95,43 @@ namespace AbcPlaza.Fragments
                     Task<HttpResponseMessage> message = client.PostAsync(uri, content);
                     if (message.Result.IsSuccessStatusCode)
                     {
-                        Console.WriteLine("di an trua");
-                        //Intent data = new Intent();
-                        //data.PutExtra(EXTRA_DATA, "Some interesting data!");
-                        //SetResult(Result.Ok, data);
-                        //Finish();
+                        Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(Context);
+                        Android.App.AlertDialog alert = dialog.Create();
+                        alert.SetTitle("Thông báo");
+                        alert.SetMessage("Đăng kí hỗ trợ thành công ");
+                        alert.SetButton("OK", (c, ev) =>
+                        {
+                            // Ok button click task  
+                        });
+                        alert.SetButton2("CANCEL", (c, ev) => { });
+                        alert.Show();
                     }
                     else
                     {
-                        Log.Error("Some errors", " errors");
+                        Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(Context);
+                        Android.App.AlertDialog alert = dialog.Create();
+                        alert.SetTitle("Thông báo");
+                        alert.SetMessage("Đăng kí hỗ trợ thất bại");
+                        alert.SetButton("OK", (c, ev) =>
+                        {
+                            // Ok button click task  
+                        });
+                        alert.SetButton2("CANCEL", (c, ev) => { });
+                        alert.Show();
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.ToString());
+                    Android.App.AlertDialog.Builder dialog = new Android.App.AlertDialog.Builder(Context);
+                    Android.App.AlertDialog alert = dialog.Create();
+                    alert.SetTitle("Thông báo");
+                    alert.SetMessage("Đăng kí hỗ trợ thất bại");
+                    alert.SetButton("OK", (c, ev) =>
+                    {
+                        // Ok button click task  
+                    });
+                    alert.SetButton2("CANCEL", (c, ev) => { });
+                    alert.Show();
                 }
 
             };

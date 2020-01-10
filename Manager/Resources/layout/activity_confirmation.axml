@@ -209,9 +209,9 @@
                         android:orientation="horizontal">
 
 						<EditText
-                        android:id="@+id/edt_add_purchase_date"
+                        android:id="@+id/edt_confirmation"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="130dp"
                         android:layout_margin="10dp"
                         android:background="@drawable/shape_edit_text"
                         android:hint="Gửi thông báo..."
